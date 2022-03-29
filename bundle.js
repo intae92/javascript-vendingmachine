@@ -50,7 +50,7 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 ___CSS_LOADER_EXPORT___.i(_node_modules_css_loader_dist_cjs_js_global_css__WEBPACK_IMPORTED_MODULE_2__["default"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "body {\n  width: 100vw;\n  height: 100vh;\n  margin: 0;\n}\n\nh1 {\n  margin: 0;\n}\n\n#app {\n  display: flex;\n  flex-direction: column;\n  width: 30%;\n  min-width: 465px;\n  margin: auto;\n  gap: 20px;\n}\n\nheader {\n  text-align: center;\n  margin: 40px 0 10px 0;\n}\n\nnav {\n  margin: 2em 0;\n}\n\nsection {\n  display: flex;\n  flex-direction: column;\n  flex-wrap: wrap;\n  align-content: center;\n}\n\ninput[type='number']::-webkit-outer-spin-button,\ninput[type='number']::-webkit-inner-spin-button {\n  -webkit-appearance: none;\n  margin: 0;\n}\n\ninput[type='submit'] {\n  cursor: pointer;\n  background: var(--primary-color);\n  color: var(--primary-button-text-color);\n  outline: 1px solid var(--primary-color);\n  border: 1px solid var(--primary-color);\n  border-radius: 2px;\n  width: 56px;\n  height: 28px;\n  margin-left: 10px;\n}\n\ninput {\n  background-color: var(--primary-input-bg-color);\n  outline: 1px solid var(--input-outline-color);\n  border: 1px solid var(--input-border-color);\n  border-radius: 2px;\n  width: 120px;\n  height: 24px;\n  padding: 1px 2px;\n}\n\ninput:focus {\n  outline: 1px solid var(--input-outline-focus-color);\n  border: 1px solid var(--input-border-focus-color);\n}\n\n#change-add-input {\n  width: 300px;\n}\n\nbutton {\n  cursor: pointer;\n  width: 117px;\n  height: 36px;\n  border: none;\n  border-radius: 5px;\n}\n\nbutton:hover {\n  background: var(--button-hover-color);\n}\n\nh4 {\n  margin: 0;\n  font-family: 'Roboto';\n  font-style: normal;\n  font-weight: 600;\n  font-size: 20px;\n  line-height: 24px;\n  text-align: center;\n  letter-spacing: 0.15px;\n  color: var(--primary-text-color);\n}\n\n#change-add-container {\n  margin: auto;\n}\n\n#product-list-container {\n  width: 100%;\n}\n\n#product-list-wrapper {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  width: 100%;\n}\n#product-list-wrapper ul {\n  padding: 0;\n}\n\n#change-list-wrapper {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  width: 100%;\n}\n\n#change-list-wrapper ul {\n  padding: 0;\n}\n\nli {\n  list-style-type: none;\n  text-align: center;\n  font-family: 'Roboto';\n  font-style: normal;\n  display: flex;\n  justify-content: center;\n  border-bottom: 1px solid var(--list-border-color);\n}\n\n#product-list {\n  width: 100%;\n}\n\n#product-list li {\n  width: 100%;\n}\n\n#product-list li span {\n  margin: 12px 0px 8px;\n  width: 100%;\n  height: 30px;\n  font-size: 15px;\n  line-height: 24px;\n  letter-spacing: 0.5px;\n  color: var(--primary-text-color);\n}\n\n#product-list li input {\n  width: 80%;\n  text-align: center;\n  outline: 1px dotted var(--input-outline-focus-color);\n  border: 1px dotted var(--input-border-focus-color);\n}\n\n.product-control-buttons {\n  display: flex;\n  gap: 10px;\n  justify-content: center;\n}\n\n.product-control-buttons button {\n  width: 40%;\n  height: 30px;\n  margin-top: -4px !important;\n}\n\n.product-modify-submit-button {\n  width: 90%;\n  margin-top: -8px !important;\n}\n\n#change-list li {\n  width: 300px;\n}\n\n#change-list li span {\n  margin: 8px 30px 0;\n  width: 70px;\n  height: 30px;\n  font-size: 15px;\n  line-height: 24px;\n  letter-spacing: 0.5px;\n  color: var(--primary-text-color);\n}\n\n.list-header {\n  font-weight: 600;\n  font-size: 15px;\n  line-height: 24px;\n  display: flex;\n  align-items: center;\n  letter-spacing: 0.5px;\n  color: var(--primary-text-color);\n  border-top: 1px solid var(--list-border-color);\n}\n", "",{"version":3,"sources":["webpack://./src/css/index.css"],"names":[],"mappings":"AAEA;EACE,YAAY;EACZ,aAAa;EACb,SAAS;AACX;;AAEA;EACE,SAAS;AACX;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,UAAU;EACV,gBAAgB;EAChB,YAAY;EACZ,SAAS;AACX;;AAEA;EACE,kBAAkB;EAClB,qBAAqB;AACvB;;AAEA;EACE,aAAa;AACf;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,eAAe;EACf,qBAAqB;AACvB;;AAEA;;EAEE,wBAAwB;EACxB,SAAS;AACX;;AAEA;EACE,eAAe;EACf,gCAAgC;EAChC,uCAAuC;EACvC,uCAAuC;EACvC,sCAAsC;EACtC,kBAAkB;EAClB,WAAW;EACX,YAAY;EACZ,iBAAiB;AACnB;;AAEA;EACE,+CAA+C;EAC/C,6CAA6C;EAC7C,2CAA2C;EAC3C,kBAAkB;EAClB,YAAY;EACZ,YAAY;EACZ,gBAAgB;AAClB;;AAEA;EACE,mDAAmD;EACnD,iDAAiD;AACnD;;AAEA;EACE,YAAY;AACd;;AAEA;EACE,eAAe;EACf,YAAY;EACZ,YAAY;EACZ,YAAY;EACZ,kBAAkB;AACpB;;AAEA;EACE,qCAAqC;AACvC;;AAEA;EACE,SAAS;EACT,qBAAqB;EACrB,kBAAkB;EAClB,gBAAgB;EAChB,eAAe;EACf,iBAAiB;EACjB,kBAAkB;EAClB,sBAAsB;EACtB,gCAAgC;AAClC;;AAEA;EACE,YAAY;AACd;;AAEA;EACE,WAAW;AACb;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,mBAAmB;EACnB,WAAW;AACb;AACA;EACE,UAAU;AACZ;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,mBAAmB;EACnB,WAAW;AACb;;AAEA;EACE,UAAU;AACZ;;AAEA;EACE,qBAAqB;EACrB,kBAAkB;EAClB,qBAAqB;EACrB,kBAAkB;EAClB,aAAa;EACb,uBAAuB;EACvB,iDAAiD;AACnD;;AAEA;EACE,WAAW;AACb;;AAEA;EACE,WAAW;AACb;;AAEA;EACE,oBAAoB;EACpB,WAAW;EACX,YAAY;EACZ,eAAe;EACf,iBAAiB;EACjB,qBAAqB;EACrB,gCAAgC;AAClC;;AAEA;EACE,UAAU;EACV,kBAAkB;EAClB,oDAAoD;EACpD,kDAAkD;AACpD;;AAEA;EACE,aAAa;EACb,SAAS;EACT,uBAAuB;AACzB;;AAEA;EACE,UAAU;EACV,YAAY;EACZ,2BAA2B;AAC7B;;AAEA;EACE,UAAU;EACV,2BAA2B;AAC7B;;AAEA;EACE,YAAY;AACd;;AAEA;EACE,kBAAkB;EAClB,WAAW;EACX,YAAY;EACZ,eAAe;EACf,iBAAiB;EACjB,qBAAqB;EACrB,gCAAgC;AAClC;;AAEA;EACE,gBAAgB;EAChB,eAAe;EACf,iBAAiB;EACjB,aAAa;EACb,mBAAmB;EACnB,qBAAqB;EACrB,gCAAgC;EAChC,8CAA8C;AAChD","sourcesContent":["@import './global.css';\n\nbody {\n  width: 100vw;\n  height: 100vh;\n  margin: 0;\n}\n\nh1 {\n  margin: 0;\n}\n\n#app {\n  display: flex;\n  flex-direction: column;\n  width: 30%;\n  min-width: 465px;\n  margin: auto;\n  gap: 20px;\n}\n\nheader {\n  text-align: center;\n  margin: 40px 0 10px 0;\n}\n\nnav {\n  margin: 2em 0;\n}\n\nsection {\n  display: flex;\n  flex-direction: column;\n  flex-wrap: wrap;\n  align-content: center;\n}\n\ninput[type='number']::-webkit-outer-spin-button,\ninput[type='number']::-webkit-inner-spin-button {\n  -webkit-appearance: none;\n  margin: 0;\n}\n\ninput[type='submit'] {\n  cursor: pointer;\n  background: var(--primary-color);\n  color: var(--primary-button-text-color);\n  outline: 1px solid var(--primary-color);\n  border: 1px solid var(--primary-color);\n  border-radius: 2px;\n  width: 56px;\n  height: 28px;\n  margin-left: 10px;\n}\n\ninput {\n  background-color: var(--primary-input-bg-color);\n  outline: 1px solid var(--input-outline-color);\n  border: 1px solid var(--input-border-color);\n  border-radius: 2px;\n  width: 120px;\n  height: 24px;\n  padding: 1px 2px;\n}\n\ninput:focus {\n  outline: 1px solid var(--input-outline-focus-color);\n  border: 1px solid var(--input-border-focus-color);\n}\n\n#change-add-input {\n  width: 300px;\n}\n\nbutton {\n  cursor: pointer;\n  width: 117px;\n  height: 36px;\n  border: none;\n  border-radius: 5px;\n}\n\nbutton:hover {\n  background: var(--button-hover-color);\n}\n\nh4 {\n  margin: 0;\n  font-family: 'Roboto';\n  font-style: normal;\n  font-weight: 600;\n  font-size: 20px;\n  line-height: 24px;\n  text-align: center;\n  letter-spacing: 0.15px;\n  color: var(--primary-text-color);\n}\n\n#change-add-container {\n  margin: auto;\n}\n\n#product-list-container {\n  width: 100%;\n}\n\n#product-list-wrapper {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  width: 100%;\n}\n#product-list-wrapper ul {\n  padding: 0;\n}\n\n#change-list-wrapper {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  width: 100%;\n}\n\n#change-list-wrapper ul {\n  padding: 0;\n}\n\nli {\n  list-style-type: none;\n  text-align: center;\n  font-family: 'Roboto';\n  font-style: normal;\n  display: flex;\n  justify-content: center;\n  border-bottom: 1px solid var(--list-border-color);\n}\n\n#product-list {\n  width: 100%;\n}\n\n#product-list li {\n  width: 100%;\n}\n\n#product-list li span {\n  margin: 12px 0px 8px;\n  width: 100%;\n  height: 30px;\n  font-size: 15px;\n  line-height: 24px;\n  letter-spacing: 0.5px;\n  color: var(--primary-text-color);\n}\n\n#product-list li input {\n  width: 80%;\n  text-align: center;\n  outline: 1px dotted var(--input-outline-focus-color);\n  border: 1px dotted var(--input-border-focus-color);\n}\n\n.product-control-buttons {\n  display: flex;\n  gap: 10px;\n  justify-content: center;\n}\n\n.product-control-buttons button {\n  width: 40%;\n  height: 30px;\n  margin-top: -4px !important;\n}\n\n.product-modify-submit-button {\n  width: 90%;\n  margin-top: -8px !important;\n}\n\n#change-list li {\n  width: 300px;\n}\n\n#change-list li span {\n  margin: 8px 30px 0;\n  width: 70px;\n  height: 30px;\n  font-size: 15px;\n  line-height: 24px;\n  letter-spacing: 0.5px;\n  color: var(--primary-text-color);\n}\n\n.list-header {\n  font-weight: 600;\n  font-size: 15px;\n  line-height: 24px;\n  display: flex;\n  align-items: center;\n  letter-spacing: 0.5px;\n  color: var(--primary-text-color);\n  border-top: 1px solid var(--list-border-color);\n}\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "body {\n  width: 100vw;\n  height: 100vh;\n  margin: 0;\n}\n\nh1 {\n  margin: 0;\n}\n\n#app {\n  display: flex;\n  flex-direction: column;\n  width: 30%;\n  min-width: 465px;\n  margin: auto;\n  gap: 20px;\n}\n\nheader {\n  text-align: center;\n  margin: 40px 0 10px 0;\n}\n\nnav {\n  margin: 2em 0;\n}\n\nsection {\n  display: flex;\n  flex-direction: column;\n  flex-wrap: wrap;\n  align-content: center;\n}\n\ninput[type='number']::-webkit-outer-spin-button,\ninput[type='number']::-webkit-inner-spin-button {\n  -webkit-appearance: none;\n  margin: 0;\n}\n\ninput[type='submit'] {\n  cursor: pointer;\n  background: var(--primary-color);\n  color: var(--primary-button-text-color);\n  outline: 1px solid var(--primary-color);\n  border: 1px solid var(--primary-color);\n  border-radius: 2px;\n  width: 56px;\n  height: 28px;\n  margin-left: 10px;\n}\n\ninput {\n  background-color: var(--primary-input-bg-color);\n  outline: 1px solid var(--input-outline-color);\n  border: 1px solid var(--input-border-color);\n  border-radius: 2px;\n  width: 120px;\n  height: 24px;\n  padding: 1px 2px;\n}\n\ninput:focus {\n  outline: 1px solid var(--input-outline-focus-color);\n  border: 1px solid var(--input-border-focus-color);\n}\n\n#change-add-input {\n  width: 300px;\n}\n\nbutton {\n  cursor: pointer;\n  width: 117px;\n  height: 36px;\n  border: none;\n  border-radius: 5px;\n}\n\nbutton:hover {\n  background: var(--button-hover-color);\n}\n\nh4 {\n  margin: 0;\n  font-family: 'Roboto';\n  font-style: normal;\n  font-weight: 600;\n  font-size: 20px;\n  line-height: 24px;\n  text-align: center;\n  letter-spacing: 0.15px;\n  color: var(--primary-text-color);\n}\n\n#change-add-container {\n  margin: auto;\n}\n\n#product-list-container {\n  width: 100%;\n}\n\n#product-list-wrapper {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  width: 100%;\n}\n#product-list-wrapper ul {\n  padding: 0;\n}\n\n#change-list-wrapper {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  width: 100%;\n}\n\n#change-list-wrapper ul {\n  padding: 0;\n}\n\nli {\n  list-style-type: none;\n  text-align: center;\n  font-family: 'Roboto';\n  font-style: normal;\n  display: flex;\n  justify-content: center;\n  border-bottom: 1px solid var(--list-border-color);\n}\n\n#product-list {\n  width: 100%;\n}\n\n#product-list li {\n  width: 100%;\n}\n\n.product-block {\n  margin: 12px 0px 8px;\n  width: 100%;\n  height: 30px;\n  font-size: 15px;\n  line-height: 24px;\n  letter-spacing: 0.5px;\n  color: var(--primary-text-color);\n}\n\n.product-modify-input {\n  width: 80%;\n  text-align: center;\n  outline: 1px dotted var(--input-outline-focus-color);\n  border: 1px dotted var(--input-border-focus-color);\n}\n\n.product-control-buttons {\n  display: flex;\n  gap: 10px;\n  justify-content: center;\n}\n\n.product-control-buttons button {\n  width: 40%;\n  height: 30px;\n  margin-top: -4px;\n}\n\n.product-modify-submit-button {\n  width: 90%;\n  margin-top: -8px;\n}\n\n#change-list li {\n  width: 300px;\n}\n\n.change-block {\n  margin: 8px 30px 0;\n  width: 70px;\n  height: 30px;\n  font-size: 15px;\n  line-height: 24px;\n  letter-spacing: 0.5px;\n  color: var(--primary-text-color);\n}\n\n.list-header {\n  font-weight: 600;\n  font-size: 15px;\n  line-height: 24px;\n  display: flex;\n  align-items: center;\n  letter-spacing: 0.5px;\n  color: var(--primary-text-color);\n  border-top: 1px solid var(--list-border-color);\n}\n", "",{"version":3,"sources":["webpack://./src/css/index.css"],"names":[],"mappings":"AAEA;EACE,YAAY;EACZ,aAAa;EACb,SAAS;AACX;;AAEA;EACE,SAAS;AACX;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,UAAU;EACV,gBAAgB;EAChB,YAAY;EACZ,SAAS;AACX;;AAEA;EACE,kBAAkB;EAClB,qBAAqB;AACvB;;AAEA;EACE,aAAa;AACf;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,eAAe;EACf,qBAAqB;AACvB;;AAEA;;EAEE,wBAAwB;EACxB,SAAS;AACX;;AAEA;EACE,eAAe;EACf,gCAAgC;EAChC,uCAAuC;EACvC,uCAAuC;EACvC,sCAAsC;EACtC,kBAAkB;EAClB,WAAW;EACX,YAAY;EACZ,iBAAiB;AACnB;;AAEA;EACE,+CAA+C;EAC/C,6CAA6C;EAC7C,2CAA2C;EAC3C,kBAAkB;EAClB,YAAY;EACZ,YAAY;EACZ,gBAAgB;AAClB;;AAEA;EACE,mDAAmD;EACnD,iDAAiD;AACnD;;AAEA;EACE,YAAY;AACd;;AAEA;EACE,eAAe;EACf,YAAY;EACZ,YAAY;EACZ,YAAY;EACZ,kBAAkB;AACpB;;AAEA;EACE,qCAAqC;AACvC;;AAEA;EACE,SAAS;EACT,qBAAqB;EACrB,kBAAkB;EAClB,gBAAgB;EAChB,eAAe;EACf,iBAAiB;EACjB,kBAAkB;EAClB,sBAAsB;EACtB,gCAAgC;AAClC;;AAEA;EACE,YAAY;AACd;;AAEA;EACE,WAAW;AACb;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,mBAAmB;EACnB,WAAW;AACb;AACA;EACE,UAAU;AACZ;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,mBAAmB;EACnB,WAAW;AACb;;AAEA;EACE,UAAU;AACZ;;AAEA;EACE,qBAAqB;EACrB,kBAAkB;EAClB,qBAAqB;EACrB,kBAAkB;EAClB,aAAa;EACb,uBAAuB;EACvB,iDAAiD;AACnD;;AAEA;EACE,WAAW;AACb;;AAEA;EACE,WAAW;AACb;;AAEA;EACE,oBAAoB;EACpB,WAAW;EACX,YAAY;EACZ,eAAe;EACf,iBAAiB;EACjB,qBAAqB;EACrB,gCAAgC;AAClC;;AAEA;EACE,UAAU;EACV,kBAAkB;EAClB,oDAAoD;EACpD,kDAAkD;AACpD;;AAEA;EACE,aAAa;EACb,SAAS;EACT,uBAAuB;AACzB;;AAEA;EACE,UAAU;EACV,YAAY;EACZ,gBAAgB;AAClB;;AAEA;EACE,UAAU;EACV,gBAAgB;AAClB;;AAEA;EACE,YAAY;AACd;;AAEA;EACE,kBAAkB;EAClB,WAAW;EACX,YAAY;EACZ,eAAe;EACf,iBAAiB;EACjB,qBAAqB;EACrB,gCAAgC;AAClC;;AAEA;EACE,gBAAgB;EAChB,eAAe;EACf,iBAAiB;EACjB,aAAa;EACb,mBAAmB;EACnB,qBAAqB;EACrB,gCAAgC;EAChC,8CAA8C;AAChD","sourcesContent":["@import './global.css';\n\nbody {\n  width: 100vw;\n  height: 100vh;\n  margin: 0;\n}\n\nh1 {\n  margin: 0;\n}\n\n#app {\n  display: flex;\n  flex-direction: column;\n  width: 30%;\n  min-width: 465px;\n  margin: auto;\n  gap: 20px;\n}\n\nheader {\n  text-align: center;\n  margin: 40px 0 10px 0;\n}\n\nnav {\n  margin: 2em 0;\n}\n\nsection {\n  display: flex;\n  flex-direction: column;\n  flex-wrap: wrap;\n  align-content: center;\n}\n\ninput[type='number']::-webkit-outer-spin-button,\ninput[type='number']::-webkit-inner-spin-button {\n  -webkit-appearance: none;\n  margin: 0;\n}\n\ninput[type='submit'] {\n  cursor: pointer;\n  background: var(--primary-color);\n  color: var(--primary-button-text-color);\n  outline: 1px solid var(--primary-color);\n  border: 1px solid var(--primary-color);\n  border-radius: 2px;\n  width: 56px;\n  height: 28px;\n  margin-left: 10px;\n}\n\ninput {\n  background-color: var(--primary-input-bg-color);\n  outline: 1px solid var(--input-outline-color);\n  border: 1px solid var(--input-border-color);\n  border-radius: 2px;\n  width: 120px;\n  height: 24px;\n  padding: 1px 2px;\n}\n\ninput:focus {\n  outline: 1px solid var(--input-outline-focus-color);\n  border: 1px solid var(--input-border-focus-color);\n}\n\n#change-add-input {\n  width: 300px;\n}\n\nbutton {\n  cursor: pointer;\n  width: 117px;\n  height: 36px;\n  border: none;\n  border-radius: 5px;\n}\n\nbutton:hover {\n  background: var(--button-hover-color);\n}\n\nh4 {\n  margin: 0;\n  font-family: 'Roboto';\n  font-style: normal;\n  font-weight: 600;\n  font-size: 20px;\n  line-height: 24px;\n  text-align: center;\n  letter-spacing: 0.15px;\n  color: var(--primary-text-color);\n}\n\n#change-add-container {\n  margin: auto;\n}\n\n#product-list-container {\n  width: 100%;\n}\n\n#product-list-wrapper {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  width: 100%;\n}\n#product-list-wrapper ul {\n  padding: 0;\n}\n\n#change-list-wrapper {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  width: 100%;\n}\n\n#change-list-wrapper ul {\n  padding: 0;\n}\n\nli {\n  list-style-type: none;\n  text-align: center;\n  font-family: 'Roboto';\n  font-style: normal;\n  display: flex;\n  justify-content: center;\n  border-bottom: 1px solid var(--list-border-color);\n}\n\n#product-list {\n  width: 100%;\n}\n\n#product-list li {\n  width: 100%;\n}\n\n.product-block {\n  margin: 12px 0px 8px;\n  width: 100%;\n  height: 30px;\n  font-size: 15px;\n  line-height: 24px;\n  letter-spacing: 0.5px;\n  color: var(--primary-text-color);\n}\n\n.product-modify-input {\n  width: 80%;\n  text-align: center;\n  outline: 1px dotted var(--input-outline-focus-color);\n  border: 1px dotted var(--input-border-focus-color);\n}\n\n.product-control-buttons {\n  display: flex;\n  gap: 10px;\n  justify-content: center;\n}\n\n.product-control-buttons button {\n  width: 40%;\n  height: 30px;\n  margin-top: -4px;\n}\n\n.product-modify-submit-button {\n  width: 90%;\n  margin-top: -8px;\n}\n\n#change-list li {\n  width: 300px;\n}\n\n.change-block {\n  margin: 8px 30px 0;\n  width: 70px;\n  height: 30px;\n  font-size: 15px;\n  line-height: 24px;\n  letter-spacing: 0.5px;\n  color: var(--primary-text-color);\n}\n\n.list-header {\n  font-weight: 600;\n  font-size: 15px;\n  line-height: 24px;\n  display: flex;\n  align-items: center;\n  letter-spacing: 0.5px;\n  color: var(--primary-text-color);\n  border-top: 1px solid var(--list-border-color);\n}\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -559,116 +559,6 @@ module.exports = styleTagTransform;
 
 /***/ }),
 
-/***/ "./src/js/components/AddChangeComponent.ts":
-/*!*************************************************!*\
-  !*** ./src/js/components/AddChangeComponent.ts ***!
-  \*************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-var AddChangeComponent = function () {
-    return "\n  <div id=\"change-add-container\">\n      <p>\uC790\uD310\uAE30\uAC00 \uBCF4\uC720\uD560 \uAE08\uC561\uC744 \uC785\uB825\uD574\uC8FC\uC138\uC694</p>\n      <form id=\"change-add-form\">\n      <input\n          type=\"number\"\n          id=\"change-add-input\"\n          placeholder=\"\uAE08\uC561\"\n          required\n      />\n      <input type=\"submit\" id=\"change-add-button\" value=\"\uD22C\uC785\" />\n      </form>\n      <p>\uD604\uC7AC \uBCF4\uC720 \uAE08\uC561: <span id=\"total-change\"></span>\uC6D0</p>\n  </div>";
-};
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (AddChangeComponent);
-
-
-/***/ }),
-
-/***/ "./src/js/components/AddProductComponent.ts":
-/*!**************************************************!*\
-  !*** ./src/js/components/AddProductComponent.ts ***!
-  \**************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-var AddProductComponent = function () {
-    return "\n  <div id=\"product-manage-container\">\n    <p>\uCD94\uAC00\uD560 \uC0C1\uD488 \uC815\uBCF4\uB97C \uC785\uB825\uD574\uC8FC\uC138\uC694.</p>\n    <form id=\"product-add-form\">\n      <input\n        type=\"text\"\n        id=\"product-name-input\"\n        placeholder=\"\uC0C1\uD488\uBA85\"\n        required\n      />\n      <input\n        type=\"number\"\n        id=\"product-price-input\"\n        placeholder=\"\uAC00\uACA9\"\n        required\n      />\n      <input\n        type=\"number\"\n        id=\"product-amount-input\"\n        placeholder=\"\uC218\uB7C9\"\n        required\n      />\n      <input type=\"submit\" id=\"product-add-button\" value=\"\uCD94\uAC00\" />\n    </form>\n  </div>";
-};
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (AddProductComponent);
-
-
-/***/ }),
-
-/***/ "./src/js/components/ChangeListComponent.ts":
-/*!**************************************************!*\
-  !*** ./src/js/components/ChangeListComponent.ts ***!
-  \**************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-var ChangeListComponent = function () {
-    return "\n  <div id=\"change-list-wrapper\">\n    <h4>\uC790\uD310\uAE30\uAC00 \uBCF4\uC720\uD55C \uB3D9\uC804</h4>\n    <ul id=\"change-list\">\n      <li class=\"list-header\">\n        <span>\uB3D9\uC804</span>\n        <span>\uAC1C\uC218</span>\n      </li>\n      <li>\n        <span>500\uC6D0</span>\n        <span id=\"amount-coin-500\"></span>\n      </li>\n      <li>\n        <span>100\uC6D0</span>\n        <span id=\"amount-coin-100\"></span>\n      </li>\n      <li>\n        <span>50\uC6D0</span>\n        <span id=\"amount-coin-50\"></span>\n      </li>\n      <li>\n        <span>10\uC6D0</span>\n        <span id=\"amount-coin-10\"></span>\n      </li>\n    </ul>\n  </div>";
-};
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ChangeListComponent);
-
-
-/***/ }),
-
-/***/ "./src/js/components/ModifyProductComponent.ts":
-/*!*****************************************************!*\
-  !*** ./src/js/components/ModifyProductComponent.ts ***!
-  \*****************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-var ModifyProductComponent = function (product) {
-    var name = product.name, price = product.price, amount = product.amount;
-    return "\n    <span>\n      <input\n      type=\"text\"\n      class=\"product-name-modify-input\"\n      value=\"".concat(name, "\"\n      placeholder=\"\uC0C1\uD488\uBA85\"\n      required\n      />\n    </span>\n    <span>\n      <input\n      type=\"text\"\n      class=\"product-price-modify-input\"\n      value=\"").concat(price, "\"\n      placeholder=\"\uAC00\uACA9\"\n      required\n      />\n    </span>\n    <span>\n      <input\n      type=\"text\"\n      class=\"product-amount-modify-input\"\n      value=\"").concat(amount, "\"\n      placeholder=\"\uC218\uB7C9\"\n      required\n      />  \n    </span>\n    <span>\n      <button type=\"button\" class=\"product-modify-submit-button\" data-name=\"").concat(name, "\">\n        \uD655\uC778\n      </button>\n    </span>\n  ");
-};
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ModifyProductComponent);
-
-
-/***/ }),
-
-/***/ "./src/js/components/ProductItemComponent.ts":
-/*!***************************************************!*\
-  !*** ./src/js/components/ProductItemComponent.ts ***!
-  \***************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-var ProductItemComponent = function (product) {
-    var name = product.name, price = product.price, amount = product.amount;
-    return "\n    <span class=\"product-name\">".concat(name, "</span>\n    <span class=\"product-price\">").concat(price, "</span>\n    <span class=\"product-amount\">").concat(amount, "</span>\n    <span class=\"product-control-buttons\">\n      <button type=\"button\" class=\"product-modify-button\">\n        \uC218\uC815\n      </button>\n      <button type=\"button\" class=\"product-remove-button\">\n        \uC0AD\uC81C\n      </button>\n    </span>\n  ");
-};
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ProductItemComponent);
-
-
-/***/ }),
-
-/***/ "./src/js/components/ProductListComponent.ts":
-/*!***************************************************!*\
-  !*** ./src/js/components/ProductListComponent.ts ***!
-  \***************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-var ProductListComponent = function () {
-    return "\n  <section id=\"product-list-container\">\n    <div id=\"product-list-wrapper\">\n      <h4>\uC0C1\uD488 \uD604\uD669</h4>\n      <ul id=\"product-list\">\n        <li class=\"list-header\">\n          <span>\uC0C1\uD488\uBA85</span>\n          <span>\uAC00\uACA9</span>\n          <span>\uC218\uB7C9</span>\n          <span></span>\n        </li>\n      </ul>\n    </div>\n  </section>";
-};
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ProductListComponent);
-
-
-/***/ }),
-
 /***/ "./src/js/constants.ts":
 /*!*****************************!*\
   !*** ./src/js/constants.ts ***!
@@ -686,19 +576,21 @@ var RULES = {
     MIN_PRODUCT_PRICE: 100,
     MAX_PRODUCT_AMOUNT: 20,
     MIN_PRODUCT_AMOUNT: 0,
-    MINIMUM_CHANGE: 10,
     MAX_LENGTH_PRODUCT_NAME: 10,
+    MINIMUM_CHANGE: 10,
+    CHANGE_UNITS: [500, 100, 50, 10],
+    MIN_INPUT_MONEY: 0,
     MAX_VENDING_MACHINE_CHANGE: 100000,
     NOT_EXIST_INDEX: -1
 };
 var ERROR_MESSAGE = {
     PRODUCT_NAME_IS_DUPLICATED: '이미 존재하는 이름의 상품입니다.',
-    PRODUCT_NAME_LENGTH: '상품명은 최대 10글자까지 입력해주세요.',
-    PRODUCT_PRICE: '상품가격은 100원~10,000원 사이여야 하며 10원으로 나누어 떨어져야 합니다.',
-    PRODUCT_AMOUNT: '한 제품당 수량은 최대 20개 입니다.',
-    TOO_MUCH_VENDING_MACHINE_CHANGE: '자판기가 보유할 수 있는 최대 금액은 100,000원 입니다.',
-    IS_NOT_UNIT_OF_TEN: '투입할 금액의 단위는 10원입니다.',
-    IS_NOT_POSITIVE_INTEGER: '투입할 금액은 0보다 큰 금액이어야 합니다.'
+    PRODUCT_NAME_LENGTH: "\uC0C1\uD488\uBA85\uC740 \uCD5C\uB300 ".concat(RULES.MAX_LENGTH_PRODUCT_NAME, "\uAE00\uC790\uAE4C\uC9C0 \uC785\uB825\uD574\uC8FC\uC138\uC694."),
+    PRODUCT_PRICE: "\uC0C1\uD488\uAC00\uACA9\uC740 ".concat(RULES.MIN_PRODUCT_PRICE, "\uC6D0~").concat(RULES.MAX_PRODUCT_PRICE.toLocaleString(), "\uC6D0 \uC0AC\uC774\uC5EC\uC57C \uD558\uBA70 ").concat(RULES.MINIMUM_CHANGE, "\uC6D0\uC73C\uB85C \uB098\uB204\uC5B4 \uB5A8\uC5B4\uC838\uC57C \uD569\uB2C8\uB2E4."),
+    PRODUCT_AMOUNT: "\uD55C \uC81C\uD488\uB2F9 \uC218\uB7C9\uC740 \uCD5C\uB300 ".concat(RULES.MAX_PRODUCT_AMOUNT, "\uAC1C \uC785\uB2C8\uB2E4."),
+    TOO_MUCH_VENDING_MACHINE_CHANGE: "\uC790\uD310\uAE30\uAC00 \uBCF4\uC720\uD560 \uC218 \uC788\uB294 \uCD5C\uB300 \uAE08\uC561\uC740 ".concat(RULES.MAX_VENDING_MACHINE_CHANGE.toLocaleString(), "\uC6D0 \uC785\uB2C8\uB2E4."),
+    IS_NOT_UNIT_OF_TEN: "\uD22C\uC785\uD560 \uAE08\uC561\uC758 \uB2E8\uC704\uB294 ".concat(RULES.MINIMUM_CHANGE, "\uC6D0\uC785\uB2C8\uB2E4."),
+    IS_NOT_POSITIVE_INTEGER: "\uD22C\uC785\uD560 \uAE08\uC561\uC740 ".concat(RULES.MIN_INPUT_MONEY, "\uBCF4\uB2E4 \uD070 \uAE08\uC561\uC774\uC5B4\uC57C \uD569\uB2C8\uB2E4.")
 };
 var REMOVE_CONFIRM_MESSAGE = '정말로 삭제하시겠습니까?';
 
@@ -720,44 +612,37 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _validator__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./validator */ "./src/js/model/validator.ts");
 
 
+var getRandomInt = function (max) { return Math.floor(Math.random() * max); };
 var VendingMachine = /** @class */ (function () {
     function VendingMachine() {
-        this.products = [];
         this.changes = { coin10: 0, coin50: 0, coin100: 0, coin500: 0 };
+        this.products = [];
         this.totalMoney = 0;
     }
-    VendingMachine.prototype.getProducts = function () {
-        return this.products;
-    };
     VendingMachine.prototype.getChanges = function () {
         return this.changes;
+    };
+    VendingMachine.prototype.getProducts = function () {
+        return this.products;
     };
     VendingMachine.prototype.getTotalMoney = function () {
         return this.totalMoney;
     };
-    VendingMachine.prototype.addProduct = function (product) {
-        this.checkProductValidate(product);
-        this.products.push(product);
-    };
-    VendingMachine.prototype.findProductIndex = function (name) {
-        return this.products.findIndex(function (product) { return product.name === name; });
-    };
-    VendingMachine.prototype.removeProduct = function (name) {
-        var productIndex = this.findProductIndex(name);
-        var isExist = productIndex >= 0;
-        if (isExist) {
-            this.products.splice(productIndex, 1);
-        }
-    };
-    VendingMachine.prototype.modifyProduct = function (oldProductName, newProduct) {
-        var oldProductIndex = this.findProductIndex(oldProductName);
-        this.checkProductValidate(newProduct, oldProductIndex);
-        this.products[oldProductIndex] = newProduct;
-    };
-    VendingMachine.prototype.inputChanges = function (money) {
-        this.checkInputChangesValidate(money);
+    VendingMachine.prototype.addChange = function (money) {
+        this.checkChangeValidate(money);
         this.totalMoney += money;
         this.makeChangesToCoin(money);
+    };
+    VendingMachine.prototype.checkChangeValidate = function (money) {
+        if (!(0,_validator__WEBPACK_IMPORTED_MODULE_1__.isPositiveInteger)(money)) {
+            throw new Error(_constants__WEBPACK_IMPORTED_MODULE_0__.ERROR_MESSAGE.IS_NOT_POSITIVE_INTEGER);
+        }
+        if (!(0,_validator__WEBPACK_IMPORTED_MODULE_1__.isUnitOfTen)(money)) {
+            throw new Error(_constants__WEBPACK_IMPORTED_MODULE_0__.ERROR_MESSAGE.IS_NOT_UNIT_OF_TEN);
+        }
+        if (this.totalMoney + money > _constants__WEBPACK_IMPORTED_MODULE_0__.RULES.MAX_VENDING_MACHINE_CHANGE) {
+            throw new Error(_constants__WEBPACK_IMPORTED_MODULE_0__.ERROR_MESSAGE.TOO_MUCH_VENDING_MACHINE_CHANGE);
+        }
     };
     VendingMachine.prototype.makeChangesToCoin = function (money) {
         var coin = this.getChangeCoin(money);
@@ -774,19 +659,34 @@ var VendingMachine = /** @class */ (function () {
                 break;
             case 10:
                 this.changes.coin10 += 1;
-                break;
         }
         if (money >= _constants__WEBPACK_IMPORTED_MODULE_0__.RULES.MINIMUM_CHANGE) {
             this.makeChangesToCoin(money);
         }
     };
-    VendingMachine.prototype.getRandomInt = function (max) {
-        return Math.floor(Math.random() * max);
-    };
     VendingMachine.prototype.getChangeCoin = function (money) {
-        var coins = [500, 100, 50, 10].filter(function (coin) { return coin <= money; });
-        var index = this.getRandomInt(coins.length);
+        var coins = _constants__WEBPACK_IMPORTED_MODULE_0__.RULES.CHANGE_UNITS.filter(function (coin) { return coin <= money; });
+        var index = getRandomInt(coins.length);
         return coins[index];
+    };
+    VendingMachine.prototype.addProduct = function (product) {
+        this.checkProductValidate(product);
+        this.products.push(product);
+    };
+    VendingMachine.prototype.modifyProduct = function (oldProductName, newProduct) {
+        var oldProductIndex = this.findProductIndex(oldProductName);
+        this.checkProductValidate(newProduct, oldProductIndex);
+        this.products[oldProductIndex] = newProduct;
+    };
+    VendingMachine.prototype.removeProduct = function (name) {
+        var productIndex = this.findProductIndex(name);
+        var isExist = productIndex >= 0;
+        if (isExist) {
+            this.products.splice(productIndex, 1);
+        }
+    };
+    VendingMachine.prototype.findProductIndex = function (name) {
+        return this.products.findIndex(function (product) { return product.name === name; });
     };
     VendingMachine.prototype.checkProductValidate = function (product, originalIndex) {
         if (originalIndex === void 0) { originalIndex = _constants__WEBPACK_IMPORTED_MODULE_0__.RULES.NOT_EXIST_INDEX; }
@@ -805,17 +705,6 @@ var VendingMachine = /** @class */ (function () {
         }
         if (!(0,_validator__WEBPACK_IMPORTED_MODULE_1__.isValidProductAmount)(product.amount)) {
             throw new Error(_constants__WEBPACK_IMPORTED_MODULE_0__.ERROR_MESSAGE.PRODUCT_AMOUNT);
-        }
-    };
-    VendingMachine.prototype.checkInputChangesValidate = function (money) {
-        if (!(0,_validator__WEBPACK_IMPORTED_MODULE_1__.isPositiveInteger)(money)) {
-            throw new Error(_constants__WEBPACK_IMPORTED_MODULE_0__.ERROR_MESSAGE.IS_NOT_POSITIVE_INTEGER);
-        }
-        if (!(0,_validator__WEBPACK_IMPORTED_MODULE_1__.isUnitOfTen)(money)) {
-            throw new Error(_constants__WEBPACK_IMPORTED_MODULE_0__.ERROR_MESSAGE.IS_NOT_UNIT_OF_TEN);
-        }
-        if (this.totalMoney + money > _constants__WEBPACK_IMPORTED_MODULE_0__.RULES.MAX_VENDING_MACHINE_CHANGE) {
-            throw new Error(_constants__WEBPACK_IMPORTED_MODULE_0__.ERROR_MESSAGE.TOO_MUCH_VENDING_MACHINE_CHANGE);
         }
     };
     return VendingMachine;
@@ -872,9 +761,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var _model_VendingMachine__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../model/VendingMachine */ "./src/js/model/VendingMachine.ts");
-/* harmony import */ var _components_AddChangeComponent__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/AddChangeComponent */ "./src/js/components/AddChangeComponent.ts");
-/* harmony import */ var _components_ChangeListComponent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/ChangeListComponent */ "./src/js/components/ChangeListComponent.ts");
-
+/* harmony import */ var _template__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../template */ "./src/js/template/index.ts");
 
 
 var ChangeAdd = /** @class */ (function () {
@@ -884,7 +771,7 @@ var ChangeAdd = /** @class */ (function () {
             e.preventDefault();
             var inputChange = parseInt(_this.$changeAddForm.querySelector('#change-add-input').value);
             try {
-                _model_VendingMachine__WEBPACK_IMPORTED_MODULE_0__["default"].inputChanges(inputChange);
+                _model_VendingMachine__WEBPACK_IMPORTED_MODULE_0__["default"].addChange(inputChange);
                 _this.refreshChange();
             }
             catch (message) {
@@ -895,8 +782,8 @@ var ChangeAdd = /** @class */ (function () {
         this.$contentsContainer = document.querySelector('.contents-container');
     }
     ChangeAdd.prototype.render = function () {
-        this.$inputSection.insertAdjacentHTML('beforeend', (0,_components_AddChangeComponent__WEBPACK_IMPORTED_MODULE_1__["default"])());
-        this.$contentsContainer.insertAdjacentHTML('beforeend', (0,_components_ChangeListComponent__WEBPACK_IMPORTED_MODULE_2__["default"])());
+        this.$inputSection.insertAdjacentHTML('beforeend', _template__WEBPACK_IMPORTED_MODULE_1__["default"].changeAddContainer());
+        this.$contentsContainer.insertAdjacentHTML('beforeend', _template__WEBPACK_IMPORTED_MODULE_1__["default"].changeListWrapper());
         this.$changeAddForm = this.$inputSection.querySelector('#change-add-form');
         this.$totalChange = this.$inputSection.querySelector('#total-change');
         this.$changeList = this.$contentsContainer.querySelector('#change-list');
@@ -933,14 +820,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var _model_VendingMachine__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../model/VendingMachine */ "./src/js/model/VendingMachine.ts");
-/* harmony import */ var _components_AddProductComponent__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/AddProductComponent */ "./src/js/components/AddProductComponent.ts");
-/* harmony import */ var _components_ProductListComponent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/ProductListComponent */ "./src/js/components/ProductListComponent.ts");
-/* harmony import */ var _components_ProductItemComponent__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/ProductItemComponent */ "./src/js/components/ProductItemComponent.ts");
-/* harmony import */ var _components_ModifyProductComponent__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/ModifyProductComponent */ "./src/js/components/ModifyProductComponent.ts");
-/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../constants */ "./src/js/constants.ts");
-
-
-
+/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../constants */ "./src/js/constants.ts");
+/* harmony import */ var _template_index__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../template/index */ "./src/js/template/index.ts");
 
 
 
@@ -950,16 +831,12 @@ var ProductManage = /** @class */ (function () {
         this.onSubmitNewProduct = function (e) {
             e.preventDefault();
             var name = _this.$productAddForm.querySelector('#product-name-input').value;
-            var price = _this.$productAddForm.querySelector('#product-price-input').value;
-            var amount = _this.$productAddForm.querySelector('#product-amount-input').value;
-            var newProduct = {
-                name: name,
-                price: parseInt(price),
-                amount: parseInt(amount)
-            };
+            var price = _this.$productAddForm.querySelector('#product-price-input').valueAsNumber;
+            var amount = _this.$productAddForm.querySelector('#product-amount-input').valueAsNumber;
+            var newProduct = { name: name, price: price, amount: amount };
             try {
                 _model_VendingMachine__WEBPACK_IMPORTED_MODULE_0__["default"].addProduct(newProduct);
-                _this.addProductItem(newProduct);
+                _this.renderProductItem(newProduct);
             }
             catch (message) {
                 alert(message);
@@ -976,23 +853,25 @@ var ProductManage = /** @class */ (function () {
                 price: parseInt(oldLi.querySelector('.product-price').textContent),
                 amount: parseInt(oldLi.querySelector('.product-amount').textContent)
             };
-            ul.replaceChild(_this.replaceList(product, _components_ModifyProductComponent__WEBPACK_IMPORTED_MODULE_4__["default"]), oldLi);
+            var newLi = _this.replaceList(product, _template_index__WEBPACK_IMPORTED_MODULE_2__["default"].modifyProductItem);
+            ul.replaceChild(newLi, oldLi);
         };
         this.onSubmitModifyCompleteButton = function (e) {
             if (e.target.className !== 'product-modify-submit-button') {
                 return;
             }
             var ul = e.target.closest('ul');
-            var parentList = e.target.closest('li');
+            var oldLi = e.target.closest('li');
             var product = {
-                name: parentList.querySelector('.product-name-modify-input').value,
-                price: parseInt(parentList.querySelector('.product-price-modify-input').value),
-                amount: parseInt(parentList.querySelector('.product-amount-modify-input').value)
+                name: oldLi.querySelector('.product-name-modify-input').value,
+                price: oldLi.querySelector('.product-price-modify-input').valueAsNumber,
+                amount: oldLi.querySelector('.product-amount-modify-input').valueAsNumber
             };
-            var prevName = parentList.querySelector('.product-modify-submit-button').dataset.name;
+            var prevName = oldLi.querySelector('.product-modify-submit-button').dataset.name;
             try {
                 _model_VendingMachine__WEBPACK_IMPORTED_MODULE_0__["default"].modifyProduct(prevName, product);
-                ul.replaceChild(_this.replaceList(product, _components_ProductItemComponent__WEBPACK_IMPORTED_MODULE_3__["default"]), parentList);
+                var newLi = _this.replaceList(product, _template_index__WEBPACK_IMPORTED_MODULE_2__["default"].productItem);
+                ul.replaceChild(newLi, oldLi);
             }
             catch (message) {
                 alert(message);
@@ -1002,7 +881,7 @@ var ProductManage = /** @class */ (function () {
             if (e.target.className !== 'product-remove-button') {
                 return;
             }
-            if (!window.confirm(_constants__WEBPACK_IMPORTED_MODULE_5__.REMOVE_CONFIRM_MESSAGE)) {
+            if (!window.confirm(_constants__WEBPACK_IMPORTED_MODULE_1__.REMOVE_CONFIRM_MESSAGE)) {
                 return;
             }
             var parentList = e.target.closest('li');
@@ -1021,8 +900,8 @@ var ProductManage = /** @class */ (function () {
         this.$contentsContainer = document.querySelector('.contents-container');
     }
     ProductManage.prototype.render = function () {
-        this.$inputSection.insertAdjacentHTML('beforeend', (0,_components_AddProductComponent__WEBPACK_IMPORTED_MODULE_1__["default"])());
-        this.$contentsContainer.insertAdjacentHTML('beforeend', (0,_components_ProductListComponent__WEBPACK_IMPORTED_MODULE_2__["default"])());
+        this.$inputSection.insertAdjacentHTML('beforeend', _template_index__WEBPACK_IMPORTED_MODULE_2__["default"].productManageContainer());
+        this.$contentsContainer.insertAdjacentHTML('beforeend', _template_index__WEBPACK_IMPORTED_MODULE_2__["default"].productListContainer());
         this.$productAddForm = this.$inputSection.querySelector('#product-add-form');
         this.$productList = this.$contentsContainer.querySelector('#product-list');
         this.$productAddForm.addEventListener('submit', this.onSubmitNewProduct);
@@ -1035,13 +914,13 @@ var ProductManage = /** @class */ (function () {
         var _this = this;
         var products = _model_VendingMachine__WEBPACK_IMPORTED_MODULE_0__["default"].getProducts();
         products.forEach(function (product) {
-            _this.addProductItem(product);
+            _this.renderProductItem(product);
         });
     };
-    ProductManage.prototype.addProductItem = function (product) {
+    ProductManage.prototype.renderProductItem = function (product) {
         var fragment = new DocumentFragment();
         var li = document.createElement('li');
-        li.insertAdjacentHTML('beforeend', (0,_components_ProductItemComponent__WEBPACK_IMPORTED_MODULE_3__["default"])(product));
+        li.insertAdjacentHTML('beforeend', _template_index__WEBPACK_IMPORTED_MODULE_2__["default"].productItem(product));
         fragment.appendChild(li);
         this.$productList.appendChild(fragment);
     };
@@ -1078,9 +957,9 @@ var router = function () {
     var prevPath = '';
     return function () {
         var hash = window.location.hash;
-        if (prevPath === hash) {
+        var isSamePage = prevPath === hash;
+        if (isSamePage)
             return;
-        }
         prevPath = hash;
         clearPurchaseBody();
         switch (hash) {
@@ -1089,14 +968,155 @@ var router = function () {
                 break;
             case '#!/change-add':
                 changeAdd.render();
-                break;
-            default:
-                break;
         }
     };
 };
 var routes = router();
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (routes);
+
+
+/***/ }),
+
+/***/ "./src/js/template/changeAddContainer.ts":
+/*!***********************************************!*\
+  !*** ./src/js/template/changeAddContainer.ts ***!
+  \***********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+var changeAddContainer = function () {
+    return "\n  <div id=\"change-add-container\">\n      <p>\uC790\uD310\uAE30\uAC00 \uBCF4\uC720\uD560 \uAE08\uC561\uC744 \uC785\uB825\uD574\uC8FC\uC138\uC694</p>\n      <form id=\"change-add-form\">\n      <input\n          type=\"number\"\n          id=\"change-add-input\"\n          placeholder=\"\uAE08\uC561\"\n          required\n      />\n      <input type=\"submit\" id=\"change-add-button\" value=\"\uD22C\uC785\" />\n      </form>\n      <p>\uD604\uC7AC \uBCF4\uC720 \uAE08\uC561: <span id=\"total-change\"></span>\uC6D0</p>\n  </div>";
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (changeAddContainer);
+
+
+/***/ }),
+
+/***/ "./src/js/template/changeListWrapper.ts":
+/*!**********************************************!*\
+  !*** ./src/js/template/changeListWrapper.ts ***!
+  \**********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+var changeListWrapper = function () {
+    return "\n  <div id=\"change-list-wrapper\">\n    <h4>\uC790\uD310\uAE30\uAC00 \uBCF4\uC720\uD55C \uB3D9\uC804</h4>\n    <ul id=\"change-list\">\n      <li class=\"list-header\">\n        <span class=\"change-block\">\uB3D9\uC804</span>\n        <span class=\"change-block\">\uAC1C\uC218</span>\n      </li>\n      <li>\n        <span class=\"change-block\">500\uC6D0</span>\n        <span id=\"amount-coin-500\" class=\"change-block\"></span>\n      </li>\n      <li>\n        <span class=\"change-block\">100\uC6D0</span>\n        <span id=\"amount-coin-100\" class=\"change-block\"></span>\n      </li>\n      <li>\n        <span class=\"change-block\">50\uC6D0</span>\n        <span id=\"amount-coin-50\" class=\"change-block\"></span>\n      </li>\n      <li>\n        <span class=\"change-block\">10\uC6D0</span>\n        <span id=\"amount-coin-10\" class=\"change-block\"></span>\n      </li>\n    </ul>\n  </div>";
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (changeListWrapper);
+
+
+/***/ }),
+
+/***/ "./src/js/template/index.ts":
+/*!**********************************!*\
+  !*** ./src/js/template/index.ts ***!
+  \**********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _changeAddContainer__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./changeAddContainer */ "./src/js/template/changeAddContainer.ts");
+/* harmony import */ var _changeListWrapper__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./changeListWrapper */ "./src/js/template/changeListWrapper.ts");
+/* harmony import */ var _modifyProductItem__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modifyProductItem */ "./src/js/template/modifyProductItem.ts");
+/* harmony import */ var _productItem__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./productItem */ "./src/js/template/productItem.ts");
+/* harmony import */ var _productListContainer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./productListContainer */ "./src/js/template/productListContainer.ts");
+/* harmony import */ var _productManageContainer__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./productManageContainer */ "./src/js/template/productManageContainer.ts");
+
+
+
+
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+    changeAddContainer: _changeAddContainer__WEBPACK_IMPORTED_MODULE_0__["default"],
+    changeListWrapper: _changeListWrapper__WEBPACK_IMPORTED_MODULE_1__["default"],
+    modifyProductItem: _modifyProductItem__WEBPACK_IMPORTED_MODULE_2__["default"],
+    productItem: _productItem__WEBPACK_IMPORTED_MODULE_3__["default"],
+    productListContainer: _productListContainer__WEBPACK_IMPORTED_MODULE_4__["default"],
+    productManageContainer: _productManageContainer__WEBPACK_IMPORTED_MODULE_5__["default"]
+});
+
+
+/***/ }),
+
+/***/ "./src/js/template/modifyProductItem.ts":
+/*!**********************************************!*\
+  !*** ./src/js/template/modifyProductItem.ts ***!
+  \**********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+var modifyProductItem = function (product) {
+    var name = product.name, price = product.price, amount = product.amount;
+    return "\n    <span class=\"product-block\">\n      <input\n      type=\"text\"\n      class=\"product-name-modify-input product-modify-input\"\n      value=\"".concat(name, "\"\n      placeholder=\"\uC0C1\uD488\uBA85\"\n      required\n      />\n    </span>\n    <span class=\"product-block\">\n      <input\n      type=\"number\"\n      class=\"product-price-modify-input product-modify-input\"\n      value=\"").concat(price, "\"\n      placeholder=\"\uAC00\uACA9\"\n      required\n      />\n    </span>\n    <span class=\"product-block\">\n      <input\n      type=\"number\"\n      class=\"product-amount-modify-input product-modify-input\"\n      value=\"").concat(amount, "\"\n      placeholder=\"\uC218\uB7C9\"\n      required\n      />  \n    </span>\n    <span class=\"product-block\">\n      <button type=\"button\" class=\"product-modify-submit-button\" data-name=\"").concat(name, "\">\n        \uD655\uC778\n      </button>\n    </span>\n  ");
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (modifyProductItem);
+
+
+/***/ }),
+
+/***/ "./src/js/template/productItem.ts":
+/*!****************************************!*\
+  !*** ./src/js/template/productItem.ts ***!
+  \****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+var productItem = function (product) {
+    var name = product.name, price = product.price, amount = product.amount;
+    return "\n    <span class=\"product-name product-block\">".concat(name, "</span>\n    <span class=\"product-price product-block\">").concat(price, "</span>\n    <span class=\"product-amount product-block\">").concat(amount, "</span>\n    <span class=\"product-control-buttons product-block\">\n      <button type=\"button\" class=\"product-modify-button\">\n        \uC218\uC815\n      </button>\n      <button type=\"button\" class=\"product-remove-button\">\n        \uC0AD\uC81C\n      </button>\n    </span>\n  ");
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (productItem);
+
+
+/***/ }),
+
+/***/ "./src/js/template/productListContainer.ts":
+/*!*************************************************!*\
+  !*** ./src/js/template/productListContainer.ts ***!
+  \*************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+var productListContainer = function () {
+    return "\n  <section id=\"product-list-container\">\n    <div id=\"product-list-wrapper\">\n      <h4>\uC0C1\uD488 \uD604\uD669</h4>\n      <ul id=\"product-list\">\n        <li class=\"list-header\">\n          <span class=\"product-block\">\uC0C1\uD488\uBA85</span>\n          <span class=\"product-block\">\uAC00\uACA9</span>\n          <span class=\"product-block\">\uC218\uB7C9</span>\n          <span class=\"product-block\"></span>\n        </li>\n      </ul>\n    </div>\n  </section>";
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (productListContainer);
+
+
+/***/ }),
+
+/***/ "./src/js/template/productManageContainer.ts":
+/*!***************************************************!*\
+  !*** ./src/js/template/productManageContainer.ts ***!
+  \***************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+var productManageContainer = function () {
+    return "\n  <div id=\"product-manage-container\">\n    <p>\uCD94\uAC00\uD560 \uC0C1\uD488 \uC815\uBCF4\uB97C \uC785\uB825\uD574\uC8FC\uC138\uC694.</p>\n    <form id=\"product-add-form\">\n      <input\n        type=\"text\"\n        id=\"product-name-input\"\n        placeholder=\"\uC0C1\uD488\uBA85\"\n        required\n      />\n      <input\n        type=\"number\"\n        id=\"product-price-input\"\n        placeholder=\"\uAC00\uACA9\"\n        required\n      />\n      <input\n        type=\"number\"\n        id=\"product-amount-input\"\n        placeholder=\"\uC218\uB7C9\"\n        required\n      />\n      <input type=\"submit\" id=\"product-add-button\" value=\"\uCD94\uAC00\" />\n    </form>\n  </div>";
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (productManageContainer);
 
 
 /***/ })

@@ -82,7 +82,7 @@ ___CSS_LOADER_EXPORT___.i(_node_modules_css_loader_dist_cjs_js_global_css__WEBPA
 ___CSS_LOADER_EXPORT___.i(_node_modules_css_loader_dist_cjs_js_dialog_css__WEBPACK_IMPORTED_MODULE_3__["default"]);
 ___CSS_LOADER_EXPORT___.i(_node_modules_css_loader_dist_cjs_js_login_css__WEBPACK_IMPORTED_MODULE_4__["default"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "body {\n  width: 100vw;\n  height: 100vh;\n  margin: 0;\n\n  font-family: 'Roboto';\n  font-style: normal;\n  letter-spacing: 0.5px;\n}\n\nh1 {\n  margin: 0;\n}\n\n#app {\n  position: relative;\n  display: flex;\n  flex-direction: column;\n  width: 30%;\n  min-width: 465px;\n  margin: auto;\n  gap: 20px;\n  /* border: 1px solid blue; */\n}\n\nheader {\n  text-align: center;\n  margin: 40px 0 10px 0;\n}\n\nnav {\n  margin: 2em 0;\n}\n\nsection {\n  display: flex;\n  flex-direction: column;\n  flex-wrap: wrap;\n  align-content: center;\n}\n\ninput[type='number']::-webkit-outer-spin-button,\ninput[type='number']::-webkit-inner-spin-button {\n  -webkit-appearance: none;\n  margin: 0;\n}\n\ninput[type='submit'] {\n  cursor: pointer;\n  background: var(--primary-color);\n  color: var(--primary-button-text-color);\n  outline: 1px solid var(--primary-color);\n  border: 1px solid var(--primary-color);\n  border-radius: 2px;\n  width: 56px;\n  height: 28px;\n  margin-left: 10px;\n}\n\ninput {\n  background-color: var(--primary-input-bg-color);\n  outline: 1px solid var(--input-outline-color);\n  border: 1px solid var(--input-border-color);\n  border-radius: 2px;\n  width: 120px;\n  height: 24px;\n  padding: 1px 2px;\n}\n\ninput:focus {\n  outline: 1px solid var(--input-outline-focus-color);\n  border: 1px solid var(--input-border-focus-color);\n}\n\n#money-add-input {\n  width: 300px;\n}\n\nbutton {\n  cursor: pointer;\n  width: 117px;\n  height: 36px;\n  border: none;\n  border-radius: 5px;\n}\n\nbutton:hover {\n  background: var(--button-hover-color);\n}\n\nh4 {\n  margin: 0;\n  font-family: 'Roboto';\n  font-style: normal;\n  font-weight: 600;\n  font-size: 20px;\n  line-height: 24px;\n  text-align: center;\n  letter-spacing: 0.15px;\n  color: var(--primary-text-color);\n}\n\n#money-add-container {\n  margin: auto;\n}\n\n#product-list-container {\n  width: 100%;\n  margin: 20px 0 30px;\n}\n\n#product-list-wrapper {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  width: 100%;\n}\n#product-list-wrapper ul {\n  padding: 0;\n}\n\n#change-list-wrapper {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  width: 100%;\n}\n\n#change-list-wrapper ul {\n  padding: 0;\n}\n\nli {\n  list-style-type: none;\n  text-align: center;\n  font-family: 'Roboto';\n  font-style: normal;\n  display: flex;\n  justify-content: center;\n  border-bottom: 1px solid var(--list-border-color);\n}\n\n#product-list {\n  width: 100%;\n}\n\n#product-list li {\n  width: 100%;\n}\n\n.product-block {\n  margin: 12px 0px 8px;\n  width: 100%;\n  height: 30px;\n  font-size: 15px;\n  line-height: 24px;\n  letter-spacing: 0.5px;\n  color: var(--primary-text-color);\n}\n\n.product-modify-input {\n  width: 80%;\n  text-align: center;\n  outline: 1px dotted var(--input-outline-focus-color);\n  border: 1px dotted var(--input-border-focus-color);\n}\n\n.product-control-buttons {\n  display: flex;\n  gap: 10px;\n  justify-content: center;\n}\n\n.product-control-buttons button {\n  width: 40%;\n  height: 30px;\n  margin-top: -4px;\n}\n\n.product-modify-submit-button,\n.product-purchase-submit-button {\n  width: 90%;\n  margin-top: -8px;\n}\n\n#change-list li {\n  width: 300px;\n}\n\n.change-block {\n  margin: 8px 30px 0;\n  width: 70px;\n  height: 30px;\n  font-size: 15px;\n  line-height: 24px;\n  letter-spacing: 0.5px;\n  color: var(--primary-text-color);\n}\n\n.list-header {\n  font-weight: 600;\n  font-size: 15px;\n  line-height: 24px;\n  display: flex;\n  align-items: center;\n  letter-spacing: 0.5px;\n  color: var(--primary-text-color);\n  border-top: 1px solid var(--list-border-color);\n}\n\n#account-nav-container {\n  position: absolute;\n  right: 0;\n  top: 0;\n  margin: 10px;\n}\n\n.hide {\n  display: none;\n}\n\n#dropdown-select {\n  width: 40px;\n  height: 40px;\n  background-color: #d6f4f8;\n  border-radius: 50%;\n  border: none;\n  outline: none;\n  cursor: pointer;\n  text-align: center;\n  font-weight: 500;\n  font-size: 16px;\n  line-height: 24px;\n  overflow: hidden;\n  -o-appearance: none;\n  -webkit-appearance: none;\n  -moz-appearance: none;\n  appearance: none;\n}\n\n#dropdown-select::-ms-expand {\n  display: none;\n}\n", "",{"version":3,"sources":["webpack://./src/css/index.css"],"names":[],"mappings":"AAIA;EACE,YAAY;EACZ,aAAa;EACb,SAAS;;EAET,qBAAqB;EACrB,kBAAkB;EAClB,qBAAqB;AACvB;;AAEA;EACE,SAAS;AACX;;AAEA;EACE,kBAAkB;EAClB,aAAa;EACb,sBAAsB;EACtB,UAAU;EACV,gBAAgB;EAChB,YAAY;EACZ,SAAS;EACT,4BAA4B;AAC9B;;AAEA;EACE,kBAAkB;EAClB,qBAAqB;AACvB;;AAEA;EACE,aAAa;AACf;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,eAAe;EACf,qBAAqB;AACvB;;AAEA;;EAEE,wBAAwB;EACxB,SAAS;AACX;;AAEA;EACE,eAAe;EACf,gCAAgC;EAChC,uCAAuC;EACvC,uCAAuC;EACvC,sCAAsC;EACtC,kBAAkB;EAClB,WAAW;EACX,YAAY;EACZ,iBAAiB;AACnB;;AAEA;EACE,+CAA+C;EAC/C,6CAA6C;EAC7C,2CAA2C;EAC3C,kBAAkB;EAClB,YAAY;EACZ,YAAY;EACZ,gBAAgB;AAClB;;AAEA;EACE,mDAAmD;EACnD,iDAAiD;AACnD;;AAEA;EACE,YAAY;AACd;;AAEA;EACE,eAAe;EACf,YAAY;EACZ,YAAY;EACZ,YAAY;EACZ,kBAAkB;AACpB;;AAEA;EACE,qCAAqC;AACvC;;AAEA;EACE,SAAS;EACT,qBAAqB;EACrB,kBAAkB;EAClB,gBAAgB;EAChB,eAAe;EACf,iBAAiB;EACjB,kBAAkB;EAClB,sBAAsB;EACtB,gCAAgC;AAClC;;AAEA;EACE,YAAY;AACd;;AAEA;EACE,WAAW;EACX,mBAAmB;AACrB;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,mBAAmB;EACnB,WAAW;AACb;AACA;EACE,UAAU;AACZ;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,mBAAmB;EACnB,WAAW;AACb;;AAEA;EACE,UAAU;AACZ;;AAEA;EACE,qBAAqB;EACrB,kBAAkB;EAClB,qBAAqB;EACrB,kBAAkB;EAClB,aAAa;EACb,uBAAuB;EACvB,iDAAiD;AACnD;;AAEA;EACE,WAAW;AACb;;AAEA;EACE,WAAW;AACb;;AAEA;EACE,oBAAoB;EACpB,WAAW;EACX,YAAY;EACZ,eAAe;EACf,iBAAiB;EACjB,qBAAqB;EACrB,gCAAgC;AAClC;;AAEA;EACE,UAAU;EACV,kBAAkB;EAClB,oDAAoD;EACpD,kDAAkD;AACpD;;AAEA;EACE,aAAa;EACb,SAAS;EACT,uBAAuB;AACzB;;AAEA;EACE,UAAU;EACV,YAAY;EACZ,gBAAgB;AAClB;;AAEA;;EAEE,UAAU;EACV,gBAAgB;AAClB;;AAEA;EACE,YAAY;AACd;;AAEA;EACE,kBAAkB;EAClB,WAAW;EACX,YAAY;EACZ,eAAe;EACf,iBAAiB;EACjB,qBAAqB;EACrB,gCAAgC;AAClC;;AAEA;EACE,gBAAgB;EAChB,eAAe;EACf,iBAAiB;EACjB,aAAa;EACb,mBAAmB;EACnB,qBAAqB;EACrB,gCAAgC;EAChC,8CAA8C;AAChD;;AAEA;EACE,kBAAkB;EAClB,QAAQ;EACR,MAAM;EACN,YAAY;AACd;;AAEA;EACE,aAAa;AACf;;AAEA;EACE,WAAW;EACX,YAAY;EACZ,yBAAyB;EACzB,kBAAkB;EAClB,YAAY;EACZ,aAAa;EACb,eAAe;EACf,kBAAkB;EAClB,gBAAgB;EAChB,eAAe;EACf,iBAAiB;EACjB,gBAAgB;EAChB,mBAAmB;EACnB,wBAAwB;EACxB,qBAAqB;EACrB,gBAAgB;AAClB;;AAEA;EACE,aAAa;AACf","sourcesContent":["@import './global.css';\n@import './dialog.css';\n@import './login.css';\n\nbody {\n  width: 100vw;\n  height: 100vh;\n  margin: 0;\n\n  font-family: 'Roboto';\n  font-style: normal;\n  letter-spacing: 0.5px;\n}\n\nh1 {\n  margin: 0;\n}\n\n#app {\n  position: relative;\n  display: flex;\n  flex-direction: column;\n  width: 30%;\n  min-width: 465px;\n  margin: auto;\n  gap: 20px;\n  /* border: 1px solid blue; */\n}\n\nheader {\n  text-align: center;\n  margin: 40px 0 10px 0;\n}\n\nnav {\n  margin: 2em 0;\n}\n\nsection {\n  display: flex;\n  flex-direction: column;\n  flex-wrap: wrap;\n  align-content: center;\n}\n\ninput[type='number']::-webkit-outer-spin-button,\ninput[type='number']::-webkit-inner-spin-button {\n  -webkit-appearance: none;\n  margin: 0;\n}\n\ninput[type='submit'] {\n  cursor: pointer;\n  background: var(--primary-color);\n  color: var(--primary-button-text-color);\n  outline: 1px solid var(--primary-color);\n  border: 1px solid var(--primary-color);\n  border-radius: 2px;\n  width: 56px;\n  height: 28px;\n  margin-left: 10px;\n}\n\ninput {\n  background-color: var(--primary-input-bg-color);\n  outline: 1px solid var(--input-outline-color);\n  border: 1px solid var(--input-border-color);\n  border-radius: 2px;\n  width: 120px;\n  height: 24px;\n  padding: 1px 2px;\n}\n\ninput:focus {\n  outline: 1px solid var(--input-outline-focus-color);\n  border: 1px solid var(--input-border-focus-color);\n}\n\n#money-add-input {\n  width: 300px;\n}\n\nbutton {\n  cursor: pointer;\n  width: 117px;\n  height: 36px;\n  border: none;\n  border-radius: 5px;\n}\n\nbutton:hover {\n  background: var(--button-hover-color);\n}\n\nh4 {\n  margin: 0;\n  font-family: 'Roboto';\n  font-style: normal;\n  font-weight: 600;\n  font-size: 20px;\n  line-height: 24px;\n  text-align: center;\n  letter-spacing: 0.15px;\n  color: var(--primary-text-color);\n}\n\n#money-add-container {\n  margin: auto;\n}\n\n#product-list-container {\n  width: 100%;\n  margin: 20px 0 30px;\n}\n\n#product-list-wrapper {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  width: 100%;\n}\n#product-list-wrapper ul {\n  padding: 0;\n}\n\n#change-list-wrapper {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  width: 100%;\n}\n\n#change-list-wrapper ul {\n  padding: 0;\n}\n\nli {\n  list-style-type: none;\n  text-align: center;\n  font-family: 'Roboto';\n  font-style: normal;\n  display: flex;\n  justify-content: center;\n  border-bottom: 1px solid var(--list-border-color);\n}\n\n#product-list {\n  width: 100%;\n}\n\n#product-list li {\n  width: 100%;\n}\n\n.product-block {\n  margin: 12px 0px 8px;\n  width: 100%;\n  height: 30px;\n  font-size: 15px;\n  line-height: 24px;\n  letter-spacing: 0.5px;\n  color: var(--primary-text-color);\n}\n\n.product-modify-input {\n  width: 80%;\n  text-align: center;\n  outline: 1px dotted var(--input-outline-focus-color);\n  border: 1px dotted var(--input-border-focus-color);\n}\n\n.product-control-buttons {\n  display: flex;\n  gap: 10px;\n  justify-content: center;\n}\n\n.product-control-buttons button {\n  width: 40%;\n  height: 30px;\n  margin-top: -4px;\n}\n\n.product-modify-submit-button,\n.product-purchase-submit-button {\n  width: 90%;\n  margin-top: -8px;\n}\n\n#change-list li {\n  width: 300px;\n}\n\n.change-block {\n  margin: 8px 30px 0;\n  width: 70px;\n  height: 30px;\n  font-size: 15px;\n  line-height: 24px;\n  letter-spacing: 0.5px;\n  color: var(--primary-text-color);\n}\n\n.list-header {\n  font-weight: 600;\n  font-size: 15px;\n  line-height: 24px;\n  display: flex;\n  align-items: center;\n  letter-spacing: 0.5px;\n  color: var(--primary-text-color);\n  border-top: 1px solid var(--list-border-color);\n}\n\n#account-nav-container {\n  position: absolute;\n  right: 0;\n  top: 0;\n  margin: 10px;\n}\n\n.hide {\n  display: none;\n}\n\n#dropdown-select {\n  width: 40px;\n  height: 40px;\n  background-color: #d6f4f8;\n  border-radius: 50%;\n  border: none;\n  outline: none;\n  cursor: pointer;\n  text-align: center;\n  font-weight: 500;\n  font-size: 16px;\n  line-height: 24px;\n  overflow: hidden;\n  -o-appearance: none;\n  -webkit-appearance: none;\n  -moz-appearance: none;\n  appearance: none;\n}\n\n#dropdown-select::-ms-expand {\n  display: none;\n}\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "body {\n  width: 100vw;\n  height: 100vh;\n  margin: 0;\n\n  font-family: 'Roboto';\n  font-style: normal;\n  letter-spacing: 0.5px;\n}\n\nh1 {\n  margin: 0;\n}\n\n#app {\n  position: relative;\n  display: flex;\n  flex-direction: column;\n  width: 30%;\n  min-width: 465px;\n  margin: auto;\n  gap: 20px;\n  /* border: 1px solid blue; */\n}\n\nheader {\n  text-align: center;\n  margin: 40px 0 10px 0;\n}\n\nnav {\n  margin: 2em 0;\n}\n\nsection {\n  display: flex;\n  flex-direction: column;\n  flex-wrap: wrap;\n  align-content: center;\n}\n\ninput[type='number']::-webkit-outer-spin-button,\ninput[type='number']::-webkit-inner-spin-button {\n  -webkit-appearance: none;\n  margin: 0;\n}\n\ninput[type='submit'] {\n  cursor: pointer;\n  background: var(--primary-color);\n  color: var(--primary-button-text-color);\n  outline: 1px solid var(--primary-color);\n  border: 1px solid var(--primary-color);\n  border-radius: 2px;\n  width: 56px;\n  height: 28px;\n  margin-left: 10px;\n}\n\ninput {\n  background-color: var(--primary-input-bg-color);\n  outline: 1px solid var(--input-outline-color);\n  border: 1px solid var(--input-border-color);\n  border-radius: 2px;\n  width: 120px;\n  height: 24px;\n  padding: 1px 2px;\n}\n\ninput:focus {\n  outline: 1px solid var(--input-outline-focus-color);\n  border: 1px solid var(--input-border-focus-color);\n}\n\n#money-add-input {\n  width: 300px;\n}\n\nbutton {\n  cursor: pointer;\n  width: 117px;\n  height: 36px;\n  border: none;\n  border-radius: 5px;\n}\n\nbutton:hover {\n  background: var(--button-hover-color);\n}\n\nh4 {\n  margin: 0;\n  font-family: 'Roboto';\n  font-style: normal;\n  font-weight: 600;\n  font-size: 20px;\n  line-height: 24px;\n  text-align: center;\n  letter-spacing: 0.15px;\n  color: var(--primary-text-color);\n}\n\n#money-add-container {\n  margin: auto;\n}\n\n#product-list-container {\n  width: 100%;\n  margin: 20px 0 30px;\n}\n\n#product-list-wrapper {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  width: 100%;\n}\n#product-list-wrapper ul {\n  padding: 0;\n}\n\n#change-list-wrapper {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  width: 100%;\n}\n\n#change-list-wrapper ul {\n  padding: 0;\n}\n\nli {\n  list-style-type: none;\n  text-align: center;\n  font-family: 'Roboto';\n  font-style: normal;\n  display: flex;\n  justify-content: center;\n  border-bottom: 1px solid var(--list-border-color);\n}\n\n#product-list {\n  width: 100%;\n}\n\n#product-list li {\n  width: 100%;\n}\n\n.product-block {\n  margin: 12px 0px 8px;\n  width: 100%;\n  height: 30px;\n  font-size: 15px;\n  line-height: 24px;\n  letter-spacing: 0.5px;\n  color: var(--primary-text-color);\n}\n\n.product-modify-input {\n  width: 80%;\n  text-align: center;\n  outline: 1px dotted var(--input-outline-focus-color);\n  border: 1px dotted var(--input-border-focus-color);\n}\n\n.product-control-buttons {\n  display: flex;\n  gap: 10px;\n  justify-content: center;\n}\n\n.product-control-buttons button {\n  width: 40%;\n  height: 30px;\n  margin-top: -4px;\n}\n\n.product-modify-submit-button,\n.product-purchase-submit-button {\n  width: 90%;\n  margin-top: -8px;\n}\n\n#change-list li {\n  width: 300px;\n}\n\n.change-block {\n  margin: 8px 30px 0;\n  width: 70px;\n  height: 30px;\n  font-size: 15px;\n  line-height: 24px;\n  letter-spacing: 0.5px;\n  color: var(--primary-text-color);\n}\n\n.list-header {\n  font-weight: 600;\n  font-size: 15px;\n  line-height: 24px;\n  display: flex;\n  align-items: center;\n  letter-spacing: 0.5px;\n  color: var(--primary-text-color);\n  border-top: 1px solid var(--list-border-color);\n}\n\n#account-nav-container {\n  position: absolute;\n  right: 0;\n  top: 0;\n  margin: 10px;\n}\n\n.hide {\n  display: none;\n}\n\n#dropdown-select {\n  width: 40px;\n  height: 40px;\n  background-color: #d6f4f8;\n  border-radius: 50%;\n  border: none;\n  outline: none;\n  cursor: pointer;\n  text-align: center;\n  font-weight: 500;\n  font-size: 16px;\n  line-height: 24px;\n  overflow: hidden;\n  -o-appearance: none;\n  -webkit-appearance: none;\n  -moz-appearance: none;\n  appearance: none;\n}\n\n#dropdown-select::-ms-expand {\n  display: none;\n}\n\n/* --------------------------------------------- */\n\n#snackbar {\n  visibility: hidden;\n  min-width: 250px;\n  margin-left: -125px;\n  background-color: #333;\n  color: #fff;\n  text-align: center;\n  border-radius: 2px;\n  padding: 16px;\n  position: fixed;\n  z-index: 1;\n  left: 50%;\n  bottom: 0;\n}\n\n.show {\n  visibility: visible !important; /* Show the snackbar */\n  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.7s;\n  animation: fadein 0.5s, fadeout 0.5s 2.7s;\n}\n\n@-webkit-keyframes fadein {\n  from {\n    bottom: 0;\n    opacity: 0;\n  }\n  to {\n    bottom: 30px;\n    opacity: 1;\n  }\n}\n\n@keyframes fadein {\n  from {\n    bottom: 0;\n    opacity: 0;\n  }\n  to {\n    bottom: 0;\n    opacity: 1;\n  }\n}\n\n@-webkit-keyframes fadeout {\n  from {\n    bottom: 0;\n    opacity: 1;\n  }\n  to {\n    bottom: -30px;\n    opacity: 0;\n  }\n}\n\n@keyframes fadeout {\n  from {\n    bottom: 0;\n    opacity: 1;\n  }\n  to {\n    bottom: -30px;\n    opacity: 0;\n  }\n}\n", "",{"version":3,"sources":["webpack://./src/css/index.css"],"names":[],"mappings":"AAIA;EACE,YAAY;EACZ,aAAa;EACb,SAAS;;EAET,qBAAqB;EACrB,kBAAkB;EAClB,qBAAqB;AACvB;;AAEA;EACE,SAAS;AACX;;AAEA;EACE,kBAAkB;EAClB,aAAa;EACb,sBAAsB;EACtB,UAAU;EACV,gBAAgB;EAChB,YAAY;EACZ,SAAS;EACT,4BAA4B;AAC9B;;AAEA;EACE,kBAAkB;EAClB,qBAAqB;AACvB;;AAEA;EACE,aAAa;AACf;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,eAAe;EACf,qBAAqB;AACvB;;AAEA;;EAEE,wBAAwB;EACxB,SAAS;AACX;;AAEA;EACE,eAAe;EACf,gCAAgC;EAChC,uCAAuC;EACvC,uCAAuC;EACvC,sCAAsC;EACtC,kBAAkB;EAClB,WAAW;EACX,YAAY;EACZ,iBAAiB;AACnB;;AAEA;EACE,+CAA+C;EAC/C,6CAA6C;EAC7C,2CAA2C;EAC3C,kBAAkB;EAClB,YAAY;EACZ,YAAY;EACZ,gBAAgB;AAClB;;AAEA;EACE,mDAAmD;EACnD,iDAAiD;AACnD;;AAEA;EACE,YAAY;AACd;;AAEA;EACE,eAAe;EACf,YAAY;EACZ,YAAY;EACZ,YAAY;EACZ,kBAAkB;AACpB;;AAEA;EACE,qCAAqC;AACvC;;AAEA;EACE,SAAS;EACT,qBAAqB;EACrB,kBAAkB;EAClB,gBAAgB;EAChB,eAAe;EACf,iBAAiB;EACjB,kBAAkB;EAClB,sBAAsB;EACtB,gCAAgC;AAClC;;AAEA;EACE,YAAY;AACd;;AAEA;EACE,WAAW;EACX,mBAAmB;AACrB;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,mBAAmB;EACnB,WAAW;AACb;AACA;EACE,UAAU;AACZ;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,mBAAmB;EACnB,WAAW;AACb;;AAEA;EACE,UAAU;AACZ;;AAEA;EACE,qBAAqB;EACrB,kBAAkB;EAClB,qBAAqB;EACrB,kBAAkB;EAClB,aAAa;EACb,uBAAuB;EACvB,iDAAiD;AACnD;;AAEA;EACE,WAAW;AACb;;AAEA;EACE,WAAW;AACb;;AAEA;EACE,oBAAoB;EACpB,WAAW;EACX,YAAY;EACZ,eAAe;EACf,iBAAiB;EACjB,qBAAqB;EACrB,gCAAgC;AAClC;;AAEA;EACE,UAAU;EACV,kBAAkB;EAClB,oDAAoD;EACpD,kDAAkD;AACpD;;AAEA;EACE,aAAa;EACb,SAAS;EACT,uBAAuB;AACzB;;AAEA;EACE,UAAU;EACV,YAAY;EACZ,gBAAgB;AAClB;;AAEA;;EAEE,UAAU;EACV,gBAAgB;AAClB;;AAEA;EACE,YAAY;AACd;;AAEA;EACE,kBAAkB;EAClB,WAAW;EACX,YAAY;EACZ,eAAe;EACf,iBAAiB;EACjB,qBAAqB;EACrB,gCAAgC;AAClC;;AAEA;EACE,gBAAgB;EAChB,eAAe;EACf,iBAAiB;EACjB,aAAa;EACb,mBAAmB;EACnB,qBAAqB;EACrB,gCAAgC;EAChC,8CAA8C;AAChD;;AAEA;EACE,kBAAkB;EAClB,QAAQ;EACR,MAAM;EACN,YAAY;AACd;;AAEA;EACE,aAAa;AACf;;AAEA;EACE,WAAW;EACX,YAAY;EACZ,yBAAyB;EACzB,kBAAkB;EAClB,YAAY;EACZ,aAAa;EACb,eAAe;EACf,kBAAkB;EAClB,gBAAgB;EAChB,eAAe;EACf,iBAAiB;EACjB,gBAAgB;EAChB,mBAAmB;EACnB,wBAAwB;EACxB,qBAAqB;EACrB,gBAAgB;AAClB;;AAEA;EACE,aAAa;AACf;;AAEA,kDAAkD;;AAElD;EACE,kBAAkB;EAClB,gBAAgB;EAChB,mBAAmB;EACnB,sBAAsB;EACtB,WAAW;EACX,kBAAkB;EAClB,kBAAkB;EAClB,aAAa;EACb,eAAe;EACf,UAAU;EACV,SAAS;EACT,SAAS;AACX;;AAEA;EACE,8BAA8B,EAAE,sBAAsB;EACtD,iDAAiD;EACjD,yCAAyC;AAC3C;;AAEA;EACE;IACE,SAAS;IACT,UAAU;EACZ;EACA;IACE,YAAY;IACZ,UAAU;EACZ;AACF;;AAEA;EACE;IACE,SAAS;IACT,UAAU;EACZ;EACA;IACE,SAAS;IACT,UAAU;EACZ;AACF;;AAEA;EACE;IACE,SAAS;IACT,UAAU;EACZ;EACA;IACE,aAAa;IACb,UAAU;EACZ;AACF;;AAEA;EACE;IACE,SAAS;IACT,UAAU;EACZ;EACA;IACE,aAAa;IACb,UAAU;EACZ;AACF","sourcesContent":["@import './global.css';\n@import './dialog.css';\n@import './login.css';\n\nbody {\n  width: 100vw;\n  height: 100vh;\n  margin: 0;\n\n  font-family: 'Roboto';\n  font-style: normal;\n  letter-spacing: 0.5px;\n}\n\nh1 {\n  margin: 0;\n}\n\n#app {\n  position: relative;\n  display: flex;\n  flex-direction: column;\n  width: 30%;\n  min-width: 465px;\n  margin: auto;\n  gap: 20px;\n  /* border: 1px solid blue; */\n}\n\nheader {\n  text-align: center;\n  margin: 40px 0 10px 0;\n}\n\nnav {\n  margin: 2em 0;\n}\n\nsection {\n  display: flex;\n  flex-direction: column;\n  flex-wrap: wrap;\n  align-content: center;\n}\n\ninput[type='number']::-webkit-outer-spin-button,\ninput[type='number']::-webkit-inner-spin-button {\n  -webkit-appearance: none;\n  margin: 0;\n}\n\ninput[type='submit'] {\n  cursor: pointer;\n  background: var(--primary-color);\n  color: var(--primary-button-text-color);\n  outline: 1px solid var(--primary-color);\n  border: 1px solid var(--primary-color);\n  border-radius: 2px;\n  width: 56px;\n  height: 28px;\n  margin-left: 10px;\n}\n\ninput {\n  background-color: var(--primary-input-bg-color);\n  outline: 1px solid var(--input-outline-color);\n  border: 1px solid var(--input-border-color);\n  border-radius: 2px;\n  width: 120px;\n  height: 24px;\n  padding: 1px 2px;\n}\n\ninput:focus {\n  outline: 1px solid var(--input-outline-focus-color);\n  border: 1px solid var(--input-border-focus-color);\n}\n\n#money-add-input {\n  width: 300px;\n}\n\nbutton {\n  cursor: pointer;\n  width: 117px;\n  height: 36px;\n  border: none;\n  border-radius: 5px;\n}\n\nbutton:hover {\n  background: var(--button-hover-color);\n}\n\nh4 {\n  margin: 0;\n  font-family: 'Roboto';\n  font-style: normal;\n  font-weight: 600;\n  font-size: 20px;\n  line-height: 24px;\n  text-align: center;\n  letter-spacing: 0.15px;\n  color: var(--primary-text-color);\n}\n\n#money-add-container {\n  margin: auto;\n}\n\n#product-list-container {\n  width: 100%;\n  margin: 20px 0 30px;\n}\n\n#product-list-wrapper {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  width: 100%;\n}\n#product-list-wrapper ul {\n  padding: 0;\n}\n\n#change-list-wrapper {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  width: 100%;\n}\n\n#change-list-wrapper ul {\n  padding: 0;\n}\n\nli {\n  list-style-type: none;\n  text-align: center;\n  font-family: 'Roboto';\n  font-style: normal;\n  display: flex;\n  justify-content: center;\n  border-bottom: 1px solid var(--list-border-color);\n}\n\n#product-list {\n  width: 100%;\n}\n\n#product-list li {\n  width: 100%;\n}\n\n.product-block {\n  margin: 12px 0px 8px;\n  width: 100%;\n  height: 30px;\n  font-size: 15px;\n  line-height: 24px;\n  letter-spacing: 0.5px;\n  color: var(--primary-text-color);\n}\n\n.product-modify-input {\n  width: 80%;\n  text-align: center;\n  outline: 1px dotted var(--input-outline-focus-color);\n  border: 1px dotted var(--input-border-focus-color);\n}\n\n.product-control-buttons {\n  display: flex;\n  gap: 10px;\n  justify-content: center;\n}\n\n.product-control-buttons button {\n  width: 40%;\n  height: 30px;\n  margin-top: -4px;\n}\n\n.product-modify-submit-button,\n.product-purchase-submit-button {\n  width: 90%;\n  margin-top: -8px;\n}\n\n#change-list li {\n  width: 300px;\n}\n\n.change-block {\n  margin: 8px 30px 0;\n  width: 70px;\n  height: 30px;\n  font-size: 15px;\n  line-height: 24px;\n  letter-spacing: 0.5px;\n  color: var(--primary-text-color);\n}\n\n.list-header {\n  font-weight: 600;\n  font-size: 15px;\n  line-height: 24px;\n  display: flex;\n  align-items: center;\n  letter-spacing: 0.5px;\n  color: var(--primary-text-color);\n  border-top: 1px solid var(--list-border-color);\n}\n\n#account-nav-container {\n  position: absolute;\n  right: 0;\n  top: 0;\n  margin: 10px;\n}\n\n.hide {\n  display: none;\n}\n\n#dropdown-select {\n  width: 40px;\n  height: 40px;\n  background-color: #d6f4f8;\n  border-radius: 50%;\n  border: none;\n  outline: none;\n  cursor: pointer;\n  text-align: center;\n  font-weight: 500;\n  font-size: 16px;\n  line-height: 24px;\n  overflow: hidden;\n  -o-appearance: none;\n  -webkit-appearance: none;\n  -moz-appearance: none;\n  appearance: none;\n}\n\n#dropdown-select::-ms-expand {\n  display: none;\n}\n\n/* --------------------------------------------- */\n\n#snackbar {\n  visibility: hidden;\n  min-width: 250px;\n  margin-left: -125px;\n  background-color: #333;\n  color: #fff;\n  text-align: center;\n  border-radius: 2px;\n  padding: 16px;\n  position: fixed;\n  z-index: 1;\n  left: 50%;\n  bottom: 0;\n}\n\n.show {\n  visibility: visible !important; /* Show the snackbar */\n  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.7s;\n  animation: fadein 0.5s, fadeout 0.5s 2.7s;\n}\n\n@-webkit-keyframes fadein {\n  from {\n    bottom: 0;\n    opacity: 0;\n  }\n  to {\n    bottom: 30px;\n    opacity: 1;\n  }\n}\n\n@keyframes fadein {\n  from {\n    bottom: 0;\n    opacity: 0;\n  }\n  to {\n    bottom: 0;\n    opacity: 1;\n  }\n}\n\n@-webkit-keyframes fadeout {\n  from {\n    bottom: 0;\n    opacity: 1;\n  }\n  to {\n    bottom: -30px;\n    opacity: 0;\n  }\n}\n\n@keyframes fadeout {\n  from {\n    bottom: 0;\n    opacity: 1;\n  }\n  to {\n    bottom: -30px;\n    opacity: 0;\n  }\n}\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -617,6 +617,157 @@ module.exports = styleTagTransform;
 
 /***/ }),
 
+/***/ "./src/js/Api.ts":
+/*!***********************!*\
+  !*** ./src/js/Api.ts ***!
+  \***********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _components_Snackbar__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/Snackbar */ "./src/js/components/Snackbar.ts");
+var __awaiter = (undefined && undefined.__awaiter) || function (thisArg, _arguments, P, generator) {
+    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+};
+var __generator = (undefined && undefined.__generator) || function (thisArg, body) {
+    var _ = { label: 0, sent: function() { if (t[0] & 1) throw t[1]; return t[1]; }, trys: [], ops: [] }, f, y, t, g;
+    return g = { next: verb(0), "throw": verb(1), "return": verb(2) }, typeof Symbol === "function" && (g[Symbol.iterator] = function() { return this; }), g;
+    function verb(n) { return function (v) { return step([n, v]); }; }
+    function step(op) {
+        if (f) throw new TypeError("Generator is already executing.");
+        while (_) try {
+            if (f = 1, y && (t = op[0] & 2 ? y["return"] : op[0] ? y["throw"] || ((t = y["return"]) && t.call(y), 0) : y.next) && !(t = t.call(y, op[1])).done) return t;
+            if (y = 0, t) op = [op[0] & 2, t.value];
+            switch (op[0]) {
+                case 0: case 1: t = op; break;
+                case 4: _.label++; return { value: op[1], done: false };
+                case 5: _.label++; y = op[1]; op = [0]; continue;
+                case 7: op = _.ops.pop(); _.trys.pop(); continue;
+                default:
+                    if (!(t = _.trys, t = t.length > 0 && t[t.length - 1]) && (op[0] === 6 || op[0] === 2)) { _ = 0; continue; }
+                    if (op[0] === 3 && (!t || (op[1] > t[0] && op[1] < t[3]))) { _.label = op[1]; break; }
+                    if (op[0] === 6 && _.label < t[1]) { _.label = t[1]; t = op; break; }
+                    if (t && _.label < t[2]) { _.label = t[2]; _.ops.push(op); break; }
+                    if (t[2]) _.ops.pop();
+                    _.trys.pop(); continue;
+            }
+            op = body.call(thisArg, _);
+        } catch (e) { op = [6, e]; y = 0; } finally { f = t = 0; }
+        if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };
+    }
+};
+
+var HOME_URL = 'https://vendingmachine-coke-test.herokuapp.com';
+var DEV_URL = 'http://localhost:3000';
+var Api = /** @class */ (function () {
+    function Api() {
+        var _this = this;
+        this.postUserLogin = function (data) { return __awaiter(_this, void 0, void 0, function () {
+            var response, res, message_1;
+            return __generator(this, function (_a) {
+                switch (_a.label) {
+                    case 0:
+                        _a.trys.push([0, 3, , 4]);
+                        return [4 /*yield*/, fetch("".concat(HOME_URL, "/login"), {
+                                method: 'POST',
+                                headers: { 'Content-Type': 'application/json' },
+                                body: data
+                            })];
+                    case 1:
+                        response = _a.sent();
+                        return [4 /*yield*/, response.json()];
+                    case 2:
+                        res = _a.sent();
+                        if (!response.ok) {
+                            throw new Error(res);
+                        }
+                        return [2 /*return*/, res];
+                    case 3:
+                        message_1 = _a.sent();
+                        (0,_components_Snackbar__WEBPACK_IMPORTED_MODULE_0__["default"])(message_1);
+                        return [3 /*break*/, 4];
+                    case 4: return [2 /*return*/];
+                }
+            });
+        }); };
+        this.putEditProfile = function (_a) {
+            var id = _a.id, data = _a.data;
+            return __awaiter(_this, void 0, void 0, function () {
+                var response, res, message_2;
+                return __generator(this, function (_b) {
+                    switch (_b.label) {
+                        case 0:
+                            _b.trys.push([0, 3, , 4]);
+                            return [4 /*yield*/, fetch("".concat(HOME_URL, "/users/").concat(id), {
+                                    method: 'PUT',
+                                    headers: { 'Content-Type': 'application/json' },
+                                    body: data
+                                })];
+                        case 1:
+                            response = _b.sent();
+                            return [4 /*yield*/, response.json()];
+                        case 2:
+                            res = _b.sent();
+                            if (!response.ok) {
+                                if (response.status === 404)
+                                    throw new Error('잘못된 id 입니다.');
+                                throw new Error(res);
+                            }
+                            return [2 /*return*/, res];
+                        case 3:
+                            message_2 = _b.sent();
+                            (0,_components_Snackbar__WEBPACK_IMPORTED_MODULE_0__["default"])(message_2);
+                            return [3 /*break*/, 4];
+                        case 4: return [2 /*return*/];
+                    }
+                });
+            });
+        };
+        this.postSingup = function (data) { return __awaiter(_this, void 0, void 0, function () {
+            var response, res, message_3;
+            return __generator(this, function (_a) {
+                switch (_a.label) {
+                    case 0:
+                        _a.trys.push([0, 3, , 4]);
+                        return [4 /*yield*/, fetch("".concat(HOME_URL, "/users"), {
+                                method: 'POST',
+                                headers: { 'Content-Type': 'application/json' },
+                                body: data
+                            })];
+                    case 1:
+                        response = _a.sent();
+                        return [4 /*yield*/, response.json()];
+                    case 2:
+                        res = _a.sent();
+                        if (!response.ok) {
+                            throw new Error(res);
+                        }
+                        return [2 /*return*/, res];
+                    case 3:
+                        message_3 = _a.sent();
+                        (0,_components_Snackbar__WEBPACK_IMPORTED_MODULE_0__["default"])(message_3);
+                        return [3 /*break*/, 4];
+                    case 4: return [2 /*return*/];
+                }
+            });
+        }); };
+    }
+    return Api;
+}());
+var api = new Api();
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (api);
+
+
+/***/ }),
+
 /***/ "./src/js/components/PurchaseDialog.ts":
 /*!*********************************************!*\
   !*** ./src/js/components/PurchaseDialog.ts ***!
@@ -678,6 +829,58 @@ var PurchaseDialog = function (props) {
     upButton.addEventListener('click', onUpQuantity);
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (PurchaseDialog);
+
+
+/***/ }),
+
+/***/ "./src/js/components/Snackbar.ts":
+/*!***************************************!*\
+  !*** ./src/js/components/Snackbar.ts ***!
+  \***************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+// $snackbarButton.addEventListener('click', () => {
+//   $snackbar.classList.toggle('show');
+//   setTimeout(() => {
+//     $snackbar.classList.toggle('show');
+//   }, 3000);
+// });
+var Snackbar = function () {
+    var $snackbar = document.querySelector('#snackbar');
+    var removeToast = null;
+    return function (text) {
+        if (removeToast)
+            return;
+        $snackbar.classList.add('show');
+        $snackbar.textContent = text;
+        removeToast = setTimeout(function () {
+            $snackbar.classList.remove('show');
+            clearTimeout(removeToast);
+            removeToast = null;
+        }, 3000);
+    };
+};
+var snackbar = Snackbar();
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (snackbar);
+// const toast = () => {
+//     const toastContainer = document.getElementById('toast');
+//     let removeToast;
+//     return (text) => {
+//       if (removeToast) return;
+//       toastContainer.classList.add('reveal');
+//       toastContainer.textContent = text;
+//       removeToast = setTimeout(() => {
+//         toastContainer.classList.remove('reveal');
+//         clearTimeout(removeToast);
+//         removeToast = undefined;
+//       }, 1500);
+//     };
+//   };
+//   export default toast;
 
 
 /***/ }),
@@ -960,8 +1163,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _model_VendingMachine__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../model/VendingMachine */ "./src/js/model/VendingMachine.ts");
-/* harmony import */ var _template__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../template */ "./src/js/template/index.ts");
+/* harmony import */ var _components_Snackbar__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../components/Snackbar */ "./src/js/components/Snackbar.ts");
+/* harmony import */ var _model_VendingMachine__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../model/VendingMachine */ "./src/js/model/VendingMachine.ts");
+/* harmony import */ var _template__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../template */ "./src/js/template/index.ts");
+
 
 
 var ChangeAdd = /** @class */ (function () {
@@ -971,23 +1176,23 @@ var ChangeAdd = /** @class */ (function () {
             e.preventDefault();
             var inputChange = _this.$changeAddForm.querySelector('#money-add-input').valueAsNumber;
             try {
-                _model_VendingMachine__WEBPACK_IMPORTED_MODULE_0__["default"].addChange(inputChange);
+                _model_VendingMachine__WEBPACK_IMPORTED_MODULE_1__["default"].addChange(inputChange);
                 _this.refreshChange();
             }
             catch (message) {
-                alert(message);
+                (0,_components_Snackbar__WEBPACK_IMPORTED_MODULE_0__["default"])(message);
             }
         };
         this.$inputSection = document.querySelector('.input-section');
         this.$contentsContainer = document.querySelector('.contents-container');
     }
     ChangeAdd.prototype.render = function () {
-        this.$inputSection.insertAdjacentHTML('beforeend', _template__WEBPACK_IMPORTED_MODULE_1__["default"].moneyAddContainer({
+        this.$inputSection.insertAdjacentHTML('beforeend', _template__WEBPACK_IMPORTED_MODULE_2__["default"].moneyAddContainer({
             labelText: '자판기가 보유할 금액을 입력해주세요',
             buttonText: '충전',
             resultText: '현재 보유 금액'
         }));
-        this.$contentsContainer.insertAdjacentHTML('beforeend', _template__WEBPACK_IMPORTED_MODULE_1__["default"].changeListWrapper({
+        this.$contentsContainer.insertAdjacentHTML('beforeend', _template__WEBPACK_IMPORTED_MODULE_2__["default"].changeListWrapper({
             title: '자판기가 보유한 동전',
             tabName: this.tabName
         }));
@@ -1004,8 +1209,8 @@ var ChangeAdd = /** @class */ (function () {
         this.refreshChange();
     };
     ChangeAdd.prototype.refreshChange = function () {
-        this.$totalChange.textContent = _model_VendingMachine__WEBPACK_IMPORTED_MODULE_0__["default"].getTotalMoney().toLocaleString();
-        var _a = _model_VendingMachine__WEBPACK_IMPORTED_MODULE_0__["default"].getChanges(), coin10 = _a.coin10, coin50 = _a.coin50, coin100 = _a.coin100, coin500 = _a.coin500;
+        this.$totalChange.textContent = _model_VendingMachine__WEBPACK_IMPORTED_MODULE_1__["default"].getTotalMoney().toLocaleString();
+        var _a = _model_VendingMachine__WEBPACK_IMPORTED_MODULE_1__["default"].getChanges(), coin10 = _a.coin10, coin50 = _a.coin50, coin100 = _a.coin100, coin500 = _a.coin500;
         this.$amountCoin500.textContent = coin500 + '개';
         this.$amountCoin100.textContent = coin100 + '개';
         this.$amountCoin50.textContent = coin50 + '개';
@@ -1028,9 +1233,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _router__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../router */ "./src/js/router/index.ts");
-/* harmony import */ var _template__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../template */ "./src/js/template/index.ts");
-/* harmony import */ var _validator__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./validator */ "./src/js/pages/validator.ts");
+/* harmony import */ var _Api__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../Api */ "./src/js/Api.ts");
+/* harmony import */ var _components_Snackbar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Snackbar */ "./src/js/components/Snackbar.ts");
+/* harmony import */ var _router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../router */ "./src/js/router/index.ts");
+/* harmony import */ var _template__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../template */ "./src/js/template/index.ts");
+/* harmony import */ var _validator__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./validator */ "./src/js/pages/validator.ts");
 var __awaiter = (undefined && undefined.__awaiter) || function (thisArg, _arguments, P, generator) {
     function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
     return new (P || (P = Promise))(function (resolve, reject) {
@@ -1070,6 +1277,8 @@ var __generator = (undefined && undefined.__generator) || function (thisArg, bod
 
 
 
+
+
 var EditProfile = /** @class */ (function () {
     function EditProfile() {
         var _this = this;
@@ -1082,55 +1291,33 @@ var EditProfile = /** @class */ (function () {
                 e.returnValue = false;
         };
         this.onSubmitLogin = function (e) { return __awaiter(_this, void 0, void 0, function () {
-            var email, name, password, password2, data, response, res, message_1;
+            var email, name, password, password2, data;
             return __generator(this, function (_a) {
-                switch (_a.label) {
-                    case 0:
-                        e.preventDefault();
-                        email = this.$editProfileEmail.value.trim();
-                        name = this.$editProfileName.value.trim();
-                        password = this.$editProfilePassword.value.trim();
-                        password2 = this.$editProfilePasswordCheck.value.trim();
-                        _a.label = 1;
-                    case 1:
-                        _a.trys.push([1, 4, , 5]);
-                        this.checkAccountValidate(name, password, password2);
-                        data = JSON.stringify({ email: email, name: name, password: password });
-                        return [4 /*yield*/, fetch("https://vendingmachine-coke-test.herokuapp.com/users/".concat(this.user.id), {
-                                method: 'PUT',
-                                headers: { 'Content-Type': 'application/json' },
-                                body: data
-                            })];
-                    case 2:
-                        response = _a.sent();
-                        return [4 /*yield*/, response.json()];
-                    case 3:
-                        res = _a.sent();
-                        if (!response.ok) {
-                            if (response.status === 404)
-                                throw new Error('잘못된 id 입니다.');
-                            throw new Error(res);
-                        }
-                        localStorage.setItem('user', JSON.stringify({
-                            email: res.email,
-                            name: res.name,
-                            id: res.id
-                        }));
-                        _router__WEBPACK_IMPORTED_MODULE_0__["default"].to('#!/product-manage');
-                        return [3 /*break*/, 5];
-                    case 4:
-                        message_1 = _a.sent();
-                        alert(message_1);
-                        return [3 /*break*/, 5];
-                    case 5: return [2 /*return*/];
+                e.preventDefault();
+                email = this.$editProfileEmail.value.trim();
+                name = this.$editProfileName.value.trim();
+                password = this.$editProfilePassword.value.trim();
+                password2 = this.$editProfilePasswordCheck.value.trim();
+                try {
+                    this.checkAccountValidate(name, password, password2);
+                    data = JSON.stringify({ email: email, name: name, password: password });
+                    _Api__WEBPACK_IMPORTED_MODULE_0__["default"].putEditProfile({ id: this.user.id, data: data }).then(function (res) {
+                        var email = res.email, name = res.name, id = res.id;
+                        localStorage.setItem('user', JSON.stringify({ email: email, name: name, id: id }));
+                        _router__WEBPACK_IMPORTED_MODULE_2__["default"].to('#!/product-manage');
+                    });
                 }
+                catch (message) {
+                    (0,_components_Snackbar__WEBPACK_IMPORTED_MODULE_1__["default"])(message);
+                }
+                return [2 /*return*/];
             });
         }); };
         this.$headerTitle = document.querySelector('#header-title');
         this.$contentsContainer = document.querySelector('.contents-container');
     }
     EditProfile.prototype.render = function () {
-        this.$contentsContainer.insertAdjacentHTML('beforeend', _template__WEBPACK_IMPORTED_MODULE_1__["default"].editProfileContainer());
+        this.$contentsContainer.insertAdjacentHTML('beforeend', _template__WEBPACK_IMPORTED_MODULE_3__["default"].editProfileContainer());
         this.$headerTitle.textContent = '회원 정보 수정';
         this.$editProfileForm = this.$contentsContainer.querySelector('#edit-profile-form');
         this.$editProfileEmail = this.$contentsContainer.querySelector('#edit-profile-email');
@@ -1150,13 +1337,13 @@ var EditProfile = /** @class */ (function () {
         this.$editProfileEmail.value = this.user.email;
     };
     EditProfile.prototype.checkAccountValidate = function (name, pwd, pwd2) {
-        var _isPositiveName = (0,_validator__WEBPACK_IMPORTED_MODULE_2__.isPositiveName)(name);
-        var _isPositivePwdLength = (0,_validator__WEBPACK_IMPORTED_MODULE_2__.isPositivePwdLength)(pwd);
-        var _isPwdLowerCase = (0,_validator__WEBPACK_IMPORTED_MODULE_2__.isPwdLowerCase)(pwd);
-        var _isPwdUpperCase = (0,_validator__WEBPACK_IMPORTED_MODULE_2__.isPwdUpperCase)(pwd);
-        var _isPwdSpecialChar = (0,_validator__WEBPACK_IMPORTED_MODULE_2__.isPwdSpecialChar)(pwd);
-        var _isPwdDigit = (0,_validator__WEBPACK_IMPORTED_MODULE_2__.isPwdDigit)(pwd);
-        var _isSamePwd2 = (0,_validator__WEBPACK_IMPORTED_MODULE_2__.isSamePwd2)(pwd, pwd2);
+        var _isPositiveName = (0,_validator__WEBPACK_IMPORTED_MODULE_4__.isPositiveName)(name);
+        var _isPositivePwdLength = (0,_validator__WEBPACK_IMPORTED_MODULE_4__.isPositivePwdLength)(pwd);
+        var _isPwdLowerCase = (0,_validator__WEBPACK_IMPORTED_MODULE_4__.isPwdLowerCase)(pwd);
+        var _isPwdUpperCase = (0,_validator__WEBPACK_IMPORTED_MODULE_4__.isPwdUpperCase)(pwd);
+        var _isPwdSpecialChar = (0,_validator__WEBPACK_IMPORTED_MODULE_4__.isPwdSpecialChar)(pwd);
+        var _isPwdDigit = (0,_validator__WEBPACK_IMPORTED_MODULE_4__.isPwdDigit)(pwd);
+        var _isSamePwd2 = (0,_validator__WEBPACK_IMPORTED_MODULE_4__.isSamePwd2)(pwd, pwd2);
         this.$nameNbr.classList.toggle('hide', _isPositiveName);
         this.$pwdNbr.classList.toggle('hide', _isPositivePwdLength);
         this.$pwdLowercase.classList.toggle('hide', _isPwdLowerCase);
@@ -1194,8 +1381,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _router_index__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../router/index */ "./src/js/router/index.ts");
-/* harmony import */ var _template__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../template */ "./src/js/template/index.ts");
+/* harmony import */ var _Api__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../Api */ "./src/js/Api.ts");
+/* harmony import */ var _components_Snackbar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Snackbar */ "./src/js/components/Snackbar.ts");
+/* harmony import */ var _router_index__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../router/index */ "./src/js/router/index.ts");
+/* harmony import */ var _template__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../template */ "./src/js/template/index.ts");
 var __awaiter = (undefined && undefined.__awaiter) || function (thisArg, _arguments, P, generator) {
     function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
     return new (P || (P = Promise))(function (resolve, reject) {
@@ -1234,53 +1423,38 @@ var __generator = (undefined && undefined.__generator) || function (thisArg, bod
 };
 
 
+
+
 var Login = /** @class */ (function () {
     function Login() {
         var _this = this;
         this.onSubmitLogin = function (e) { return __awaiter(_this, void 0, void 0, function () {
-            var data, response, res, accessToken, user, message_1;
+            var data;
             return __generator(this, function (_a) {
-                switch (_a.label) {
-                    case 0:
-                        e.preventDefault();
-                        data = JSON.stringify({
-                            email: this.$loginEmail.value,
-                            password: this.$loginPassword.value
-                        });
-                        _a.label = 1;
-                    case 1:
-                        _a.trys.push([1, 4, , 5]);
-                        return [4 /*yield*/, fetch('https://vendingmachine-coke-test.herokuapp.com/login', {
-                                method: 'POST',
-                                headers: { 'Content-Type': 'application/json' },
-                                body: data
-                            })];
-                    case 2:
-                        response = _a.sent();
-                        return [4 /*yield*/, response.json()];
-                    case 3:
-                        res = _a.sent();
-                        if (!response.ok) {
-                            throw new Error(res);
-                        }
-                        accessToken = res.accessToken, user = res.user;
+                e.preventDefault();
+                data = JSON.stringify({
+                    email: this.$loginEmail.value,
+                    password: this.$loginPassword.value
+                });
+                try {
+                    _Api__WEBPACK_IMPORTED_MODULE_0__["default"].postUserLogin(data).then(function (res) {
+                        var accessToken = res.accessToken, user = res.user;
                         localStorage.setItem('accessToken', accessToken);
                         localStorage.setItem('user', JSON.stringify(user));
-                        _router_index__WEBPACK_IMPORTED_MODULE_0__["default"].to('#!/product-manage');
-                        return [3 /*break*/, 5];
-                    case 4:
-                        message_1 = _a.sent();
-                        alert(message_1);
-                        return [3 /*break*/, 5];
-                    case 5: return [2 /*return*/];
+                        _router_index__WEBPACK_IMPORTED_MODULE_2__["default"].to('#!/product-manage');
+                    });
                 }
+                catch (message) {
+                    (0,_components_Snackbar__WEBPACK_IMPORTED_MODULE_1__["default"])(message);
+                }
+                return [2 /*return*/];
             });
         }); };
         this.$headerTitle = document.querySelector('#header-title');
         this.$contentsContainer = document.querySelector('.contents-container');
     }
     Login.prototype.render = function () {
-        this.$contentsContainer.insertAdjacentHTML('beforeend', _template__WEBPACK_IMPORTED_MODULE_1__["default"].loginContainer());
+        this.$contentsContainer.insertAdjacentHTML('beforeend', _template__WEBPACK_IMPORTED_MODULE_3__["default"].loginContainer());
         this.$headerTitle.textContent = '로그인';
         this.$loginForm = this.$contentsContainer.querySelector('#login-form');
         this.$loginEmail = this.$contentsContainer.querySelector('#login-email');
@@ -1307,6 +1481,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _model_VendingMachine__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../model/VendingMachine */ "./src/js/model/VendingMachine.ts");
 /* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../constants */ "./src/js/constants.ts");
 /* harmony import */ var _template_index__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../template/index */ "./src/js/template/index.ts");
+/* harmony import */ var _components_Snackbar__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Snackbar */ "./src/js/components/Snackbar.ts");
+
 
 
 
@@ -1325,7 +1501,7 @@ var ProductManage = /** @class */ (function () {
                 _this.renderProductItem(newProduct);
             }
             catch (message) {
-                alert(message);
+                (0,_components_Snackbar__WEBPACK_IMPORTED_MODULE_3__["default"])(message);
             }
         };
         this.onClickModifyButton = function (e) {
@@ -1360,7 +1536,7 @@ var ProductManage = /** @class */ (function () {
                 ul.replaceChild(newLi, oldLi);
             }
             catch (message) {
-                alert(message);
+                (0,_components_Snackbar__WEBPACK_IMPORTED_MODULE_3__["default"])(message);
             }
         };
         this.onClickRemoveButton = function (e) {
@@ -1430,9 +1606,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var _components_PurchaseDialog__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../components/PurchaseDialog */ "./src/js/components/PurchaseDialog.ts");
-/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../constants */ "./src/js/constants.ts");
-/* harmony import */ var _model_VendingMachine__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../model/VendingMachine */ "./src/js/model/VendingMachine.ts");
-/* harmony import */ var _template__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../template */ "./src/js/template/index.ts");
+/* harmony import */ var _components_Snackbar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Snackbar */ "./src/js/components/Snackbar.ts");
+/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../constants */ "./src/js/constants.ts");
+/* harmony import */ var _model_VendingMachine__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../model/VendingMachine */ "./src/js/model/VendingMachine.ts");
+/* harmony import */ var _template__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../template */ "./src/js/template/index.ts");
+
 
 
 
@@ -1443,7 +1621,7 @@ var ProductPurchase = /** @class */ (function () {
         this.tabName = 'ProductPurchase';
         this.callbackSubmitQuantity = function (props) {
             var quantity = props.quantity, product = props.product, ul = props.ul, oldLi = props.oldLi;
-            _model_VendingMachine__WEBPACK_IMPORTED_MODULE_2__["default"].purchaseProduct(product, quantity);
+            _model_VendingMachine__WEBPACK_IMPORTED_MODULE_3__["default"].purchaseProduct(product, quantity);
             oldLi.querySelector('.product-amount').textContent = product.amount;
             _this.refreshUserMoney();
         };
@@ -1455,13 +1633,13 @@ var ProductPurchase = /** @class */ (function () {
             var name = oldLi.querySelector('.product-name').textContent;
             var price = parseInt(oldLi.querySelector('.product-price').textContent);
             var amount = parseInt(oldLi.querySelector('.product-amount').textContent);
-            var userMoney = _model_VendingMachine__WEBPACK_IMPORTED_MODULE_2__["default"].getUserMoney();
+            var userMoney = _model_VendingMachine__WEBPACK_IMPORTED_MODULE_3__["default"].getUserMoney();
             if (price > userMoney) {
-                alert(_constants__WEBPACK_IMPORTED_MODULE_1__.ERROR_MESSAGE.TOO_SHORT_MONEY);
+                (0,_components_Snackbar__WEBPACK_IMPORTED_MODULE_1__["default"])(_constants__WEBPACK_IMPORTED_MODULE_2__.ERROR_MESSAGE.TOO_SHORT_MONEY);
                 return;
             }
             if (amount === 0) {
-                alert(_constants__WEBPACK_IMPORTED_MODULE_1__.ERROR_MESSAGE.SOLD_OUT_PRODUCT);
+                (0,_components_Snackbar__WEBPACK_IMPORTED_MODULE_1__["default"])(_constants__WEBPACK_IMPORTED_MODULE_2__.ERROR_MESSAGE.SOLD_OUT_PRODUCT);
                 return;
             }
             (0,_components_PurchaseDialog__WEBPACK_IMPORTED_MODULE_0__["default"])({
@@ -1476,37 +1654,37 @@ var ProductPurchase = /** @class */ (function () {
             e.preventDefault();
             var inputMoney = _this.$moneyAddForm.querySelector('#money-add-input').valueAsNumber;
             try {
-                _model_VendingMachine__WEBPACK_IMPORTED_MODULE_2__["default"].putMoney(inputMoney);
+                _model_VendingMachine__WEBPACK_IMPORTED_MODULE_3__["default"].putMoney(inputMoney);
                 _this.refreshUserMoney();
             }
             catch (message) {
-                alert(message);
+                (0,_components_Snackbar__WEBPACK_IMPORTED_MODULE_1__["default"])(message);
             }
         };
         this.onReturnChange = function (e) {
             try {
-                var userChanges = _model_VendingMachine__WEBPACK_IMPORTED_MODULE_2__["default"].getUserChanges();
+                var userChanges = _model_VendingMachine__WEBPACK_IMPORTED_MODULE_3__["default"].getUserChanges();
                 _this.refreshUserChange(userChanges);
                 _this.refreshUserMoney();
             }
             catch (message) {
-                alert(message);
+                (0,_components_Snackbar__WEBPACK_IMPORTED_MODULE_1__["default"])(message);
             }
         };
         this.$inputSection = document.querySelector('.input-section');
         this.$contentsContainer = document.querySelector('.contents-container');
     }
     ProductPurchase.prototype.render = function () {
-        this.$inputSection.insertAdjacentHTML('beforeend', _template__WEBPACK_IMPORTED_MODULE_3__["default"].moneyAddContainer({
+        this.$inputSection.insertAdjacentHTML('beforeend', _template__WEBPACK_IMPORTED_MODULE_4__["default"].moneyAddContainer({
             labelText: '상품을 구매할 금액을 투입해주세요',
             buttonText: '투입',
             resultText: '투입한 금액'
         }));
-        this.$contentsContainer.insertAdjacentHTML('beforeend', _template__WEBPACK_IMPORTED_MODULE_3__["default"].productListContainer({
+        this.$contentsContainer.insertAdjacentHTML('beforeend', _template__WEBPACK_IMPORTED_MODULE_4__["default"].productListContainer({
             tabName: this.tabName,
             title: '구매 가능 상품 현황'
         }) +
-            _template__WEBPACK_IMPORTED_MODULE_3__["default"].changeListWrapper({
+            _template__WEBPACK_IMPORTED_MODULE_4__["default"].changeListWrapper({
                 title: '잔돈 반환',
                 tabName: this.tabName
             }));
@@ -1529,7 +1707,7 @@ var ProductPurchase = /** @class */ (function () {
     };
     ProductPurchase.prototype.renderProducts = function () {
         var _this = this;
-        var products = _model_VendingMachine__WEBPACK_IMPORTED_MODULE_2__["default"].getProducts();
+        var products = _model_VendingMachine__WEBPACK_IMPORTED_MODULE_3__["default"].getProducts();
         products.forEach(function (product) {
             _this.renderProductItem(product);
         });
@@ -1537,7 +1715,7 @@ var ProductPurchase = /** @class */ (function () {
     ProductPurchase.prototype.renderProductItem = function (product) {
         var fragment = new DocumentFragment();
         var li = document.createElement('li');
-        li.insertAdjacentHTML('beforeend', _template__WEBPACK_IMPORTED_MODULE_3__["default"].purchaseProductItem(product));
+        li.insertAdjacentHTML('beforeend', _template__WEBPACK_IMPORTED_MODULE_4__["default"].purchaseProductItem(product));
         fragment.appendChild(li);
         this.$productList.appendChild(fragment);
     };
@@ -1549,7 +1727,7 @@ var ProductPurchase = /** @class */ (function () {
         this.$amountCoin10.textContent = coin10 + '개';
     };
     ProductPurchase.prototype.refreshUserMoney = function () {
-        this.$totalChange.textContent = _model_VendingMachine__WEBPACK_IMPORTED_MODULE_2__["default"].getUserMoney().toLocaleString();
+        this.$totalChange.textContent = _model_VendingMachine__WEBPACK_IMPORTED_MODULE_3__["default"].getUserMoney().toLocaleString();
     };
     return ProductPurchase;
 }());
@@ -1568,9 +1746,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _router_index__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../router/index */ "./src/js/router/index.ts");
-/* harmony import */ var _template__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../template */ "./src/js/template/index.ts");
-/* harmony import */ var _validator__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./validator */ "./src/js/pages/validator.ts");
+/* harmony import */ var _Api__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../Api */ "./src/js/Api.ts");
+/* harmony import */ var _components_Snackbar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Snackbar */ "./src/js/components/Snackbar.ts");
+/* harmony import */ var _router_index__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../router/index */ "./src/js/router/index.ts");
+/* harmony import */ var _template__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../template */ "./src/js/template/index.ts");
+/* harmony import */ var _validator__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./validator */ "./src/js/pages/validator.ts");
 var __awaiter = (undefined && undefined.__awaiter) || function (thisArg, _arguments, P, generator) {
     function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
     return new (P || (P = Promise))(function (resolve, reject) {
@@ -1610,6 +1790,8 @@ var __generator = (undefined && undefined.__generator) || function (thisArg, bod
 
 
 
+
+
 var Signup = /** @class */ (function () {
     function Signup() {
         var _this = this;
@@ -1622,51 +1804,34 @@ var Signup = /** @class */ (function () {
                 e.returnValue = false;
         };
         this.onSubmitLogin = function (e) { return __awaiter(_this, void 0, void 0, function () {
-            var email, name, password, password2, data, response, res, accessToken, user, message_1;
+            var email, name, password, password2, data;
             return __generator(this, function (_a) {
-                switch (_a.label) {
-                    case 0:
-                        e.preventDefault();
-                        email = this.$signupEmail.value.trim();
-                        name = this.$signupName.value.trim();
-                        password = this.$signupPassword.value.trim();
-                        password2 = this.$signupPasswordCheck.value.trim();
-                        _a.label = 1;
-                    case 1:
-                        _a.trys.push([1, 4, , 5]);
-                        this.checkAccountValidate(name, password, password2);
-                        data = JSON.stringify({ email: email, name: name, password: password });
-                        return [4 /*yield*/, fetch('https://vendingmachine-coke-test.herokuapp.com/users', {
-                                method: 'POST',
-                                headers: { 'Content-Type': 'application/json' },
-                                body: data
-                            })];
-                    case 2:
-                        response = _a.sent();
-                        return [4 /*yield*/, response.json()];
-                    case 3:
-                        res = _a.sent();
-                        if (!response.ok) {
-                            throw new Error(res);
-                        }
-                        accessToken = res.accessToken, user = res.user;
+                e.preventDefault();
+                email = this.$signupEmail.value.trim();
+                name = this.$signupName.value.trim();
+                password = this.$signupPassword.value.trim();
+                password2 = this.$signupPasswordCheck.value.trim();
+                try {
+                    this.checkAccountValidate(name, password, password2);
+                    data = JSON.stringify({ email: email, name: name, password: password });
+                    _Api__WEBPACK_IMPORTED_MODULE_0__["default"].postSingup(data).then(function (res) {
+                        var accessToken = res.accessToken, user = res.user;
                         localStorage.setItem('accessToken', accessToken);
                         localStorage.setItem('user', JSON.stringify(user));
-                        _router_index__WEBPACK_IMPORTED_MODULE_0__["default"].to('#!/product-manage');
-                        return [3 /*break*/, 5];
-                    case 4:
-                        message_1 = _a.sent();
-                        alert(message_1);
-                        return [3 /*break*/, 5];
-                    case 5: return [2 /*return*/];
+                        _router_index__WEBPACK_IMPORTED_MODULE_2__["default"].to('#!/product-manage');
+                    });
                 }
+                catch (message) {
+                    (0,_components_Snackbar__WEBPACK_IMPORTED_MODULE_1__["default"])(message);
+                }
+                return [2 /*return*/];
             });
         }); };
         this.$headerTitle = document.querySelector('#header-title');
         this.$contentsContainer = document.querySelector('.contents-container');
     }
     Signup.prototype.render = function () {
-        this.$contentsContainer.insertAdjacentHTML('beforeend', _template__WEBPACK_IMPORTED_MODULE_1__["default"].signupContainer());
+        this.$contentsContainer.insertAdjacentHTML('beforeend', _template__WEBPACK_IMPORTED_MODULE_3__["default"].signupContainer());
         this.$headerTitle.textContent = '회원가입';
         this.$signupForm = this.$contentsContainer.querySelector('#signup-form');
         this.$signupEmail = this.$contentsContainer.querySelector('#signup-email');
@@ -1684,13 +1849,13 @@ var Signup = /** @class */ (function () {
         this.$signupForm.addEventListener('submit', this.onSubmitLogin);
     };
     Signup.prototype.checkAccountValidate = function (name, pwd, pwd2) {
-        var _isPositiveName = (0,_validator__WEBPACK_IMPORTED_MODULE_2__.isPositiveName)(name);
-        var _isPositivePwdLength = (0,_validator__WEBPACK_IMPORTED_MODULE_2__.isPositivePwdLength)(pwd);
-        var _isPwdLowerCase = (0,_validator__WEBPACK_IMPORTED_MODULE_2__.isPwdLowerCase)(pwd);
-        var _isPwdUpperCase = (0,_validator__WEBPACK_IMPORTED_MODULE_2__.isPwdUpperCase)(pwd);
-        var _isPwdSpecialChar = (0,_validator__WEBPACK_IMPORTED_MODULE_2__.isPwdSpecialChar)(pwd);
-        var _isPwdDigit = (0,_validator__WEBPACK_IMPORTED_MODULE_2__.isPwdDigit)(pwd);
-        var _isSamePwd2 = (0,_validator__WEBPACK_IMPORTED_MODULE_2__.isSamePwd2)(pwd, pwd2);
+        var _isPositiveName = (0,_validator__WEBPACK_IMPORTED_MODULE_4__.isPositiveName)(name);
+        var _isPositivePwdLength = (0,_validator__WEBPACK_IMPORTED_MODULE_4__.isPositivePwdLength)(pwd);
+        var _isPwdLowerCase = (0,_validator__WEBPACK_IMPORTED_MODULE_4__.isPwdLowerCase)(pwd);
+        var _isPwdUpperCase = (0,_validator__WEBPACK_IMPORTED_MODULE_4__.isPwdUpperCase)(pwd);
+        var _isPwdSpecialChar = (0,_validator__WEBPACK_IMPORTED_MODULE_4__.isPwdSpecialChar)(pwd);
+        var _isPwdDigit = (0,_validator__WEBPACK_IMPORTED_MODULE_4__.isPwdDigit)(pwd);
+        var _isSamePwd2 = (0,_validator__WEBPACK_IMPORTED_MODULE_4__.isSamePwd2)(pwd, pwd2);
         this.$nameNbr.classList.toggle('hide', _isPositiveName);
         this.$pwdNbr.classList.toggle('hide', _isPositivePwdLength);
         this.$pwdLowercase.classList.toggle('hide', _isPwdLowerCase);
@@ -1790,12 +1955,12 @@ var useRouter = function () {
             var _a = window.location, hash = _a.hash, pathname = _a.pathname;
             var _b = _routes__WEBPACK_IMPORTED_MODULE_0__["default"][_path], path = _b.path, title = _b.title, page = _b.page;
             var isSamePage = prevPath === _path;
+            activeLogin(_path);
             if (isSamePage) {
                 console.log('같은 페이지');
                 return;
             }
             clearPageBody();
-            activeLogin(_path);
             history.pushState({ path: path, prevPath: prevPath, hash: hash, _path: _path }, title, pathname + path);
             prevPath = _path;
             page.render();

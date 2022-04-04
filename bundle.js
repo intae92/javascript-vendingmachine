@@ -1096,7 +1096,7 @@ var EditProfile = /** @class */ (function () {
                         _a.trys.push([1, 4, , 5]);
                         this.checkAccountValidate(name, password, password2);
                         data = JSON.stringify({ email: email, name: name, password: password });
-                        return [4 /*yield*/, fetch("http://localhost:3000/users/".concat(this.user.id), {
+                        return [4 /*yield*/, fetch("https://vendingmachine-coke-test.herokuapp.com/users/".concat(this.user.id), {
                                 method: 'PUT',
                                 headers: { 'Content-Type': 'application/json' },
                                 body: data
@@ -1250,7 +1250,7 @@ var Login = /** @class */ (function () {
                         _a.label = 1;
                     case 1:
                         _a.trys.push([1, 4, , 5]);
-                        return [4 /*yield*/, fetch('http://localhost:3000/login', {
+                        return [4 /*yield*/, fetch('https://vendingmachine-coke-test.herokuapp.com/login', {
                                 method: 'POST',
                                 headers: { 'Content-Type': 'application/json' },
                                 body: data
@@ -1636,7 +1636,7 @@ var Signup = /** @class */ (function () {
                         _a.trys.push([1, 4, , 5]);
                         this.checkAccountValidate(name, password, password2);
                         data = JSON.stringify({ email: email, name: name, password: password });
-                        return [4 /*yield*/, fetch('http://localhost:3000/signup', {
+                        return [4 /*yield*/, fetch('https://vendingmachine-coke-test.herokuapp.com/users', {
                                 method: 'POST',
                                 headers: { 'Content-Type': 'application/json' },
                                 body: data

@@ -1922,10 +1922,8 @@ var useRouter = function () {
             var _a = _routes__WEBPACK_IMPORTED_MODULE_0__["default"][nextPath], path = _a.path, title = _a.title, page = _a.page;
             var isSamePage = prevPath === nextPath;
             activeLogin(nextPath);
-            if (isSamePage) {
-                console.log('같은 페이지');
+            if (isSamePage)
                 return;
-            }
             clearPageBody();
             history.pushState({}, title, pathname + path);
             prevPath = nextPath;

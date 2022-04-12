@@ -21,7 +21,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".dialog {\n  position: fixed;\n  width: 100%;\n  height: 100%;\n  background-color: rgba(0, 0, 0, 0.5);\n  top: 0;\n  left: 0;\n  z-index: 99;\n  display: flex;\n  justify-content: center;\n  cursor: pointer;\n}\n\n.dialog-contents {\n  cursor: default;\n  z-index: 100;\n  position: fixed;\n  bottom: 0;\n  background-color: white;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  width: 30%;\n  height: 30%;\n  min-width: 465px;\n  min-height: 380px;\n  padding-top: 30px;\n  border-radius: 40px 40px 0 0;\n  animation: slide-up 2s 0s forwards;\n}\n\n@keyframes slide-up {\n  0% {\n    transform: translateY(50%);\n    opacity: 0;\n  }\n\n  100% {\n    transform: translateY(0);\n    opacity: 1;\n  }\n}\n\n#dialog-product-item {\n  width: 80%;\n  display: flex;\n  flex-direction: column;\n}\n\n.dialog-form {\n  width: 100%;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  margin-top: 20px;\n}\n\n#select-quantity {\n  width: 60px;\n  text-align: center;\n  cursor: default;\n}\n\n.select-quantity-box label {\n  margin-right: 30px;\n}\n\n.dialog-purchase-button {\n  position: absolute;\n  width: 80%;\n  bottom: 50px;\n  background: var(--primary-color);\n  color: var(--primary-button-text-color);\n}\n\n.dialog-purchase-button:hover {\n  background: var(--dialog-button-hover-color);\n}\n\n.select-quantity-button {\n  width: 30px;\n  background: var(--primary-color);\n  color: var(--primary-button-text-color);\n}\n\n.select-quantity-button:hover {\n  background: var(--dialog-button-hover-color);\n}\n", "",{"version":3,"sources":["webpack://./src/css/dialog.css"],"names":[],"mappings":"AAAA;EACE,eAAe;EACf,WAAW;EACX,YAAY;EACZ,oCAAoC;EACpC,MAAM;EACN,OAAO;EACP,WAAW;EACX,aAAa;EACb,uBAAuB;EACvB,eAAe;AACjB;;AAEA;EACE,eAAe;EACf,YAAY;EACZ,eAAe;EACf,SAAS;EACT,uBAAuB;EACvB,aAAa;EACb,sBAAsB;EACtB,mBAAmB;EACnB,UAAU;EACV,WAAW;EACX,gBAAgB;EAChB,iBAAiB;EACjB,iBAAiB;EACjB,4BAA4B;EAC5B,kCAAkC;AACpC;;AAEA;EACE;IACE,0BAA0B;IAC1B,UAAU;EACZ;;EAEA;IACE,wBAAwB;IACxB,UAAU;EACZ;AACF;;AAEA;EACE,UAAU;EACV,aAAa;EACb,sBAAsB;AACxB;;AAEA;EACE,WAAW;EACX,aAAa;EACb,sBAAsB;EACtB,uBAAuB;EACvB,mBAAmB;EACnB,gBAAgB;AAClB;;AAEA;EACE,WAAW;EACX,kBAAkB;EAClB,eAAe;AACjB;;AAEA;EACE,kBAAkB;AACpB;;AAEA;EACE,kBAAkB;EAClB,UAAU;EACV,YAAY;EACZ,gCAAgC;EAChC,uCAAuC;AACzC;;AAEA;EACE,4CAA4C;AAC9C;;AAEA;EACE,WAAW;EACX,gCAAgC;EAChC,uCAAuC;AACzC;;AAEA;EACE,4CAA4C;AAC9C","sourcesContent":[".dialog {\n  position: fixed;\n  width: 100%;\n  height: 100%;\n  background-color: rgba(0, 0, 0, 0.5);\n  top: 0;\n  left: 0;\n  z-index: 99;\n  display: flex;\n  justify-content: center;\n  cursor: pointer;\n}\n\n.dialog-contents {\n  cursor: default;\n  z-index: 100;\n  position: fixed;\n  bottom: 0;\n  background-color: white;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  width: 30%;\n  height: 30%;\n  min-width: 465px;\n  min-height: 380px;\n  padding-top: 30px;\n  border-radius: 40px 40px 0 0;\n  animation: slide-up 2s 0s forwards;\n}\n\n@keyframes slide-up {\n  0% {\n    transform: translateY(50%);\n    opacity: 0;\n  }\n\n  100% {\n    transform: translateY(0);\n    opacity: 1;\n  }\n}\n\n#dialog-product-item {\n  width: 80%;\n  display: flex;\n  flex-direction: column;\n}\n\n.dialog-form {\n  width: 100%;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  margin-top: 20px;\n}\n\n#select-quantity {\n  width: 60px;\n  text-align: center;\n  cursor: default;\n}\n\n.select-quantity-box label {\n  margin-right: 30px;\n}\n\n.dialog-purchase-button {\n  position: absolute;\n  width: 80%;\n  bottom: 50px;\n  background: var(--primary-color);\n  color: var(--primary-button-text-color);\n}\n\n.dialog-purchase-button:hover {\n  background: var(--dialog-button-hover-color);\n}\n\n.select-quantity-button {\n  width: 30px;\n  background: var(--primary-color);\n  color: var(--primary-button-text-color);\n}\n\n.select-quantity-button:hover {\n  background: var(--dialog-button-hover-color);\n}\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, ".dialog {\n  position: fixed;\n  width: 100%;\n  height: 100%;\n  background-color: rgba(0, 0, 0, 0.5);\n  top: 0;\n  left: 0;\n  z-index: 99;\n  display: flex;\n  justify-content: center;\n  cursor: pointer;\n}\n\n.dialog-contents {\n  cursor: default;\n  z-index: 100;\n  position: fixed;\n  bottom: 0;\n  background-color: white;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  width: 30%;\n  height: 30%;\n  min-width: 465px;\n  min-height: 380px;\n  padding-top: 30px;\n  border-radius: 40px 40px 0 0;\n  animation: slide-up 0.5s 0s forwards;\n}\n\n@keyframes slide-up {\n  0% {\n    transform: translateY(50%);\n    opacity: 0;\n  }\n\n  100% {\n    transform: translateY(0);\n    opacity: 1;\n  }\n}\n\n#dialog-product-item {\n  width: 80%;\n  display: flex;\n  flex-direction: column;\n}\n\n.dialog-form {\n  width: 100%;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  margin-top: 20px;\n}\n\n#select-quantity {\n  width: 60px;\n  text-align: center;\n  cursor: default;\n}\n\n.select-quantity-box label {\n  margin-right: 30px;\n}\n\n.dialog-purchase-button {\n  position: absolute;\n  width: 80%;\n  bottom: 50px;\n  background: var(--primary-color);\n  color: var(--primary-button-text-color);\n}\n\n.dialog-purchase-button:hover {\n  background: var(--dialog-button-hover-color);\n}\n\n.select-quantity-button {\n  width: 30px;\n  background: var(--primary-color);\n  color: var(--primary-button-text-color);\n}\n\n.select-quantity-button:hover {\n  background: var(--dialog-button-hover-color);\n}\n", "",{"version":3,"sources":["webpack://./src/css/dialog.css"],"names":[],"mappings":"AAAA;EACE,eAAe;EACf,WAAW;EACX,YAAY;EACZ,oCAAoC;EACpC,MAAM;EACN,OAAO;EACP,WAAW;EACX,aAAa;EACb,uBAAuB;EACvB,eAAe;AACjB;;AAEA;EACE,eAAe;EACf,YAAY;EACZ,eAAe;EACf,SAAS;EACT,uBAAuB;EACvB,aAAa;EACb,sBAAsB;EACtB,mBAAmB;EACnB,UAAU;EACV,WAAW;EACX,gBAAgB;EAChB,iBAAiB;EACjB,iBAAiB;EACjB,4BAA4B;EAC5B,oCAAoC;AACtC;;AAEA;EACE;IACE,0BAA0B;IAC1B,UAAU;EACZ;;EAEA;IACE,wBAAwB;IACxB,UAAU;EACZ;AACF;;AAEA;EACE,UAAU;EACV,aAAa;EACb,sBAAsB;AACxB;;AAEA;EACE,WAAW;EACX,aAAa;EACb,sBAAsB;EACtB,uBAAuB;EACvB,mBAAmB;EACnB,gBAAgB;AAClB;;AAEA;EACE,WAAW;EACX,kBAAkB;EAClB,eAAe;AACjB;;AAEA;EACE,kBAAkB;AACpB;;AAEA;EACE,kBAAkB;EAClB,UAAU;EACV,YAAY;EACZ,gCAAgC;EAChC,uCAAuC;AACzC;;AAEA;EACE,4CAA4C;AAC9C;;AAEA;EACE,WAAW;EACX,gCAAgC;EAChC,uCAAuC;AACzC;;AAEA;EACE,4CAA4C;AAC9C","sourcesContent":[".dialog {\n  position: fixed;\n  width: 100%;\n  height: 100%;\n  background-color: rgba(0, 0, 0, 0.5);\n  top: 0;\n  left: 0;\n  z-index: 99;\n  display: flex;\n  justify-content: center;\n  cursor: pointer;\n}\n\n.dialog-contents {\n  cursor: default;\n  z-index: 100;\n  position: fixed;\n  bottom: 0;\n  background-color: white;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  width: 30%;\n  height: 30%;\n  min-width: 465px;\n  min-height: 380px;\n  padding-top: 30px;\n  border-radius: 40px 40px 0 0;\n  animation: slide-up 0.5s 0s forwards;\n}\n\n@keyframes slide-up {\n  0% {\n    transform: translateY(50%);\n    opacity: 0;\n  }\n\n  100% {\n    transform: translateY(0);\n    opacity: 1;\n  }\n}\n\n#dialog-product-item {\n  width: 80%;\n  display: flex;\n  flex-direction: column;\n}\n\n.dialog-form {\n  width: 100%;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  margin-top: 20px;\n}\n\n#select-quantity {\n  width: 60px;\n  text-align: center;\n  cursor: default;\n}\n\n.select-quantity-box label {\n  margin-right: 30px;\n}\n\n.dialog-purchase-button {\n  position: absolute;\n  width: 80%;\n  bottom: 50px;\n  background: var(--primary-color);\n  color: var(--primary-button-text-color);\n}\n\n.dialog-purchase-button:hover {\n  background: var(--dialog-button-hover-color);\n}\n\n.select-quantity-button {\n  width: 30px;\n  background: var(--primary-color);\n  color: var(--primary-button-text-color);\n}\n\n.select-quantity-button:hover {\n  background: var(--dialog-button-hover-color);\n}\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -82,7 +82,7 @@ ___CSS_LOADER_EXPORT___.i(_node_modules_css_loader_dist_cjs_js_global_css__WEBPA
 ___CSS_LOADER_EXPORT___.i(_node_modules_css_loader_dist_cjs_js_dialog_css__WEBPACK_IMPORTED_MODULE_3__["default"]);
 ___CSS_LOADER_EXPORT___.i(_node_modules_css_loader_dist_cjs_js_login_css__WEBPACK_IMPORTED_MODULE_4__["default"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "body {\n  width: 100vw;\n  height: 100vh;\n  margin: 0;\n\n  font-family: 'Roboto';\n  font-style: normal;\n  letter-spacing: 0.5px;\n}\n\nh1 {\n  margin: 0;\n}\n\n#app {\n  position: relative;\n  display: flex;\n  flex-direction: column;\n  width: 30%;\n  min-width: 465px;\n  margin: auto;\n  gap: 20px;\n  /* border: 1px solid blue; */\n}\n\nheader {\n  text-align: center;\n  margin: 40px 0 10px 0;\n}\n\nnav {\n  margin: 2em 0;\n}\n\nsection {\n  display: flex;\n  flex-direction: column;\n  flex-wrap: wrap;\n  align-content: center;\n}\n\ninput[type='number']::-webkit-outer-spin-button,\ninput[type='number']::-webkit-inner-spin-button {\n  -webkit-appearance: none;\n  margin: 0;\n}\n\ninput[type='submit'] {\n  cursor: pointer;\n  background: var(--primary-color);\n  color: var(--primary-button-text-color);\n  outline: 1px solid var(--primary-color);\n  border: 1px solid var(--primary-color);\n  border-radius: 2px;\n  width: 56px;\n  height: 28px;\n  margin-left: 10px;\n}\n\ninput {\n  background-color: var(--primary-input-bg-color);\n  outline: 1px solid var(--input-outline-color);\n  border: 1px solid var(--input-border-color);\n  border-radius: 2px;\n  width: 120px;\n  height: 24px;\n  padding: 1px 2px;\n}\n\ninput:focus {\n  outline: 1px solid var(--input-outline-focus-color);\n  border: 1px solid var(--input-border-focus-color);\n}\n\n#money-add-input {\n  width: 300px;\n}\n\nbutton {\n  cursor: pointer;\n  width: 117px;\n  height: 36px;\n  border: none;\n  border-radius: 5px;\n}\n\nbutton:hover {\n  background: var(--button-hover-color);\n}\n\nh4 {\n  margin: 0;\n  font-family: 'Roboto';\n  font-style: normal;\n  font-weight: 600;\n  font-size: 20px;\n  line-height: 24px;\n  text-align: center;\n  letter-spacing: 0.15px;\n  color: var(--primary-text-color);\n}\n\n#money-add-container {\n  margin: auto;\n}\n\n#product-list-container {\n  width: 100%;\n  margin: 20px 0 30px;\n}\n\n#product-list-wrapper {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  width: 100%;\n}\n#product-list-wrapper ul {\n  padding: 0;\n}\n\n#change-list-wrapper {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  width: 100%;\n}\n\n#change-list-wrapper ul {\n  padding: 0;\n}\n\nli {\n  list-style-type: none;\n  text-align: center;\n  font-family: 'Roboto';\n  font-style: normal;\n  display: flex;\n  justify-content: center;\n  border-bottom: 1px solid var(--list-border-color);\n}\n\n#product-list {\n  width: 100%;\n}\n\n#product-list li {\n  width: 100%;\n}\n\n.product-block {\n  margin: 12px 0px 8px;\n  width: 100%;\n  height: 30px;\n  font-size: 15px;\n  line-height: 24px;\n  letter-spacing: 0.5px;\n  color: var(--primary-text-color);\n}\n\n.product-modify-input {\n  width: 80%;\n  text-align: center;\n  outline: 1px dotted var(--input-outline-focus-color);\n  border: 1px dotted var(--input-border-focus-color);\n}\n\n.product-control-buttons {\n  display: flex;\n  gap: 10px;\n  justify-content: center;\n}\n\n.product-control-buttons button {\n  width: 40%;\n  height: 30px;\n  margin-top: -4px;\n}\n\n.product-modify-submit-button,\n.product-purchase-submit-button {\n  width: 90%;\n  margin-top: -8px;\n}\n\n#change-list li {\n  width: 300px;\n}\n\n.change-block {\n  margin: 8px 30px 0;\n  width: 70px;\n  height: 30px;\n  font-size: 15px;\n  line-height: 24px;\n  letter-spacing: 0.5px;\n  color: var(--primary-text-color);\n}\n\n.list-header {\n  font-weight: 600;\n  font-size: 15px;\n  line-height: 24px;\n  display: flex;\n  align-items: center;\n  letter-spacing: 0.5px;\n  color: var(--primary-text-color);\n  border-top: 1px solid var(--list-border-color);\n}\n\n#account-nav-container {\n  position: absolute;\n  right: 0;\n  top: 0;\n  margin: 10px;\n}\n\n.hide {\n  display: none;\n}\n\n#dropdown-select {\n  width: 40px;\n  height: 40px;\n  background-color: #d6f4f8;\n  border-radius: 50%;\n  border: none;\n  outline: none;\n  cursor: pointer;\n  text-align: center;\n  font-weight: 500;\n  font-size: 16px;\n  line-height: 24px;\n  overflow: hidden;\n  -o-appearance: none;\n  -webkit-appearance: none;\n  -moz-appearance: none;\n  appearance: none;\n}\n\n#dropdown-select::-ms-expand {\n  display: none;\n}\n\n/* --------------------------------------------- */\n\n#snackbar {\n  visibility: hidden;\n  min-width: 250px;\n  margin-left: -125px;\n  background-color: #333;\n  color: #fff;\n  text-align: center;\n  border-radius: 2px;\n  padding: 16px;\n  position: fixed;\n  z-index: 1;\n  left: 50%;\n  bottom: 0;\n}\n\n.show {\n  visibility: visible !important; /* Show the snackbar */\n  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.7s;\n  animation: fadein 0.5s, fadeout 0.5s 2.7s;\n}\n\n@-webkit-keyframes fadein {\n  from {\n    bottom: 0;\n    opacity: 0;\n  }\n  to {\n    bottom: 30px;\n    opacity: 1;\n  }\n}\n\n@keyframes fadein {\n  from {\n    bottom: 0;\n    opacity: 0;\n  }\n  to {\n    bottom: 0;\n    opacity: 1;\n  }\n}\n\n@-webkit-keyframes fadeout {\n  from {\n    bottom: 0;\n    opacity: 1;\n  }\n  to {\n    bottom: -30px;\n    opacity: 0;\n  }\n}\n\n@keyframes fadeout {\n  from {\n    bottom: 0;\n    opacity: 1;\n  }\n  to {\n    bottom: -30px;\n    opacity: 0;\n  }\n}\n", "",{"version":3,"sources":["webpack://./src/css/index.css"],"names":[],"mappings":"AAIA;EACE,YAAY;EACZ,aAAa;EACb,SAAS;;EAET,qBAAqB;EACrB,kBAAkB;EAClB,qBAAqB;AACvB;;AAEA;EACE,SAAS;AACX;;AAEA;EACE,kBAAkB;EAClB,aAAa;EACb,sBAAsB;EACtB,UAAU;EACV,gBAAgB;EAChB,YAAY;EACZ,SAAS;EACT,4BAA4B;AAC9B;;AAEA;EACE,kBAAkB;EAClB,qBAAqB;AACvB;;AAEA;EACE,aAAa;AACf;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,eAAe;EACf,qBAAqB;AACvB;;AAEA;;EAEE,wBAAwB;EACxB,SAAS;AACX;;AAEA;EACE,eAAe;EACf,gCAAgC;EAChC,uCAAuC;EACvC,uCAAuC;EACvC,sCAAsC;EACtC,kBAAkB;EAClB,WAAW;EACX,YAAY;EACZ,iBAAiB;AACnB;;AAEA;EACE,+CAA+C;EAC/C,6CAA6C;EAC7C,2CAA2C;EAC3C,kBAAkB;EAClB,YAAY;EACZ,YAAY;EACZ,gBAAgB;AAClB;;AAEA;EACE,mDAAmD;EACnD,iDAAiD;AACnD;;AAEA;EACE,YAAY;AACd;;AAEA;EACE,eAAe;EACf,YAAY;EACZ,YAAY;EACZ,YAAY;EACZ,kBAAkB;AACpB;;AAEA;EACE,qCAAqC;AACvC;;AAEA;EACE,SAAS;EACT,qBAAqB;EACrB,kBAAkB;EAClB,gBAAgB;EAChB,eAAe;EACf,iBAAiB;EACjB,kBAAkB;EAClB,sBAAsB;EACtB,gCAAgC;AAClC;;AAEA;EACE,YAAY;AACd;;AAEA;EACE,WAAW;EACX,mBAAmB;AACrB;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,mBAAmB;EACnB,WAAW;AACb;AACA;EACE,UAAU;AACZ;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,mBAAmB;EACnB,WAAW;AACb;;AAEA;EACE,UAAU;AACZ;;AAEA;EACE,qBAAqB;EACrB,kBAAkB;EAClB,qBAAqB;EACrB,kBAAkB;EAClB,aAAa;EACb,uBAAuB;EACvB,iDAAiD;AACnD;;AAEA;EACE,WAAW;AACb;;AAEA;EACE,WAAW;AACb;;AAEA;EACE,oBAAoB;EACpB,WAAW;EACX,YAAY;EACZ,eAAe;EACf,iBAAiB;EACjB,qBAAqB;EACrB,gCAAgC;AAClC;;AAEA;EACE,UAAU;EACV,kBAAkB;EAClB,oDAAoD;EACpD,kDAAkD;AACpD;;AAEA;EACE,aAAa;EACb,SAAS;EACT,uBAAuB;AACzB;;AAEA;EACE,UAAU;EACV,YAAY;EACZ,gBAAgB;AAClB;;AAEA;;EAEE,UAAU;EACV,gBAAgB;AAClB;;AAEA;EACE,YAAY;AACd;;AAEA;EACE,kBAAkB;EAClB,WAAW;EACX,YAAY;EACZ,eAAe;EACf,iBAAiB;EACjB,qBAAqB;EACrB,gCAAgC;AAClC;;AAEA;EACE,gBAAgB;EAChB,eAAe;EACf,iBAAiB;EACjB,aAAa;EACb,mBAAmB;EACnB,qBAAqB;EACrB,gCAAgC;EAChC,8CAA8C;AAChD;;AAEA;EACE,kBAAkB;EAClB,QAAQ;EACR,MAAM;EACN,YAAY;AACd;;AAEA;EACE,aAAa;AACf;;AAEA;EACE,WAAW;EACX,YAAY;EACZ,yBAAyB;EACzB,kBAAkB;EAClB,YAAY;EACZ,aAAa;EACb,eAAe;EACf,kBAAkB;EAClB,gBAAgB;EAChB,eAAe;EACf,iBAAiB;EACjB,gBAAgB;EAChB,mBAAmB;EACnB,wBAAwB;EACxB,qBAAqB;EACrB,gBAAgB;AAClB;;AAEA;EACE,aAAa;AACf;;AAEA,kDAAkD;;AAElD;EACE,kBAAkB;EAClB,gBAAgB;EAChB,mBAAmB;EACnB,sBAAsB;EACtB,WAAW;EACX,kBAAkB;EAClB,kBAAkB;EAClB,aAAa;EACb,eAAe;EACf,UAAU;EACV,SAAS;EACT,SAAS;AACX;;AAEA;EACE,8BAA8B,EAAE,sBAAsB;EACtD,iDAAiD;EACjD,yCAAyC;AAC3C;;AAEA;EACE;IACE,SAAS;IACT,UAAU;EACZ;EACA;IACE,YAAY;IACZ,UAAU;EACZ;AACF;;AAEA;EACE;IACE,SAAS;IACT,UAAU;EACZ;EACA;IACE,SAAS;IACT,UAAU;EACZ;AACF;;AAEA;EACE;IACE,SAAS;IACT,UAAU;EACZ;EACA;IACE,aAAa;IACb,UAAU;EACZ;AACF;;AAEA;EACE;IACE,SAAS;IACT,UAAU;EACZ;EACA;IACE,aAAa;IACb,UAAU;EACZ;AACF","sourcesContent":["@import './global.css';\n@import './dialog.css';\n@import './login.css';\n\nbody {\n  width: 100vw;\n  height: 100vh;\n  margin: 0;\n\n  font-family: 'Roboto';\n  font-style: normal;\n  letter-spacing: 0.5px;\n}\n\nh1 {\n  margin: 0;\n}\n\n#app {\n  position: relative;\n  display: flex;\n  flex-direction: column;\n  width: 30%;\n  min-width: 465px;\n  margin: auto;\n  gap: 20px;\n  /* border: 1px solid blue; */\n}\n\nheader {\n  text-align: center;\n  margin: 40px 0 10px 0;\n}\n\nnav {\n  margin: 2em 0;\n}\n\nsection {\n  display: flex;\n  flex-direction: column;\n  flex-wrap: wrap;\n  align-content: center;\n}\n\ninput[type='number']::-webkit-outer-spin-button,\ninput[type='number']::-webkit-inner-spin-button {\n  -webkit-appearance: none;\n  margin: 0;\n}\n\ninput[type='submit'] {\n  cursor: pointer;\n  background: var(--primary-color);\n  color: var(--primary-button-text-color);\n  outline: 1px solid var(--primary-color);\n  border: 1px solid var(--primary-color);\n  border-radius: 2px;\n  width: 56px;\n  height: 28px;\n  margin-left: 10px;\n}\n\ninput {\n  background-color: var(--primary-input-bg-color);\n  outline: 1px solid var(--input-outline-color);\n  border: 1px solid var(--input-border-color);\n  border-radius: 2px;\n  width: 120px;\n  height: 24px;\n  padding: 1px 2px;\n}\n\ninput:focus {\n  outline: 1px solid var(--input-outline-focus-color);\n  border: 1px solid var(--input-border-focus-color);\n}\n\n#money-add-input {\n  width: 300px;\n}\n\nbutton {\n  cursor: pointer;\n  width: 117px;\n  height: 36px;\n  border: none;\n  border-radius: 5px;\n}\n\nbutton:hover {\n  background: var(--button-hover-color);\n}\n\nh4 {\n  margin: 0;\n  font-family: 'Roboto';\n  font-style: normal;\n  font-weight: 600;\n  font-size: 20px;\n  line-height: 24px;\n  text-align: center;\n  letter-spacing: 0.15px;\n  color: var(--primary-text-color);\n}\n\n#money-add-container {\n  margin: auto;\n}\n\n#product-list-container {\n  width: 100%;\n  margin: 20px 0 30px;\n}\n\n#product-list-wrapper {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  width: 100%;\n}\n#product-list-wrapper ul {\n  padding: 0;\n}\n\n#change-list-wrapper {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  width: 100%;\n}\n\n#change-list-wrapper ul {\n  padding: 0;\n}\n\nli {\n  list-style-type: none;\n  text-align: center;\n  font-family: 'Roboto';\n  font-style: normal;\n  display: flex;\n  justify-content: center;\n  border-bottom: 1px solid var(--list-border-color);\n}\n\n#product-list {\n  width: 100%;\n}\n\n#product-list li {\n  width: 100%;\n}\n\n.product-block {\n  margin: 12px 0px 8px;\n  width: 100%;\n  height: 30px;\n  font-size: 15px;\n  line-height: 24px;\n  letter-spacing: 0.5px;\n  color: var(--primary-text-color);\n}\n\n.product-modify-input {\n  width: 80%;\n  text-align: center;\n  outline: 1px dotted var(--input-outline-focus-color);\n  border: 1px dotted var(--input-border-focus-color);\n}\n\n.product-control-buttons {\n  display: flex;\n  gap: 10px;\n  justify-content: center;\n}\n\n.product-control-buttons button {\n  width: 40%;\n  height: 30px;\n  margin-top: -4px;\n}\n\n.product-modify-submit-button,\n.product-purchase-submit-button {\n  width: 90%;\n  margin-top: -8px;\n}\n\n#change-list li {\n  width: 300px;\n}\n\n.change-block {\n  margin: 8px 30px 0;\n  width: 70px;\n  height: 30px;\n  font-size: 15px;\n  line-height: 24px;\n  letter-spacing: 0.5px;\n  color: var(--primary-text-color);\n}\n\n.list-header {\n  font-weight: 600;\n  font-size: 15px;\n  line-height: 24px;\n  display: flex;\n  align-items: center;\n  letter-spacing: 0.5px;\n  color: var(--primary-text-color);\n  border-top: 1px solid var(--list-border-color);\n}\n\n#account-nav-container {\n  position: absolute;\n  right: 0;\n  top: 0;\n  margin: 10px;\n}\n\n.hide {\n  display: none;\n}\n\n#dropdown-select {\n  width: 40px;\n  height: 40px;\n  background-color: #d6f4f8;\n  border-radius: 50%;\n  border: none;\n  outline: none;\n  cursor: pointer;\n  text-align: center;\n  font-weight: 500;\n  font-size: 16px;\n  line-height: 24px;\n  overflow: hidden;\n  -o-appearance: none;\n  -webkit-appearance: none;\n  -moz-appearance: none;\n  appearance: none;\n}\n\n#dropdown-select::-ms-expand {\n  display: none;\n}\n\n/* --------------------------------------------- */\n\n#snackbar {\n  visibility: hidden;\n  min-width: 250px;\n  margin-left: -125px;\n  background-color: #333;\n  color: #fff;\n  text-align: center;\n  border-radius: 2px;\n  padding: 16px;\n  position: fixed;\n  z-index: 1;\n  left: 50%;\n  bottom: 0;\n}\n\n.show {\n  visibility: visible !important; /* Show the snackbar */\n  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.7s;\n  animation: fadein 0.5s, fadeout 0.5s 2.7s;\n}\n\n@-webkit-keyframes fadein {\n  from {\n    bottom: 0;\n    opacity: 0;\n  }\n  to {\n    bottom: 30px;\n    opacity: 1;\n  }\n}\n\n@keyframes fadein {\n  from {\n    bottom: 0;\n    opacity: 0;\n  }\n  to {\n    bottom: 0;\n    opacity: 1;\n  }\n}\n\n@-webkit-keyframes fadeout {\n  from {\n    bottom: 0;\n    opacity: 1;\n  }\n  to {\n    bottom: -30px;\n    opacity: 0;\n  }\n}\n\n@keyframes fadeout {\n  from {\n    bottom: 0;\n    opacity: 1;\n  }\n  to {\n    bottom: -30px;\n    opacity: 0;\n  }\n}\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "body {\n  width: 100vw;\n  height: 100vh;\n  margin: 0;\n\n  font-family: 'Roboto';\n  font-style: normal;\n  letter-spacing: 0.5px;\n}\n\nh1 {\n  margin: 0;\n}\n\n#app {\n  position: relative;\n  display: flex;\n  flex-direction: column;\n  width: 30%;\n  min-width: 465px;\n  margin: auto;\n  gap: 20px;\n  /* border: 1px solid blue; */\n}\n\nheader {\n  text-align: center;\n  margin: 40px 0 10px 0;\n}\n\nnav {\n  margin: 2em 0;\n}\n\nsection {\n  display: flex;\n  flex-direction: column;\n  flex-wrap: wrap;\n  align-content: center;\n}\n\ninput[type='number']::-webkit-outer-spin-button,\ninput[type='number']::-webkit-inner-spin-button {\n  -webkit-appearance: none;\n  margin: 0;\n}\n\ninput[type='submit'] {\n  cursor: pointer;\n  background: var(--primary-color);\n  color: var(--primary-button-text-color);\n  outline: 1px solid var(--primary-color);\n  border: 1px solid var(--primary-color);\n  border-radius: 2px;\n  width: 56px;\n  height: 28px;\n  margin-left: 10px;\n}\n\ninput {\n  background-color: var(--primary-input-bg-color);\n  outline: 1px solid var(--input-outline-color);\n  border: 1px solid var(--input-border-color);\n  border-radius: 2px;\n  width: 120px;\n  height: 24px;\n  padding: 1px 2px;\n}\n\ninput:focus {\n  outline: 1px solid var(--input-outline-focus-color);\n  border: 1px solid var(--input-border-focus-color);\n}\n\n#money-add-input {\n  width: 300px;\n}\n\nbutton {\n  cursor: pointer;\n  width: 117px;\n  height: 36px;\n  border: none;\n  border-radius: 5px;\n}\n\nbutton:hover {\n  background: var(--button-hover-color);\n}\n\nh4 {\n  margin: 0;\n  font-family: 'Roboto';\n  font-style: normal;\n  font-weight: 600;\n  font-size: 20px;\n  line-height: 24px;\n  text-align: center;\n  letter-spacing: 0.15px;\n  color: var(--primary-text-color);\n}\n\n#money-add-container {\n  margin: auto;\n}\n\n#product-list-container {\n  width: 100%;\n  margin: 20px 0 30px;\n}\n\n#product-list-wrapper {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  width: 100%;\n}\n#product-list-wrapper ul {\n  padding: 0;\n}\n\n#change-list-wrapper {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  width: 100%;\n}\n\n#change-list-wrapper ul {\n  padding: 0;\n}\n\nli {\n  list-style-type: none;\n  text-align: center;\n  font-family: 'Roboto';\n  font-style: normal;\n  display: flex;\n  justify-content: center;\n  border-bottom: 1px solid var(--list-border-color);\n}\n\n#product-list {\n  width: 100%;\n}\n\n#product-list li {\n  width: 100%;\n}\n\n.product-block {\n  margin: 12px 0px 8px;\n  width: 100%;\n  height: 30px;\n  font-size: 15px;\n  line-height: 24px;\n  letter-spacing: 0.5px;\n  color: var(--primary-text-color);\n}\n\n.product-modify-input {\n  width: 80%;\n  text-align: center;\n  outline: 1px dotted var(--input-outline-focus-color);\n  border: 1px dotted var(--input-border-focus-color);\n}\n\n.product-control-buttons {\n  display: flex;\n  gap: 10px;\n  justify-content: center;\n}\n\n.product-control-buttons button {\n  width: 40%;\n  height: 30px;\n  margin-top: -4px;\n}\n\n.product-modify-submit-button,\n.product-purchase-submit-button {\n  width: 90%;\n  margin-top: -8px;\n}\n\n#change-list li {\n  width: 300px;\n}\n\n.change-block {\n  margin: 8px 30px 0;\n  width: 70px;\n  height: 30px;\n  font-size: 15px;\n  line-height: 24px;\n  letter-spacing: 0.5px;\n  color: var(--primary-text-color);\n}\n\n.list-header {\n  font-weight: 600;\n  font-size: 15px;\n  line-height: 24px;\n  display: flex;\n  align-items: center;\n  letter-spacing: 0.5px;\n  color: var(--primary-text-color);\n  border-top: 1px solid var(--list-border-color);\n}\n\n#account-nav-container {\n  position: absolute;\n  right: 0;\n  top: 0;\n  margin: 10px;\n}\n\n.hide {\n  display: none;\n}\n\n#dropdown-select {\n  width: 40px;\n  height: 40px;\n  background-color: #d6f4f8;\n  border-radius: 50%;\n  border: none;\n  outline: none;\n  cursor: pointer;\n  text-align: center;\n  font-weight: 500;\n  font-size: 16px;\n  line-height: 24px;\n  overflow: hidden;\n  -o-appearance: none;\n  -webkit-appearance: none;\n  -moz-appearance: none;\n  appearance: none;\n}\n\n#dropdown-select::-ms-expand {\n  display: none;\n}\n\n#snackbar {\n  visibility: hidden;\n  min-width: 250px;\n  margin-left: -125px;\n  background-color: #333;\n  color: #fff;\n  text-align: center;\n  border-radius: 2px;\n  padding: 16px;\n  position: fixed;\n  z-index: 1;\n  left: 50%;\n  bottom: 0;\n}\n\n.show {\n  visibility: visible !important; /* Show the snackbar */\n  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.7s;\n  animation: fadein 0.5s, fadeout 0.5s 2.7s;\n}\n\n@-webkit-keyframes fadein {\n  from {\n    bottom: 0;\n    opacity: 0;\n  }\n  to {\n    bottom: 30px;\n    opacity: 1;\n  }\n}\n\n@keyframes fadein {\n  from {\n    bottom: 0;\n    opacity: 0;\n  }\n  to {\n    bottom: 0;\n    opacity: 1;\n  }\n}\n\n@-webkit-keyframes fadeout {\n  from {\n    bottom: 0;\n    opacity: 1;\n  }\n  to {\n    bottom: -30px;\n    opacity: 0;\n  }\n}\n\n@keyframes fadeout {\n  from {\n    bottom: 0;\n    opacity: 1;\n  }\n  to {\n    bottom: -30px;\n    opacity: 0;\n  }\n}\n", "",{"version":3,"sources":["webpack://./src/css/index.css"],"names":[],"mappings":"AAIA;EACE,YAAY;EACZ,aAAa;EACb,SAAS;;EAET,qBAAqB;EACrB,kBAAkB;EAClB,qBAAqB;AACvB;;AAEA;EACE,SAAS;AACX;;AAEA;EACE,kBAAkB;EAClB,aAAa;EACb,sBAAsB;EACtB,UAAU;EACV,gBAAgB;EAChB,YAAY;EACZ,SAAS;EACT,4BAA4B;AAC9B;;AAEA;EACE,kBAAkB;EAClB,qBAAqB;AACvB;;AAEA;EACE,aAAa;AACf;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,eAAe;EACf,qBAAqB;AACvB;;AAEA;;EAEE,wBAAwB;EACxB,SAAS;AACX;;AAEA;EACE,eAAe;EACf,gCAAgC;EAChC,uCAAuC;EACvC,uCAAuC;EACvC,sCAAsC;EACtC,kBAAkB;EAClB,WAAW;EACX,YAAY;EACZ,iBAAiB;AACnB;;AAEA;EACE,+CAA+C;EAC/C,6CAA6C;EAC7C,2CAA2C;EAC3C,kBAAkB;EAClB,YAAY;EACZ,YAAY;EACZ,gBAAgB;AAClB;;AAEA;EACE,mDAAmD;EACnD,iDAAiD;AACnD;;AAEA;EACE,YAAY;AACd;;AAEA;EACE,eAAe;EACf,YAAY;EACZ,YAAY;EACZ,YAAY;EACZ,kBAAkB;AACpB;;AAEA;EACE,qCAAqC;AACvC;;AAEA;EACE,SAAS;EACT,qBAAqB;EACrB,kBAAkB;EAClB,gBAAgB;EAChB,eAAe;EACf,iBAAiB;EACjB,kBAAkB;EAClB,sBAAsB;EACtB,gCAAgC;AAClC;;AAEA;EACE,YAAY;AACd;;AAEA;EACE,WAAW;EACX,mBAAmB;AACrB;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,mBAAmB;EACnB,WAAW;AACb;AACA;EACE,UAAU;AACZ;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,mBAAmB;EACnB,WAAW;AACb;;AAEA;EACE,UAAU;AACZ;;AAEA;EACE,qBAAqB;EACrB,kBAAkB;EAClB,qBAAqB;EACrB,kBAAkB;EAClB,aAAa;EACb,uBAAuB;EACvB,iDAAiD;AACnD;;AAEA;EACE,WAAW;AACb;;AAEA;EACE,WAAW;AACb;;AAEA;EACE,oBAAoB;EACpB,WAAW;EACX,YAAY;EACZ,eAAe;EACf,iBAAiB;EACjB,qBAAqB;EACrB,gCAAgC;AAClC;;AAEA;EACE,UAAU;EACV,kBAAkB;EAClB,oDAAoD;EACpD,kDAAkD;AACpD;;AAEA;EACE,aAAa;EACb,SAAS;EACT,uBAAuB;AACzB;;AAEA;EACE,UAAU;EACV,YAAY;EACZ,gBAAgB;AAClB;;AAEA;;EAEE,UAAU;EACV,gBAAgB;AAClB;;AAEA;EACE,YAAY;AACd;;AAEA;EACE,kBAAkB;EAClB,WAAW;EACX,YAAY;EACZ,eAAe;EACf,iBAAiB;EACjB,qBAAqB;EACrB,gCAAgC;AAClC;;AAEA;EACE,gBAAgB;EAChB,eAAe;EACf,iBAAiB;EACjB,aAAa;EACb,mBAAmB;EACnB,qBAAqB;EACrB,gCAAgC;EAChC,8CAA8C;AAChD;;AAEA;EACE,kBAAkB;EAClB,QAAQ;EACR,MAAM;EACN,YAAY;AACd;;AAEA;EACE,aAAa;AACf;;AAEA;EACE,WAAW;EACX,YAAY;EACZ,yBAAyB;EACzB,kBAAkB;EAClB,YAAY;EACZ,aAAa;EACb,eAAe;EACf,kBAAkB;EAClB,gBAAgB;EAChB,eAAe;EACf,iBAAiB;EACjB,gBAAgB;EAChB,mBAAmB;EACnB,wBAAwB;EACxB,qBAAqB;EACrB,gBAAgB;AAClB;;AAEA;EACE,aAAa;AACf;;AAEA;EACE,kBAAkB;EAClB,gBAAgB;EAChB,mBAAmB;EACnB,sBAAsB;EACtB,WAAW;EACX,kBAAkB;EAClB,kBAAkB;EAClB,aAAa;EACb,eAAe;EACf,UAAU;EACV,SAAS;EACT,SAAS;AACX;;AAEA;EACE,8BAA8B,EAAE,sBAAsB;EACtD,iDAAiD;EACjD,yCAAyC;AAC3C;;AAEA;EACE;IACE,SAAS;IACT,UAAU;EACZ;EACA;IACE,YAAY;IACZ,UAAU;EACZ;AACF;;AAEA;EACE;IACE,SAAS;IACT,UAAU;EACZ;EACA;IACE,SAAS;IACT,UAAU;EACZ;AACF;;AAEA;EACE;IACE,SAAS;IACT,UAAU;EACZ;EACA;IACE,aAAa;IACb,UAAU;EACZ;AACF;;AAEA;EACE;IACE,SAAS;IACT,UAAU;EACZ;EACA;IACE,aAAa;IACb,UAAU;EACZ;AACF","sourcesContent":["@import './global.css';\n@import './dialog.css';\n@import './login.css';\n\nbody {\n  width: 100vw;\n  height: 100vh;\n  margin: 0;\n\n  font-family: 'Roboto';\n  font-style: normal;\n  letter-spacing: 0.5px;\n}\n\nh1 {\n  margin: 0;\n}\n\n#app {\n  position: relative;\n  display: flex;\n  flex-direction: column;\n  width: 30%;\n  min-width: 465px;\n  margin: auto;\n  gap: 20px;\n  /* border: 1px solid blue; */\n}\n\nheader {\n  text-align: center;\n  margin: 40px 0 10px 0;\n}\n\nnav {\n  margin: 2em 0;\n}\n\nsection {\n  display: flex;\n  flex-direction: column;\n  flex-wrap: wrap;\n  align-content: center;\n}\n\ninput[type='number']::-webkit-outer-spin-button,\ninput[type='number']::-webkit-inner-spin-button {\n  -webkit-appearance: none;\n  margin: 0;\n}\n\ninput[type='submit'] {\n  cursor: pointer;\n  background: var(--primary-color);\n  color: var(--primary-button-text-color);\n  outline: 1px solid var(--primary-color);\n  border: 1px solid var(--primary-color);\n  border-radius: 2px;\n  width: 56px;\n  height: 28px;\n  margin-left: 10px;\n}\n\ninput {\n  background-color: var(--primary-input-bg-color);\n  outline: 1px solid var(--input-outline-color);\n  border: 1px solid var(--input-border-color);\n  border-radius: 2px;\n  width: 120px;\n  height: 24px;\n  padding: 1px 2px;\n}\n\ninput:focus {\n  outline: 1px solid var(--input-outline-focus-color);\n  border: 1px solid var(--input-border-focus-color);\n}\n\n#money-add-input {\n  width: 300px;\n}\n\nbutton {\n  cursor: pointer;\n  width: 117px;\n  height: 36px;\n  border: none;\n  border-radius: 5px;\n}\n\nbutton:hover {\n  background: var(--button-hover-color);\n}\n\nh4 {\n  margin: 0;\n  font-family: 'Roboto';\n  font-style: normal;\n  font-weight: 600;\n  font-size: 20px;\n  line-height: 24px;\n  text-align: center;\n  letter-spacing: 0.15px;\n  color: var(--primary-text-color);\n}\n\n#money-add-container {\n  margin: auto;\n}\n\n#product-list-container {\n  width: 100%;\n  margin: 20px 0 30px;\n}\n\n#product-list-wrapper {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  width: 100%;\n}\n#product-list-wrapper ul {\n  padding: 0;\n}\n\n#change-list-wrapper {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  width: 100%;\n}\n\n#change-list-wrapper ul {\n  padding: 0;\n}\n\nli {\n  list-style-type: none;\n  text-align: center;\n  font-family: 'Roboto';\n  font-style: normal;\n  display: flex;\n  justify-content: center;\n  border-bottom: 1px solid var(--list-border-color);\n}\n\n#product-list {\n  width: 100%;\n}\n\n#product-list li {\n  width: 100%;\n}\n\n.product-block {\n  margin: 12px 0px 8px;\n  width: 100%;\n  height: 30px;\n  font-size: 15px;\n  line-height: 24px;\n  letter-spacing: 0.5px;\n  color: var(--primary-text-color);\n}\n\n.product-modify-input {\n  width: 80%;\n  text-align: center;\n  outline: 1px dotted var(--input-outline-focus-color);\n  border: 1px dotted var(--input-border-focus-color);\n}\n\n.product-control-buttons {\n  display: flex;\n  gap: 10px;\n  justify-content: center;\n}\n\n.product-control-buttons button {\n  width: 40%;\n  height: 30px;\n  margin-top: -4px;\n}\n\n.product-modify-submit-button,\n.product-purchase-submit-button {\n  width: 90%;\n  margin-top: -8px;\n}\n\n#change-list li {\n  width: 300px;\n}\n\n.change-block {\n  margin: 8px 30px 0;\n  width: 70px;\n  height: 30px;\n  font-size: 15px;\n  line-height: 24px;\n  letter-spacing: 0.5px;\n  color: var(--primary-text-color);\n}\n\n.list-header {\n  font-weight: 600;\n  font-size: 15px;\n  line-height: 24px;\n  display: flex;\n  align-items: center;\n  letter-spacing: 0.5px;\n  color: var(--primary-text-color);\n  border-top: 1px solid var(--list-border-color);\n}\n\n#account-nav-container {\n  position: absolute;\n  right: 0;\n  top: 0;\n  margin: 10px;\n}\n\n.hide {\n  display: none;\n}\n\n#dropdown-select {\n  width: 40px;\n  height: 40px;\n  background-color: #d6f4f8;\n  border-radius: 50%;\n  border: none;\n  outline: none;\n  cursor: pointer;\n  text-align: center;\n  font-weight: 500;\n  font-size: 16px;\n  line-height: 24px;\n  overflow: hidden;\n  -o-appearance: none;\n  -webkit-appearance: none;\n  -moz-appearance: none;\n  appearance: none;\n}\n\n#dropdown-select::-ms-expand {\n  display: none;\n}\n\n#snackbar {\n  visibility: hidden;\n  min-width: 250px;\n  margin-left: -125px;\n  background-color: #333;\n  color: #fff;\n  text-align: center;\n  border-radius: 2px;\n  padding: 16px;\n  position: fixed;\n  z-index: 1;\n  left: 50%;\n  bottom: 0;\n}\n\n.show {\n  visibility: visible !important; /* Show the snackbar */\n  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.7s;\n  animation: fadein 0.5s, fadeout 0.5s 2.7s;\n}\n\n@-webkit-keyframes fadein {\n  from {\n    bottom: 0;\n    opacity: 0;\n  }\n  to {\n    bottom: 30px;\n    opacity: 1;\n  }\n}\n\n@keyframes fadein {\n  from {\n    bottom: 0;\n    opacity: 0;\n  }\n  to {\n    bottom: 0;\n    opacity: 1;\n  }\n}\n\n@-webkit-keyframes fadeout {\n  from {\n    bottom: 0;\n    opacity: 1;\n  }\n  to {\n    bottom: -30px;\n    opacity: 0;\n  }\n}\n\n@keyframes fadeout {\n  from {\n    bottom: 0;\n    opacity: 1;\n  }\n  to {\n    bottom: -30px;\n    opacity: 0;\n  }\n}\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -617,9 +617,9 @@ module.exports = styleTagTransform;
 
 /***/ }),
 
-/***/ "./src/js/Api.ts":
+/***/ "./src/js/api.ts":
 /*!***********************!*\
-  !*** ./src/js/Api.ts ***!
+  !*** ./src/js/api.ts ***!
   \***********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -667,103 +667,163 @@ var __generator = (undefined && undefined.__generator) || function (thisArg, bod
 
 var HOME_URL = 'https://vendingmachine-coke-test.herokuapp.com';
 var DEV_URL = 'http://localhost:3000';
-var Api = /** @class */ (function () {
-    function Api() {
-        var _this = this;
-        this.postUserLogin = function (data) { return __awaiter(_this, void 0, void 0, function () {
-            var response, res, message_1;
-            return __generator(this, function (_a) {
-                switch (_a.label) {
-                    case 0:
-                        _a.trys.push([0, 3, , 4]);
-                        return [4 /*yield*/, fetch("".concat(HOME_URL, "/login"), {
-                                method: 'POST',
-                                headers: { 'Content-Type': 'application/json' },
-                                body: data
-                            })];
-                    case 1:
-                        response = _a.sent();
-                        return [4 /*yield*/, response.json()];
-                    case 2:
-                        res = _a.sent();
-                        if (!response.ok) {
-                            throw new Error(res);
-                        }
-                        return [2 /*return*/, res];
-                    case 3:
-                        message_1 = _a.sent();
-                        (0,_components_Snackbar__WEBPACK_IMPORTED_MODULE_0__["default"])(message_1);
-                        return [3 /*break*/, 4];
-                    case 4: return [2 /*return*/];
+var postUserLogin = function (data) { return __awaiter(void 0, void 0, void 0, function () {
+    var response, res, err_1;
+    return __generator(this, function (_a) {
+        switch (_a.label) {
+            case 0:
+                _a.trys.push([0, 3, , 4]);
+                return [4 /*yield*/, fetch("".concat(HOME_URL, "/login"), {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: data
+                    })];
+            case 1:
+                response = _a.sent();
+                return [4 /*yield*/, response.json()];
+            case 2:
+                res = _a.sent();
+                if (!response.ok) {
+                    throw new Error(res);
                 }
-            });
-        }); };
-        this.putEditProfile = function (_a) {
-            var id = _a.id, data = _a.data;
-            return __awaiter(_this, void 0, void 0, function () {
-                var response, res, message_2;
-                return __generator(this, function (_b) {
-                    switch (_b.label) {
-                        case 0:
-                            _b.trys.push([0, 3, , 4]);
-                            return [4 /*yield*/, fetch("".concat(HOME_URL, "/users/").concat(id), {
-                                    method: 'PUT',
-                                    headers: { 'Content-Type': 'application/json' },
-                                    body: data
-                                })];
-                        case 1:
-                            response = _b.sent();
-                            return [4 /*yield*/, response.json()];
-                        case 2:
-                            res = _b.sent();
-                            if (!response.ok) {
-                                if (response.status === 404)
-                                    throw new Error('잘못된 id 입니다.');
-                                throw new Error(res);
-                            }
-                            return [2 /*return*/, res];
-                        case 3:
-                            message_2 = _b.sent();
-                            (0,_components_Snackbar__WEBPACK_IMPORTED_MODULE_0__["default"])(message_2);
-                            return [3 /*break*/, 4];
-                        case 4: return [2 /*return*/];
+                return [2 /*return*/, res];
+            case 3:
+                err_1 = _a.sent();
+                (0,_components_Snackbar__WEBPACK_IMPORTED_MODULE_0__["default"])(err_1.message);
+                return [3 /*break*/, 4];
+            case 4: return [2 /*return*/];
+        }
+    });
+}); };
+var putEditProfile = function (_a) {
+    var id = _a.id, data = _a.data;
+    return __awaiter(void 0, void 0, void 0, function () {
+        var response, res, err_2;
+        return __generator(this, function (_b) {
+            switch (_b.label) {
+                case 0:
+                    _b.trys.push([0, 3, , 4]);
+                    return [4 /*yield*/, fetch("".concat(HOME_URL, "/users/").concat(id), {
+                            method: 'PUT',
+                            headers: { 'Content-Type': 'application/json' },
+                            body: data
+                        })];
+                case 1:
+                    response = _b.sent();
+                    return [4 /*yield*/, response.json()];
+                case 2:
+                    res = _b.sent();
+                    if (!response.ok) {
+                        if (response.status === 404)
+                            throw new Error('잘못된 id 입니다.');
+                        throw new Error(res);
                     }
-                });
-            });
-        };
-        this.postSingup = function (data) { return __awaiter(_this, void 0, void 0, function () {
-            var response, res, message_3;
-            return __generator(this, function (_a) {
-                switch (_a.label) {
-                    case 0:
-                        _a.trys.push([0, 3, , 4]);
-                        return [4 /*yield*/, fetch("".concat(HOME_URL, "/users"), {
-                                method: 'POST',
-                                headers: { 'Content-Type': 'application/json' },
-                                body: data
-                            })];
-                    case 1:
-                        response = _a.sent();
-                        return [4 /*yield*/, response.json()];
-                    case 2:
-                        res = _a.sent();
-                        if (!response.ok) {
-                            throw new Error(res);
-                        }
-                        return [2 /*return*/, res];
-                    case 3:
-                        message_3 = _a.sent();
-                        (0,_components_Snackbar__WEBPACK_IMPORTED_MODULE_0__["default"])(message_3);
-                        return [3 /*break*/, 4];
-                    case 4: return [2 /*return*/];
+                    return [2 /*return*/, res];
+                case 3:
+                    err_2 = _b.sent();
+                    (0,_components_Snackbar__WEBPACK_IMPORTED_MODULE_0__["default"])(err_2.message);
+                    return [3 /*break*/, 4];
+                case 4: return [2 /*return*/];
+            }
+        });
+    });
+};
+var postSingup = function (data) { return __awaiter(void 0, void 0, void 0, function () {
+    var response, res, err_3;
+    return __generator(this, function (_a) {
+        switch (_a.label) {
+            case 0:
+                _a.trys.push([0, 3, , 4]);
+                return [4 /*yield*/, fetch("".concat(HOME_URL, "/users"), {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: data
+                    })];
+            case 1:
+                response = _a.sent();
+                return [4 /*yield*/, response.json()];
+            case 2:
+                res = _a.sent();
+                if (!response.ok) {
+                    throw new Error(res);
                 }
-            });
-        }); };
-    }
-    return Api;
-}());
-var api = new Api();
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (api);
+                return [2 /*return*/, res];
+            case 3:
+                err_3 = _a.sent();
+                (0,_components_Snackbar__WEBPACK_IMPORTED_MODULE_0__["default"])(err_3.message);
+                return [3 /*break*/, 4];
+            case 4: return [2 /*return*/];
+        }
+    });
+}); };
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+    postUserLogin: postUserLogin,
+    putEditProfile: putEditProfile,
+    postSingup: postSingup
+});
+
+
+/***/ }),
+
+/***/ "./src/js/components/ChangeListWrapper.ts":
+/*!************************************************!*\
+  !*** ./src/js/components/ChangeListWrapper.ts ***!
+  \************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+var __assign = (undefined && undefined.__assign) || function () {
+    __assign = Object.assign || function(t) {
+        for (var s, i = 1, n = arguments.length; i < n; i++) {
+            s = arguments[i];
+            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
+                t[p] = s[p];
+        }
+        return t;
+    };
+    return __assign.apply(this, arguments);
+};
+var template = function (props) {
+    var title = props.title, showChangeReturnBtn = props.showChangeReturnBtn;
+    return "\n    <h4>".concat(title, "</h4>\n    <ul id=\"change-list\">\n        <li class=\"list-header\">\n            <span class=\"change-block\">\uB3D9\uC804</span>\n            <span class=\"change-block\">\uAC1C\uC218</span>\n        </li>\n        <li>\n            <span class=\"change-block\">500\uC6D0</span>\n            <span id=\"amount-coin-500\" class=\"change-block\">0\uAC1C</span>\n        </li>\n        <li>\n            <span class=\"change-block\">100\uC6D0</span>\n            <span id=\"amount-coin-100\" class=\"change-block\">0\uAC1C</span>\n        </li>\n        <li>\n            <span class=\"change-block\">50\uC6D0</span>\n            <span id=\"amount-coin-50\" class=\"change-block\">0\uAC1C</span>\n        </li>\n        <li>\n            <span class=\"change-block\">10\uC6D0</span>\n            <span id=\"amount-coin-10\" class=\"change-block\">0\uAC1C</span>\n        </li>\n    </ul>\n    ").concat(showChangeReturnBtn ? "<button type=\"button\" id=\"change-return-button\">\uBC18\uD658</button>" : '');
+};
+var ChangeListWrapper = function () {
+    var $changeList;
+    var $amountCoin500;
+    var $amountCoin100;
+    var $amountCoin50;
+    var $amountCoin10;
+    var createElement = function (props) {
+        var targetElement = props.targetElement, tabName = props.tabName;
+        var fragment = new DocumentFragment();
+        var changeListWrapper = document.createElement('div');
+        changeListWrapper.setAttribute('id', 'change-list-wrapper');
+        changeListWrapper.insertAdjacentHTML('beforeend', template(__assign(__assign({}, props), { showChangeReturnBtn: tabName === 'ProductPurchase' })));
+        fragment.appendChild(changeListWrapper);
+        targetElement.appendChild(fragment);
+        $changeList = targetElement.querySelector('#change-list');
+        $amountCoin500 = $changeList.querySelector('#amount-coin-500');
+        $amountCoin100 = $changeList.querySelector('#amount-coin-100');
+        $amountCoin50 = $changeList.querySelector('#amount-coin-50');
+        $amountCoin10 = $changeList.querySelector('#amount-coin-10');
+    };
+    var setState = function (coins) {
+        var coin10 = coins.coin10, coin50 = coins.coin50, coin100 = coins.coin100, coin500 = coins.coin500;
+        $amountCoin500.textContent = coin500 + '개';
+        $amountCoin100.textContent = coin100 + '개';
+        $amountCoin50.textContent = coin50 + '개';
+        $amountCoin10.textContent = coin10 + '개';
+    };
+    return {
+        createElement: createElement,
+        setState: setState
+    };
+};
+var changeListWrapper = ChangeListWrapper();
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (changeListWrapper);
 
 
 /***/ }),
@@ -784,33 +844,33 @@ var template = function (props) {
     return "\n    <div class=\"dialog-contents\">\n        <div id=\"dialog-product-item\">\n            <p>\uC0C1\uD488\uBA85: ".concat(name, "</p>\n            <p>\uAC00\uACA9: ").concat(price, "</p>\n            <p>\uC218\uB7C9: ").concat(amount, "</p>\n            <p>\uD22C\uC785\uD55C \uAE08\uC561: ").concat(userMoney, "</p>\n        </div>\n        <form class=\"dialog-form\">\n            <div class=\"select-quantity-box\">\n                <label for=\"select-quantity\">\uC218\uB7C9\uC744 \uC120\uD0DD\uD558\uC138\uC694</label>\n                <button type=\"button\" class=\"select-quantity-button select-quantity-down-button\"><</button>\n                <input type=\"number\" id=\"select-quantity\" value=\"1\" readonly/>\n                <button type=\"button\" class=\"select-quantity-button select-quantity-up-button\">></button>\n            </div>\n            <button type=\"submit\" class=\"dialog-purchase-button\">\uAD6C\uB9E4\uD558\uAE30</button>\n        </form>\n    <div>\n  ");
 };
 var PurchaseDialog = function (props) {
-    var _a = props.product, name = _a.name, price = _a.price, amount = _a.amount, callbackSubmitQuantity = props.callbackSubmitQuantity, ul = props.ul, oldLi = props.oldLi, userMoney = props.userMoney;
+    var _a = props.product, name = _a.name, price = _a.price, amount = _a.amount, callbackSubmitQuantity = props.callbackSubmitQuantity, li = props.li, userMoney = props.userMoney;
     var maxPurchaseAmount = (function () {
         var userAmount = Math.floor(userMoney / price);
         return amount >= userAmount ? userAmount : amount;
     })();
     var fragment = new DocumentFragment();
-    var div = document.createElement('div');
-    div.classList.add('dialog');
-    div.insertAdjacentHTML('beforeend', template(props));
-    fragment.appendChild(div);
+    var dialog = document.createElement('div');
+    dialog.classList.add('dialog');
+    dialog.insertAdjacentHTML('beforeend', template(props));
+    fragment.appendChild(dialog);
     body.appendChild(fragment);
-    var dialogForm = div.querySelector('.dialog-form');
-    var selectQuantity = div.querySelector('#select-quantity');
-    var downButton = div.querySelector('.select-quantity-down-button');
-    var upButton = div.querySelector('.select-quantity-up-button');
+    var dialogForm = dialog.querySelector('.dialog-form');
+    var selectQuantity = dialog.querySelector('#select-quantity');
+    var downButton = dialog.querySelector('.select-quantity-down-button');
+    var upButton = dialog.querySelector('.select-quantity-up-button');
     var onCloseDialog = function (e) {
         if (!(e.target instanceof HTMLElement) || e.target.className !== 'dialog')
             return;
-        div.remove();
+        dialog.remove();
     };
     var onSubmit = function (e) {
         e.preventDefault();
         var quantity = selectQuantity.valueAsNumber;
         var newAmount = amount - quantity;
         var product = { name: name, price: price, amount: newAmount };
-        callbackSubmitQuantity({ quantity: quantity, product: product, ul: ul, oldLi: oldLi });
-        div.remove();
+        callbackSubmitQuantity({ quantity: quantity, product: product, li: li });
+        dialog.remove();
     };
     var onDownQuantity = function () {
         var nextValue = selectQuantity.valueAsNumber - 1;
@@ -823,7 +883,7 @@ var PurchaseDialog = function (props) {
             return;
         selectQuantity.valueAsNumber = selectQuantity.valueAsNumber + 1;
     };
-    div.addEventListener('click', onCloseDialog);
+    dialog.addEventListener('click', onCloseDialog);
     dialogForm.addEventListener('submit', onSubmit);
     downButton.addEventListener('click', onDownQuantity);
     upButton.addEventListener('click', onUpQuantity);
@@ -843,12 +903,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-// $snackbarButton.addEventListener('click', () => {
-//   $snackbar.classList.toggle('show');
-//   setTimeout(() => {
-//     $snackbar.classList.toggle('show');
-//   }, 3000);
-// });
 var Snackbar = function () {
     var $snackbar = document.querySelector('#snackbar');
     var removeToast = null;
@@ -864,23 +918,8 @@ var Snackbar = function () {
         }, 3000);
     };
 };
-var snackbar = Snackbar();
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (snackbar);
-// const toast = () => {
-//     const toastContainer = document.getElementById('toast');
-//     let removeToast;
-//     return (text) => {
-//       if (removeToast) return;
-//       toastContainer.classList.add('reveal');
-//       toastContainer.textContent = text;
-//       removeToast = setTimeout(() => {
-//         toastContainer.classList.remove('reveal');
-//         clearTimeout(removeToast);
-//         removeToast = undefined;
-//       }, 1500);
-//     };
-//   };
-//   export default toast;
+var showSnackbar = Snackbar();
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (showSnackbar);
 
 
 /***/ }),
@@ -895,7 +934,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "RULES": () => (/* binding */ RULES),
 /* harmony export */   "ERROR_MESSAGE": () => (/* binding */ ERROR_MESSAGE),
-/* harmony export */   "REMOVE_CONFIRM_MESSAGE": () => (/* binding */ REMOVE_CONFIRM_MESSAGE)
+/* harmony export */   "REMOVE_CONFIRM_MESSAGE": () => (/* binding */ REMOVE_CONFIRM_MESSAGE),
+/* harmony export */   "TAB_IDS": () => (/* binding */ TAB_IDS)
 /* harmony export */ });
 var RULES = {
     MAX_PRODUCT_PRICE: 10000,
@@ -925,6 +965,7 @@ var ERROR_MESSAGE = {
     EMPTY_CHANGES: '반환할 잔돈이 없습니다.'
 };
 var REMOVE_CONFIRM_MESSAGE = '정말로 삭제하시겠습니까?';
+var TAB_IDS = ['product-manage-button', 'change-add-button', 'product-purchase-button'];
 
 
 
@@ -955,6 +996,9 @@ var VendingMachine = /** @class */ (function () {
     VendingMachine.prototype.getChanges = function () {
         return this.changes;
     };
+    VendingMachine.prototype.getProduct = function (name) {
+        return this.products[this.findProductIndex(name)];
+    };
     VendingMachine.prototype.getProducts = function () {
         return this.products;
     };
@@ -967,6 +1011,8 @@ var VendingMachine = /** @class */ (function () {
     VendingMachine.prototype.getUserChanges = function () {
         var _a = this.getUserChangeCoins(this.userMoney), userChanges = _a.userChanges, userMoney = _a.userMoney;
         this.checkUserChangeValidate(this.userMoney, userChanges);
+        var changedMoney = this.userMoney - userMoney;
+        this.totalMoney -= changedMoney;
         this.userMoney = userMoney;
         return userChanges;
     };
@@ -1058,13 +1104,14 @@ var VendingMachine = /** @class */ (function () {
         }
     };
     VendingMachine.prototype.purchaseProduct = function (newProduct, quantity) {
-        var name = newProduct.name, price = newProduct.price, amount = newProduct.amount;
+        var name = newProduct.name, price = newProduct.price;
         this.modifyProduct(name, newProduct, false);
         this.userMoney -= quantity * price;
     };
     VendingMachine.prototype.addProduct = function (product) {
         this.checkProductValidate(product);
-        this.products.push(product);
+        var newProducts = this.products.concat(product);
+        this.setProducts(newProducts);
     };
     VendingMachine.prototype.modifyProduct = function (oldProductName, newProduct, canValidCheck) {
         if (canValidCheck === void 0) { canValidCheck = true; }
@@ -1077,8 +1124,12 @@ var VendingMachine = /** @class */ (function () {
         var productIndex = this.findProductIndex(name);
         var isExist = productIndex >= 0;
         if (isExist) {
-            this.products.splice(productIndex, 1);
+            var newProducts = this.products.filter(function (v, index) { return index !== productIndex; });
+            this.setProducts(newProducts);
         }
+    };
+    VendingMachine.prototype.setProducts = function (products) {
+        this.products = products;
     };
     VendingMachine.prototype.findProductIndex = function (name) {
         return this.products.findIndex(function (product) { return product.name === name; });
@@ -1163,9 +1214,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _components_Snackbar__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../components/Snackbar */ "./src/js/components/Snackbar.ts");
-/* harmony import */ var _model_VendingMachine__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../model/VendingMachine */ "./src/js/model/VendingMachine.ts");
-/* harmony import */ var _template__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../template */ "./src/js/template/index.ts");
+/* harmony import */ var _components_ChangeListWrapper__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../components/ChangeListWrapper */ "./src/js/components/ChangeListWrapper.ts");
+/* harmony import */ var _components_Snackbar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Snackbar */ "./src/js/components/Snackbar.ts");
+/* harmony import */ var _model_VendingMachine__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../model/VendingMachine */ "./src/js/model/VendingMachine.ts");
+/* harmony import */ var _template__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../template */ "./src/js/template/index.ts");
+
 
 
 
@@ -1176,45 +1229,38 @@ var ChangeAdd = /** @class */ (function () {
             e.preventDefault();
             var inputChange = _this.$changeAddForm.querySelector('#money-add-input').valueAsNumber;
             try {
-                _model_VendingMachine__WEBPACK_IMPORTED_MODULE_1__["default"].addChange(inputChange);
+                _model_VendingMachine__WEBPACK_IMPORTED_MODULE_2__["default"].addChange(inputChange);
                 _this.refreshChange();
             }
-            catch (message) {
-                (0,_components_Snackbar__WEBPACK_IMPORTED_MODULE_0__["default"])(message);
+            catch (err) {
+                (0,_components_Snackbar__WEBPACK_IMPORTED_MODULE_1__["default"])(err.message);
             }
         };
         this.$inputSection = document.querySelector('.input-section');
         this.$contentsContainer = document.querySelector('.contents-container');
     }
     ChangeAdd.prototype.render = function () {
-        this.$inputSection.insertAdjacentHTML('beforeend', _template__WEBPACK_IMPORTED_MODULE_2__["default"].moneyAddContainer({
+        this.$inputSection.insertAdjacentHTML('beforeend', _template__WEBPACK_IMPORTED_MODULE_3__["default"].moneyAddContainer({
             labelText: '자판기가 보유할 금액을 입력해주세요',
             buttonText: '충전',
             resultText: '현재 보유 금액'
         }));
-        this.$contentsContainer.insertAdjacentHTML('beforeend', _template__WEBPACK_IMPORTED_MODULE_2__["default"].changeListWrapper({
+        _components_ChangeListWrapper__WEBPACK_IMPORTED_MODULE_0__["default"].createElement({
+            targetElement: this.$contentsContainer,
             title: '자판기가 보유한 동전',
             tabName: this.tabName
-        }));
+        });
         this.$headerTitle = document.querySelector('#header-title');
         this.$headerTitle.textContent = '🍿 자판기 🍿';
         this.$changeAddForm = this.$inputSection.querySelector('#money-add-form');
         this.$totalChange = this.$inputSection.querySelector('#total-money');
-        this.$changeList = this.$contentsContainer.querySelector('#change-list');
-        this.$amountCoin500 = this.$changeList.querySelector('#amount-coin-500');
-        this.$amountCoin100 = this.$changeList.querySelector('#amount-coin-100');
-        this.$amountCoin50 = this.$changeList.querySelector('#amount-coin-50');
-        this.$amountCoin10 = this.$changeList.querySelector('#amount-coin-10');
         this.$changeAddForm.addEventListener('submit', this.onSubmitChangeAdd);
         this.refreshChange();
     };
     ChangeAdd.prototype.refreshChange = function () {
-        this.$totalChange.textContent = _model_VendingMachine__WEBPACK_IMPORTED_MODULE_1__["default"].getTotalMoney().toLocaleString();
-        var _a = _model_VendingMachine__WEBPACK_IMPORTED_MODULE_1__["default"].getChanges(), coin10 = _a.coin10, coin50 = _a.coin50, coin100 = _a.coin100, coin500 = _a.coin500;
-        this.$amountCoin500.textContent = coin500 + '개';
-        this.$amountCoin100.textContent = coin100 + '개';
-        this.$amountCoin50.textContent = coin50 + '개';
-        this.$amountCoin10.textContent = coin10 + '개';
+        this.$totalChange.textContent = _model_VendingMachine__WEBPACK_IMPORTED_MODULE_2__["default"].getTotalMoney().toLocaleString();
+        var changes = _model_VendingMachine__WEBPACK_IMPORTED_MODULE_2__["default"].getChanges();
+        _components_ChangeListWrapper__WEBPACK_IMPORTED_MODULE_0__["default"].setState(changes);
     };
     return ChangeAdd;
 }());
@@ -1233,7 +1279,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _Api__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../Api */ "./src/js/Api.ts");
+/* harmony import */ var _api__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../api */ "./src/js/api.ts");
 /* harmony import */ var _components_Snackbar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Snackbar */ "./src/js/components/Snackbar.ts");
 /* harmony import */ var _router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../router */ "./src/js/router/index.ts");
 /* harmony import */ var _template__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../template */ "./src/js/template/index.ts");
@@ -1285,10 +1331,9 @@ var EditProfile = /** @class */ (function () {
         this.onKeyDownInput = function (e) {
             if (!(e.target instanceof HTMLInputElement))
                 return;
-            var keyCode = e.keyCode;
-            var isSpacebar = keyCode === 32;
+            var isSpacebar = e.key === ' ';
             if (isSpacebar)
-                e.returnValue = false;
+                e.preventDefault();
         };
         this.onSubmitLogin = function (e) { return __awaiter(_this, void 0, void 0, function () {
             var email, name, password, password2, data;
@@ -1301,14 +1346,14 @@ var EditProfile = /** @class */ (function () {
                 try {
                     this.checkAccountValidate(name, password, password2);
                     data = JSON.stringify({ email: email, name: name, password: password });
-                    _Api__WEBPACK_IMPORTED_MODULE_0__["default"].putEditProfile({ id: this.user.id, data: data }).then(function (res) {
+                    _api__WEBPACK_IMPORTED_MODULE_0__["default"].putEditProfile({ id: this.user.id, data: data }).then(function (res) {
                         var email = res.email, name = res.name, id = res.id;
                         localStorage.setItem('user', JSON.stringify({ email: email, name: name, id: id }));
                         _router__WEBPACK_IMPORTED_MODULE_2__["default"].to('#!/product-manage');
                     });
                 }
-                catch (message) {
-                    (0,_components_Snackbar__WEBPACK_IMPORTED_MODULE_1__["default"])(message);
+                catch (err) {
+                    (0,_components_Snackbar__WEBPACK_IMPORTED_MODULE_1__["default"])(err.message);
                 }
                 return [2 /*return*/];
             });
@@ -1324,8 +1369,8 @@ var EditProfile = /** @class */ (function () {
         this.$editProfileName = this.$contentsContainer.querySelector('#edit-profile-name');
         this.$editProfilePassword = this.$contentsContainer.querySelector('#edit-profile-password');
         this.$editProfilePasswordCheck = this.$contentsContainer.querySelector('#edit-profile-password-check');
-        this.$nameNbr = this.$contentsContainer.querySelector('#name-nbr');
-        this.$pwdNbr = this.$contentsContainer.querySelector('#pwd-nbr');
+        this.$nameLength = this.$contentsContainer.querySelector('#name-length');
+        this.$pwdMinLength = this.$contentsContainer.querySelector('#pwd-min-length');
         this.$pwdLowercase = this.$contentsContainer.querySelector('#pwd-lowercase');
         this.$pwdUppercase = this.$contentsContainer.querySelector('#pwd-uppercase');
         this.$pwdSpecial = this.$contentsContainer.querySelector('#pwd-special');
@@ -1336,30 +1381,17 @@ var EditProfile = /** @class */ (function () {
         this.user = JSON.parse(localStorage.getItem('user'));
         this.$editProfileEmail.value = this.user.email;
     };
-    EditProfile.prototype.checkAccountValidate = function (name, pwd, pwd2) {
-        var _isPositiveName = (0,_validator__WEBPACK_IMPORTED_MODULE_4__.isPositiveName)(name);
-        var _isPositivePwdLength = (0,_validator__WEBPACK_IMPORTED_MODULE_4__.isPositivePwdLength)(pwd);
-        var _isPwdLowerCase = (0,_validator__WEBPACK_IMPORTED_MODULE_4__.isPwdLowerCase)(pwd);
-        var _isPwdUpperCase = (0,_validator__WEBPACK_IMPORTED_MODULE_4__.isPwdUpperCase)(pwd);
-        var _isPwdSpecialChar = (0,_validator__WEBPACK_IMPORTED_MODULE_4__.isPwdSpecialChar)(pwd);
-        var _isPwdDigit = (0,_validator__WEBPACK_IMPORTED_MODULE_4__.isPwdDigit)(pwd);
-        var _isSamePwd2 = (0,_validator__WEBPACK_IMPORTED_MODULE_4__.isSamePwd2)(pwd, pwd2);
-        this.$nameNbr.classList.toggle('hide', _isPositiveName);
-        this.$pwdNbr.classList.toggle('hide', _isPositivePwdLength);
-        this.$pwdLowercase.classList.toggle('hide', _isPwdLowerCase);
-        this.$pwdUppercase.classList.toggle('hide', _isPwdUpperCase);
-        this.$pwdSpecial.classList.toggle('hide', _isPwdSpecialChar);
-        this.$pwdDigit.classList.toggle('hide', _isPwdDigit);
-        this.$pwdConfirm.classList.toggle('hide', _isSamePwd2);
-        var isError = [
-            _isPositiveName,
-            _isPositivePwdLength,
-            _isPwdLowerCase,
-            _isPwdUpperCase,
-            _isPwdSpecialChar,
-            _isPwdDigit,
-            _isSamePwd2,
-        ].some(function (v) { return !v; });
+    EditProfile.prototype.checkAccountValidate = function (name, pwd, pwdCheck) {
+        var validationAccount = (0,_validator__WEBPACK_IMPORTED_MODULE_4__.validateAccount)(name, pwd, pwdCheck);
+        var validateNameLength = validationAccount.validateNameLength, validatePwdLength = validationAccount.validatePwdLength, validatePwdLowerCase = validationAccount.validatePwdLowerCase, validatePwdUpperCase = validationAccount.validatePwdUpperCase, validatePwdSpecialChar = validationAccount.validatePwdSpecialChar, validatePwdDigit = validationAccount.validatePwdDigit, validateSamePwdCheck = validationAccount.validateSamePwdCheck;
+        this.$nameLength.classList.toggle('hide', validateNameLength);
+        this.$pwdMinLength.classList.toggle('hide', validatePwdLength);
+        this.$pwdLowercase.classList.toggle('hide', validatePwdLowerCase);
+        this.$pwdUppercase.classList.toggle('hide', validatePwdUpperCase);
+        this.$pwdSpecial.classList.toggle('hide', validatePwdSpecialChar);
+        this.$pwdDigit.classList.toggle('hide', validatePwdDigit);
+        this.$pwdConfirm.classList.toggle('hide', validateSamePwdCheck);
+        var isError = Object.values(validationAccount).includes(false);
         if (isError) {
             throw new Error('잘못 입력 했습니다.');
         }
@@ -1381,80 +1413,33 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _Api__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../Api */ "./src/js/Api.ts");
-/* harmony import */ var _components_Snackbar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Snackbar */ "./src/js/components/Snackbar.ts");
-/* harmony import */ var _router_index__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../router/index */ "./src/js/router/index.ts");
-/* harmony import */ var _template__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../template */ "./src/js/template/index.ts");
-var __awaiter = (undefined && undefined.__awaiter) || function (thisArg, _arguments, P, generator) {
-    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
-    return new (P || (P = Promise))(function (resolve, reject) {
-        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
-        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
-        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
-        step((generator = generator.apply(thisArg, _arguments || [])).next());
-    });
-};
-var __generator = (undefined && undefined.__generator) || function (thisArg, body) {
-    var _ = { label: 0, sent: function() { if (t[0] & 1) throw t[1]; return t[1]; }, trys: [], ops: [] }, f, y, t, g;
-    return g = { next: verb(0), "throw": verb(1), "return": verb(2) }, typeof Symbol === "function" && (g[Symbol.iterator] = function() { return this; }), g;
-    function verb(n) { return function (v) { return step([n, v]); }; }
-    function step(op) {
-        if (f) throw new TypeError("Generator is already executing.");
-        while (_) try {
-            if (f = 1, y && (t = op[0] & 2 ? y["return"] : op[0] ? y["throw"] || ((t = y["return"]) && t.call(y), 0) : y.next) && !(t = t.call(y, op[1])).done) return t;
-            if (y = 0, t) op = [op[0] & 2, t.value];
-            switch (op[0]) {
-                case 0: case 1: t = op; break;
-                case 4: _.label++; return { value: op[1], done: false };
-                case 5: _.label++; y = op[1]; op = [0]; continue;
-                case 7: op = _.ops.pop(); _.trys.pop(); continue;
-                default:
-                    if (!(t = _.trys, t = t.length > 0 && t[t.length - 1]) && (op[0] === 6 || op[0] === 2)) { _ = 0; continue; }
-                    if (op[0] === 3 && (!t || (op[1] > t[0] && op[1] < t[3]))) { _.label = op[1]; break; }
-                    if (op[0] === 6 && _.label < t[1]) { _.label = t[1]; t = op; break; }
-                    if (t && _.label < t[2]) { _.label = t[2]; _.ops.push(op); break; }
-                    if (t[2]) _.ops.pop();
-                    _.trys.pop(); continue;
-            }
-            op = body.call(thisArg, _);
-        } catch (e) { op = [6, e]; y = 0; } finally { f = t = 0; }
-        if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };
-    }
-};
-
+/* harmony import */ var _api__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../api */ "./src/js/api.ts");
+/* harmony import */ var _router_index__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../router/index */ "./src/js/router/index.ts");
+/* harmony import */ var _template__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../template */ "./src/js/template/index.ts");
 
 
 
 var Login = /** @class */ (function () {
     function Login() {
         var _this = this;
-        this.onSubmitLogin = function (e) { return __awaiter(_this, void 0, void 0, function () {
-            var data;
-            return __generator(this, function (_a) {
-                e.preventDefault();
-                data = JSON.stringify({
-                    email: this.$loginEmail.value,
-                    password: this.$loginPassword.value
-                });
-                try {
-                    _Api__WEBPACK_IMPORTED_MODULE_0__["default"].postUserLogin(data).then(function (res) {
-                        var accessToken = res.accessToken, user = res.user;
-                        localStorage.setItem('accessToken', accessToken);
-                        localStorage.setItem('user', JSON.stringify(user));
-                        _router_index__WEBPACK_IMPORTED_MODULE_2__["default"].to('#!/product-manage');
-                    });
-                }
-                catch (message) {
-                    (0,_components_Snackbar__WEBPACK_IMPORTED_MODULE_1__["default"])(message);
-                }
-                return [2 /*return*/];
+        this.onSubmitLogin = function (e) {
+            e.preventDefault();
+            var data = JSON.stringify({
+                email: _this.$loginEmail.value,
+                password: _this.$loginPassword.value
             });
-        }); };
+            _api__WEBPACK_IMPORTED_MODULE_0__["default"].postUserLogin(data).then(function (res) {
+                var accessToken = res.accessToken, user = res.user;
+                localStorage.setItem('accessToken', accessToken);
+                localStorage.setItem('user', JSON.stringify(user));
+                _router_index__WEBPACK_IMPORTED_MODULE_1__["default"].to('#!/product-manage');
+            });
+        };
         this.$headerTitle = document.querySelector('#header-title');
         this.$contentsContainer = document.querySelector('.contents-container');
     }
     Login.prototype.render = function () {
-        this.$contentsContainer.insertAdjacentHTML('beforeend', _template__WEBPACK_IMPORTED_MODULE_3__["default"].loginContainer());
+        this.$contentsContainer.insertAdjacentHTML('beforeend', _template__WEBPACK_IMPORTED_MODULE_2__["default"].loginContainer());
         this.$headerTitle.textContent = '로그인';
         this.$loginForm = this.$contentsContainer.querySelector('#login-form');
         this.$loginEmail = this.$contentsContainer.querySelector('#login-email');
@@ -1500,8 +1485,8 @@ var ProductManage = /** @class */ (function () {
                 _model_VendingMachine__WEBPACK_IMPORTED_MODULE_0__["default"].addProduct(newProduct);
                 _this.renderProductItem(newProduct);
             }
-            catch (message) {
-                (0,_components_Snackbar__WEBPACK_IMPORTED_MODULE_3__["default"])(message);
+            catch (err) {
+                (0,_components_Snackbar__WEBPACK_IMPORTED_MODULE_3__["default"])(err.message);
             }
         };
         this.onClickModifyButton = function (e) {
@@ -1535,8 +1520,8 @@ var ProductManage = /** @class */ (function () {
                 var newLi = _this.replaceList(product, _template_index__WEBPACK_IMPORTED_MODULE_2__["default"].productItem);
                 ul.replaceChild(newLi, oldLi);
             }
-            catch (message) {
-                (0,_components_Snackbar__WEBPACK_IMPORTED_MODULE_3__["default"])(message);
+            catch (err) {
+                (0,_components_Snackbar__WEBPACK_IMPORTED_MODULE_3__["default"])(err.message);
             }
         };
         this.onClickRemoveButton = function (e) {
@@ -1605,11 +1590,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _components_PurchaseDialog__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../components/PurchaseDialog */ "./src/js/components/PurchaseDialog.ts");
-/* harmony import */ var _components_Snackbar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Snackbar */ "./src/js/components/Snackbar.ts");
-/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../constants */ "./src/js/constants.ts");
-/* harmony import */ var _model_VendingMachine__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../model/VendingMachine */ "./src/js/model/VendingMachine.ts");
-/* harmony import */ var _template__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../template */ "./src/js/template/index.ts");
+/* harmony import */ var _components_ChangeListWrapper__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../components/ChangeListWrapper */ "./src/js/components/ChangeListWrapper.ts");
+/* harmony import */ var _components_PurchaseDialog__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/PurchaseDialog */ "./src/js/components/PurchaseDialog.ts");
+/* harmony import */ var _components_Snackbar__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Snackbar */ "./src/js/components/Snackbar.ts");
+/* harmony import */ var _constants__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../constants */ "./src/js/constants.ts");
+/* harmony import */ var _model_VendingMachine__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../model/VendingMachine */ "./src/js/model/VendingMachine.ts");
+/* harmony import */ var _template__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../template */ "./src/js/template/index.ts");
+
 
 
 
@@ -1620,84 +1607,77 @@ var ProductPurchase = /** @class */ (function () {
         var _this = this;
         this.tabName = 'ProductPurchase';
         this.callbackSubmitQuantity = function (props) {
-            var quantity = props.quantity, product = props.product, ul = props.ul, oldLi = props.oldLi;
-            _model_VendingMachine__WEBPACK_IMPORTED_MODULE_3__["default"].purchaseProduct(product, quantity);
-            oldLi.querySelector('.product-amount').textContent = product.amount;
+            var quantity = props.quantity, product = props.product, li = props.li;
+            _model_VendingMachine__WEBPACK_IMPORTED_MODULE_4__["default"].purchaseProduct(product, quantity);
+            li.querySelector('.product-amount').textContent = product.amount;
             _this.refreshUserMoney();
         };
         this.onClickPurchaseButton = function (e) {
             if (!(e.target instanceof HTMLButtonElement))
                 return;
-            var ul = e.target.closest('ul');
-            var oldLi = e.target.closest('li');
-            var name = oldLi.querySelector('.product-name').textContent;
-            var price = parseInt(oldLi.querySelector('.product-price').textContent);
-            var amount = parseInt(oldLi.querySelector('.product-amount').textContent);
-            var userMoney = _model_VendingMachine__WEBPACK_IMPORTED_MODULE_3__["default"].getUserMoney();
-            if (price > userMoney) {
-                (0,_components_Snackbar__WEBPACK_IMPORTED_MODULE_1__["default"])(_constants__WEBPACK_IMPORTED_MODULE_2__.ERROR_MESSAGE.TOO_SHORT_MONEY);
+            var li = e.target.closest('li');
+            var name = li.querySelector('.product-name').textContent;
+            var product = _model_VendingMachine__WEBPACK_IMPORTED_MODULE_4__["default"].getProduct(name);
+            var userMoney = _model_VendingMachine__WEBPACK_IMPORTED_MODULE_4__["default"].getUserMoney();
+            if (product.price > userMoney) {
+                (0,_components_Snackbar__WEBPACK_IMPORTED_MODULE_2__["default"])(_constants__WEBPACK_IMPORTED_MODULE_3__.ERROR_MESSAGE.TOO_SHORT_MONEY);
                 return;
             }
-            if (amount === 0) {
-                (0,_components_Snackbar__WEBPACK_IMPORTED_MODULE_1__["default"])(_constants__WEBPACK_IMPORTED_MODULE_2__.ERROR_MESSAGE.SOLD_OUT_PRODUCT);
+            if (product.amount === 0) {
+                (0,_components_Snackbar__WEBPACK_IMPORTED_MODULE_2__["default"])(_constants__WEBPACK_IMPORTED_MODULE_3__.ERROR_MESSAGE.SOLD_OUT_PRODUCT);
                 return;
             }
-            (0,_components_PurchaseDialog__WEBPACK_IMPORTED_MODULE_0__["default"])({
-                product: { name: name, price: price, amount: amount },
+            (0,_components_PurchaseDialog__WEBPACK_IMPORTED_MODULE_1__["default"])({
+                product: product,
                 userMoney: userMoney,
                 callbackSubmitQuantity: _this.callbackSubmitQuantity,
-                ul: ul,
-                oldLi: oldLi
+                li: li
             });
         };
         this.onSubmitMoneyAdd = function (e) {
             e.preventDefault();
             var inputMoney = _this.$moneyAddForm.querySelector('#money-add-input').valueAsNumber;
             try {
-                _model_VendingMachine__WEBPACK_IMPORTED_MODULE_3__["default"].putMoney(inputMoney);
+                _model_VendingMachine__WEBPACK_IMPORTED_MODULE_4__["default"].putMoney(inputMoney);
                 _this.refreshUserMoney();
             }
-            catch (message) {
-                (0,_components_Snackbar__WEBPACK_IMPORTED_MODULE_1__["default"])(message);
+            catch (err) {
+                (0,_components_Snackbar__WEBPACK_IMPORTED_MODULE_2__["default"])(err.message);
             }
         };
         this.onReturnChange = function (e) {
             try {
-                var userChanges = _model_VendingMachine__WEBPACK_IMPORTED_MODULE_3__["default"].getUserChanges();
-                _this.refreshUserChange(userChanges);
+                var userChanges = _model_VendingMachine__WEBPACK_IMPORTED_MODULE_4__["default"].getUserChanges();
+                _components_ChangeListWrapper__WEBPACK_IMPORTED_MODULE_0__["default"].setState(userChanges);
                 _this.refreshUserMoney();
             }
-            catch (message) {
-                (0,_components_Snackbar__WEBPACK_IMPORTED_MODULE_1__["default"])(message);
+            catch (err) {
+                (0,_components_Snackbar__WEBPACK_IMPORTED_MODULE_2__["default"])(err.message);
             }
         };
         this.$inputSection = document.querySelector('.input-section');
         this.$contentsContainer = document.querySelector('.contents-container');
     }
     ProductPurchase.prototype.render = function () {
-        this.$inputSection.insertAdjacentHTML('beforeend', _template__WEBPACK_IMPORTED_MODULE_4__["default"].moneyAddContainer({
+        this.$inputSection.insertAdjacentHTML('beforeend', _template__WEBPACK_IMPORTED_MODULE_5__["default"].moneyAddContainer({
             labelText: '상품을 구매할 금액을 투입해주세요',
             buttonText: '투입',
             resultText: '투입한 금액'
         }));
-        this.$contentsContainer.insertAdjacentHTML('beforeend', _template__WEBPACK_IMPORTED_MODULE_4__["default"].productListContainer({
+        this.$contentsContainer.insertAdjacentHTML('beforeend', _template__WEBPACK_IMPORTED_MODULE_5__["default"].productListContainer({
             tabName: this.tabName,
             title: '구매 가능 상품 현황'
-        }) +
-            _template__WEBPACK_IMPORTED_MODULE_4__["default"].changeListWrapper({
-                title: '잔돈 반환',
-                tabName: this.tabName
-            }));
+        }));
+        _components_ChangeListWrapper__WEBPACK_IMPORTED_MODULE_0__["default"].createElement({
+            targetElement: this.$contentsContainer,
+            title: '잔돈 반환',
+            tabName: this.tabName
+        });
         this.$headerTitle = document.querySelector('#header-title');
         this.$headerTitle.textContent = '🍿 자판기 🍿';
         this.$moneyAddForm = this.$inputSection.querySelector('#money-add-form');
         this.$totalChange = this.$inputSection.querySelector('#total-money');
         this.$productList = this.$contentsContainer.querySelector('#product-list');
-        this.$changeList = this.$contentsContainer.querySelector('#change-list');
-        this.$amountCoin500 = this.$changeList.querySelector('#amount-coin-500');
-        this.$amountCoin100 = this.$changeList.querySelector('#amount-coin-100');
-        this.$amountCoin50 = this.$changeList.querySelector('#amount-coin-50');
-        this.$amountCoin10 = this.$changeList.querySelector('#amount-coin-10');
         this.$changeReturnButton = this.$contentsContainer.querySelector('#change-return-button');
         this.$productList.addEventListener('click', this.onClickPurchaseButton);
         this.$moneyAddForm.addEventListener('submit', this.onSubmitMoneyAdd);
@@ -1706,28 +1686,22 @@ var ProductPurchase = /** @class */ (function () {
         this.refreshUserMoney();
     };
     ProductPurchase.prototype.renderProducts = function () {
-        var _this = this;
-        var products = _model_VendingMachine__WEBPACK_IMPORTED_MODULE_3__["default"].getProducts();
-        products.forEach(function (product) {
-            _this.renderProductItem(product);
-        });
+        var products = _model_VendingMachine__WEBPACK_IMPORTED_MODULE_4__["default"].getProducts();
+        if (products.length === 0)
+            return;
+        this.$productList.appendChild(this.productsElement(products));
     };
-    ProductPurchase.prototype.renderProductItem = function (product) {
+    ProductPurchase.prototype.productsElement = function (products) {
         var fragment = new DocumentFragment();
-        var li = document.createElement('li');
-        li.insertAdjacentHTML('beforeend', _template__WEBPACK_IMPORTED_MODULE_4__["default"].purchaseProductItem(product));
-        fragment.appendChild(li);
-        this.$productList.appendChild(fragment);
-    };
-    ProductPurchase.prototype.refreshUserChange = function (userChanges) {
-        var coin10 = userChanges.coin10, coin50 = userChanges.coin50, coin100 = userChanges.coin100, coin500 = userChanges.coin500;
-        this.$amountCoin500.textContent = coin500 + '개';
-        this.$amountCoin100.textContent = coin100 + '개';
-        this.$amountCoin50.textContent = coin50 + '개';
-        this.$amountCoin10.textContent = coin10 + '개';
+        products.forEach(function (product) {
+            var li = document.createElement('li');
+            li.insertAdjacentHTML('beforeend', _template__WEBPACK_IMPORTED_MODULE_5__["default"].purchaseProductItem(product));
+            fragment.appendChild(li);
+        });
+        return fragment;
     };
     ProductPurchase.prototype.refreshUserMoney = function () {
-        this.$totalChange.textContent = _model_VendingMachine__WEBPACK_IMPORTED_MODULE_3__["default"].getUserMoney().toLocaleString();
+        this.$totalChange.textContent = _model_VendingMachine__WEBPACK_IMPORTED_MODULE_4__["default"].getUserMoney().toLocaleString();
     };
     return ProductPurchase;
 }());
@@ -1746,7 +1720,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _Api__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../Api */ "./src/js/Api.ts");
+/* harmony import */ var _api__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../api */ "./src/js/api.ts");
 /* harmony import */ var _components_Snackbar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Snackbar */ "./src/js/components/Snackbar.ts");
 /* harmony import */ var _router_index__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../router/index */ "./src/js/router/index.ts");
 /* harmony import */ var _template__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../template */ "./src/js/template/index.ts");
@@ -1798,31 +1772,30 @@ var Signup = /** @class */ (function () {
         this.onKeyDownInput = function (e) {
             if (!(e.target instanceof HTMLInputElement))
                 return;
-            var keyCode = e.keyCode;
-            var isSpacebar = keyCode === 32;
+            var isSpacebar = e.key === ' ';
             if (isSpacebar)
-                e.returnValue = false;
+                e.preventDefault();
         };
         this.onSubmitLogin = function (e) { return __awaiter(_this, void 0, void 0, function () {
-            var email, name, password, password2, data;
+            var email, name, password, passwordCheck, data;
             return __generator(this, function (_a) {
                 e.preventDefault();
                 email = this.$signupEmail.value.trim();
                 name = this.$signupName.value.trim();
                 password = this.$signupPassword.value.trim();
-                password2 = this.$signupPasswordCheck.value.trim();
+                passwordCheck = this.$signupPasswordCheck.value.trim();
                 try {
-                    this.checkAccountValidate(name, password, password2);
+                    this.checkAccountValidate(name, password, passwordCheck);
                     data = JSON.stringify({ email: email, name: name, password: password });
-                    _Api__WEBPACK_IMPORTED_MODULE_0__["default"].postSingup(data).then(function (res) {
+                    _api__WEBPACK_IMPORTED_MODULE_0__["default"].postSingup(data).then(function (res) {
                         var accessToken = res.accessToken, user = res.user;
                         localStorage.setItem('accessToken', accessToken);
                         localStorage.setItem('user', JSON.stringify(user));
                         _router_index__WEBPACK_IMPORTED_MODULE_2__["default"].to('#!/product-manage');
                     });
                 }
-                catch (message) {
-                    (0,_components_Snackbar__WEBPACK_IMPORTED_MODULE_1__["default"])(message);
+                catch (err) {
+                    (0,_components_Snackbar__WEBPACK_IMPORTED_MODULE_1__["default"])(err.message);
                 }
                 return [2 /*return*/];
             });
@@ -1838,8 +1811,8 @@ var Signup = /** @class */ (function () {
         this.$signupName = this.$contentsContainer.querySelector('#signup-name');
         this.$signupPassword = this.$contentsContainer.querySelector('#signup-password');
         this.$signupPasswordCheck = this.$contentsContainer.querySelector('#signup-password-check');
-        this.$nameNbr = this.$contentsContainer.querySelector('#name-nbr');
-        this.$pwdNbr = this.$contentsContainer.querySelector('#pwd-nbr');
+        this.$nameLength = this.$contentsContainer.querySelector('#name-length');
+        this.$pwdMinLength = this.$contentsContainer.querySelector('#pwd-min-length');
         this.$pwdLowercase = this.$contentsContainer.querySelector('#pwd-lowercase');
         this.$pwdUppercase = this.$contentsContainer.querySelector('#pwd-uppercase');
         this.$pwdSpecial = this.$contentsContainer.querySelector('#pwd-special');
@@ -1848,30 +1821,17 @@ var Signup = /** @class */ (function () {
         this.$contentsContainer.addEventListener('keydown', this.onKeyDownInput);
         this.$signupForm.addEventListener('submit', this.onSubmitLogin);
     };
-    Signup.prototype.checkAccountValidate = function (name, pwd, pwd2) {
-        var _isPositiveName = (0,_validator__WEBPACK_IMPORTED_MODULE_4__.isPositiveName)(name);
-        var _isPositivePwdLength = (0,_validator__WEBPACK_IMPORTED_MODULE_4__.isPositivePwdLength)(pwd);
-        var _isPwdLowerCase = (0,_validator__WEBPACK_IMPORTED_MODULE_4__.isPwdLowerCase)(pwd);
-        var _isPwdUpperCase = (0,_validator__WEBPACK_IMPORTED_MODULE_4__.isPwdUpperCase)(pwd);
-        var _isPwdSpecialChar = (0,_validator__WEBPACK_IMPORTED_MODULE_4__.isPwdSpecialChar)(pwd);
-        var _isPwdDigit = (0,_validator__WEBPACK_IMPORTED_MODULE_4__.isPwdDigit)(pwd);
-        var _isSamePwd2 = (0,_validator__WEBPACK_IMPORTED_MODULE_4__.isSamePwd2)(pwd, pwd2);
-        this.$nameNbr.classList.toggle('hide', _isPositiveName);
-        this.$pwdNbr.classList.toggle('hide', _isPositivePwdLength);
-        this.$pwdLowercase.classList.toggle('hide', _isPwdLowerCase);
-        this.$pwdUppercase.classList.toggle('hide', _isPwdUpperCase);
-        this.$pwdSpecial.classList.toggle('hide', _isPwdSpecialChar);
-        this.$pwdDigit.classList.toggle('hide', _isPwdDigit);
-        this.$pwdConfirm.classList.toggle('hide', _isSamePwd2);
-        var isError = [
-            _isPositiveName,
-            _isPositivePwdLength,
-            _isPwdLowerCase,
-            _isPwdUpperCase,
-            _isPwdSpecialChar,
-            _isPwdDigit,
-            _isSamePwd2,
-        ].some(function (v) { return !v; });
+    Signup.prototype.checkAccountValidate = function (name, pwd, pwdCheck) {
+        var validationAccount = (0,_validator__WEBPACK_IMPORTED_MODULE_4__.validateAccount)(name, pwd, pwdCheck);
+        var validateNameLength = validationAccount.validateNameLength, validatePwdLength = validationAccount.validatePwdLength, validatePwdLowerCase = validationAccount.validatePwdLowerCase, validatePwdUpperCase = validationAccount.validatePwdUpperCase, validatePwdSpecialChar = validationAccount.validatePwdSpecialChar, validatePwdDigit = validationAccount.validatePwdDigit, validateSamePwdCheck = validationAccount.validateSamePwdCheck;
+        this.$nameLength.classList.toggle('hide', validateNameLength);
+        this.$pwdMinLength.classList.toggle('hide', validatePwdLength);
+        this.$pwdLowercase.classList.toggle('hide', validatePwdLowerCase);
+        this.$pwdUppercase.classList.toggle('hide', validatePwdUpperCase);
+        this.$pwdSpecial.classList.toggle('hide', validatePwdSpecialChar);
+        this.$pwdDigit.classList.toggle('hide', validatePwdDigit);
+        this.$pwdConfirm.classList.toggle('hide', validateSamePwdCheck);
+        var isError = Object.values(validationAccount).includes(false);
         if (isError) {
             throw new Error('잘못 입력 했습니다.');
         }
@@ -1891,21 +1851,26 @@ var Signup = /** @class */ (function () {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "isPositiveName": () => (/* binding */ isPositiveName),
-/* harmony export */   "isPositivePwdLength": () => (/* binding */ isPositivePwdLength),
-/* harmony export */   "isPwdLowerCase": () => (/* binding */ isPwdLowerCase),
-/* harmony export */   "isPwdUpperCase": () => (/* binding */ isPwdUpperCase),
-/* harmony export */   "isPwdSpecialChar": () => (/* binding */ isPwdSpecialChar),
-/* harmony export */   "isPwdDigit": () => (/* binding */ isPwdDigit),
-/* harmony export */   "isSamePwd2": () => (/* binding */ isSamePwd2)
+/* harmony export */   "validateAccount": () => (/* binding */ validateAccount)
 /* harmony export */ });
-var isPositiveName = function (name) { return name.length >= 2 && name.length <= 6; };
-var isPositivePwdLength = function (pwd) { return pwd.length >= 8; };
-var isPwdLowerCase = function (pwd) { return pwd.search(/[a-z]/) >= 0; };
-var isPwdUpperCase = function (pwd) { return pwd.search(/[A-Z]/) >= 0; };
-var isPwdSpecialChar = function (pwd) { return pwd.search(/[#?!@$%^&*-]/) >= 0; };
-var isPwdDigit = function (pwd) { return pwd.search(/[0-9]/) >= 0; };
-var isSamePwd2 = function (pwd, pwd2) { return pwd === pwd2; };
+var validateNameLength = function (name) { return name.length >= 2 && name.length <= 6; };
+var validatePwdLength = function (pwd) { return pwd.length >= 8; };
+var validatePwdLowerCase = function (pwd) { return pwd.search(/[a-z]/) >= 0; };
+var validatePwdUpperCase = function (pwd) { return pwd.search(/[A-Z]/) >= 0; };
+var validatePwdSpecialChar = function (pwd) { return pwd.search(/[#?!@$%^&*-]/) >= 0; };
+var validatePwdDigit = function (pwd) { return pwd.search(/[0-9]/) >= 0; };
+var validateSamePwdCheck = function (pwd, pwdCheck) { return pwd === pwdCheck; };
+var validateAccount = function (name, pwd, pwdCheck) {
+    return {
+        validateNameLength: validateNameLength(name),
+        validatePwdLength: validatePwdLength(pwd),
+        validatePwdLowerCase: validatePwdLowerCase(pwd),
+        validatePwdUpperCase: validatePwdUpperCase(pwd),
+        validatePwdSpecialChar: validatePwdSpecialChar(pwd),
+        validatePwdDigit: validatePwdDigit(pwd),
+        validateSamePwdCheck: validateSamePwdCheck(pwd, pwdCheck)
+    };
+};
 
 
 
@@ -1924,7 +1889,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _routes__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./routes */ "./src/js/router/routes.ts");
 
 var useRouter = function () {
-    var $headerNav = document.querySelector('#header-nav');
+    var $headerTab = document.querySelector('#header-tab');
     var $inputSection = document.querySelector('.input-section');
     var $contentsContainer = document.querySelector('.contents-container');
     var $accountLoginButton = document.querySelector('#account-login-button');
@@ -1932,37 +1897,38 @@ var useRouter = function () {
     var $namethumbnail = $accountDropdownContainer.querySelector('#name-thumbnail');
     var prevPath = '';
     var activeLogin = function (path) {
-        if (path === '#!/login' || path === '#!/edit-profile' || path === '#!/signup') {
+        var isAccountPage = path === '#!/login' || path === '#!/edit-profile' || path === '#!/signup';
+        if (isAccountPage) {
             $accountLoginButton.classList.add('hide');
             $accountDropdownContainer.classList.add('hide');
-            $headerNav.classList.add('hide');
+            $headerTab.classList.add('hide');
             return;
         }
         var user = JSON.parse(localStorage.getItem('user'));
-        var _isLogged = !!user;
-        if (_isLogged)
+        var isLogged = !!user;
+        if (isLogged)
             $namethumbnail.textContent = user.name[0];
-        $accountLoginButton.classList.toggle('hide', _isLogged);
-        $accountDropdownContainer.classList.toggle('hide', !_isLogged);
-        $headerNav.classList.toggle('hide', !_isLogged);
+        $accountLoginButton.classList.toggle('hide', isLogged);
+        $accountDropdownContainer.classList.toggle('hide', !isLogged);
+        $headerTab.classList.toggle('hide', !isLogged);
     };
     var clearPageBody = function () {
         $inputSection.replaceChildren();
         $contentsContainer.replaceChildren();
     };
     return {
-        to: function (_path) {
-            var _a = window.location, hash = _a.hash, pathname = _a.pathname;
-            var _b = _routes__WEBPACK_IMPORTED_MODULE_0__["default"][_path], path = _b.path, title = _b.title, page = _b.page;
-            var isSamePage = prevPath === _path;
-            activeLogin(_path);
+        to: function (nextPath) {
+            var pathname = window.location.pathname;
+            var _a = _routes__WEBPACK_IMPORTED_MODULE_0__["default"][nextPath], path = _a.path, title = _a.title, page = _a.page;
+            var isSamePage = prevPath === nextPath;
+            activeLogin(nextPath);
             if (isSamePage) {
                 console.log('같은 페이지');
                 return;
             }
             clearPageBody();
-            history.pushState({ path: path, prevPath: prevPath, hash: hash, _path: _path }, title, pathname + path);
-            prevPath = _path;
+            history.pushState({}, title, pathname + path);
+            prevPath = nextPath;
             page.render();
         },
         back: function () {
@@ -2049,26 +2015,6 @@ var routes = useRoutes();
 
 /***/ }),
 
-/***/ "./src/js/template/changeListWrapper.ts":
-/*!**********************************************!*\
-  !*** ./src/js/template/changeListWrapper.ts ***!
-  \**********************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-var changeListWrapper = function (props) {
-    var title = props.title, tabName = props.tabName;
-    var isChangeReturn = tabName === 'ProductPurchase';
-    return "\n  <div id=\"change-list-wrapper\">\n    <h4>".concat(title, "</h4>\n    <ul id=\"change-list\">\n      <li class=\"list-header\">\n        <span class=\"change-block\">\uB3D9\uC804</span>\n        <span class=\"change-block\">\uAC1C\uC218</span>\n      </li>\n      <li>\n        <span class=\"change-block\">500\uC6D0</span>\n        <span id=\"amount-coin-500\" class=\"change-block\">0\uAC1C</span>\n      </li>\n      <li>\n        <span class=\"change-block\">100\uC6D0</span>\n        <span id=\"amount-coin-100\" class=\"change-block\">0\uAC1C</span>\n      </li>\n      <li>\n        <span class=\"change-block\">50\uC6D0</span>\n        <span id=\"amount-coin-50\" class=\"change-block\">0\uAC1C</span>\n      </li>\n      <li>\n        <span class=\"change-block\">10\uC6D0</span>\n        <span id=\"amount-coin-10\" class=\"change-block\">0\uAC1C</span>\n      </li>\n    </ul>\n    ").concat(isChangeReturn ? "<button type=\"button\" id=\"change-return-button\">\uBC18\uD658</button>" : '', "\n  </div>");
-};
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (changeListWrapper);
-
-
-/***/ }),
-
 /***/ "./src/js/template/editProfileContainer.ts":
 /*!*************************************************!*\
   !*** ./src/js/template/editProfileContainer.ts ***!
@@ -2080,7 +2026,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 var editProfileContainer = function () {
-    return "\n        <div id=\"edit-profile-container\" class=\"account-container\">\n            <form id=\"edit-profile-form\" class=\"account-form\">\n                <div class=\"login-block\">\n                    <label>\uC774\uBA54\uC77C</label>\n                    <input type=\"email\" id=\"edit-profile-email\" class=\"login-input\" placeholder=\"\uC774\uBA54\uC77C \uC8FC\uC18C\uB97C \uC785\uB825\uD574\uC8FC\uC138\uC694\" disabled/>\n                </div>\n                <div class=\"login-block\">\n                    <label>\uC774\uB984</label>\n                    <input type=\"text\" id=\"edit-profile-name\" class=\"login-input\" placeholder=\"\uC774\uB984\uC744 \uC785\uB825\uD574\uC8FC\uC138\uC694\" />\n                </div>\n                <div class=\"valid-box account-name\">\n                    <p id=\"name-nbr\" class=\"hints hide\" >\uC774\uB984\uC740 2~6\uAE00\uC790\uAE4C\uC9C0 \uAC00\uB2A5\uD569\uB2C8\uB2E4.</p>\n                </div>\n                <div class=\"login-block\">\n                    <label>\uBE44\uBC00\uBC88\uD638</label>\n                    <input type=\"text\" id=\"edit-profile-password\" class=\"login-input\" placeholder=\"\uBE44\uBC00\uBC88\uD638\uB97C \uC785\uB825\uD574\uC8FC\uC138\uC694\" />\n                </div>\n                <div class=\"valid-box account-pwd\">\n                    <p id=\"pwd-nbr\" class=\"hints hide\" >\uCD5C\uC18C\uD55C 8\uAE00\uC790 \uC774\uC0C1\uC774\uC5EC\uC57C \uD569\uB2C8\uB2E4.</p>\n                    <p id=\"pwd-lowercase\" class=\"hints hide\" >\uC18C\uBB38\uC790\uB97C \uC801\uC5B4\uB3C4 \uD558\uB098 \uC774\uC0C1 \uD3EC\uD568\uC2DC\uCF1C\uC57C \uD569\uB2C8\uB2E4.</p>\n                    <p id=\"pwd-uppercase\" class=\"hints hide\" >\uB300\uBB38\uC790\uB97C \uC801\uC5B4\uB3C4 \uD558\uB098 \uC774\uC0C1 \uD3EC\uD568\uC2DC\uCF1C\uC57C \uD569\uB2C8\uB2E4.</p>\n                    <p id=\"pwd-special\" class=\"hints hide\" >\uD2B9\uC218\uBB38\uC790(#?!@$%^&*-)\uB97C \uC801\uC5B4\uB3C4 \uD558\uB098 \uC774\uC0C1 \uD3EC\uD568\uC2DC\uCF1C\uC57C \uD569\uB2C8\uB2E4.</p>\n                    <p id=\"pwd-digit\" class=\"hints hide\" >\uC22B\uC790\uB97C \uC801\uC5B4\uB3C4 \uD558\uB098 \uC774\uC0C1 \uD3EC\uD568\uC2DC\uCF1C\uC57C \uD569\uB2C8\uB2E4.</p>\n                </div>\n                <div class=\"login-block\">\n                    <label>\uBE44\uBC00\uBC88\uD638 \uD655\uC778</label>\n                    <input type=\"text\" id=\"edit-profile-password-check\" class=\"login-input\" placeholder=\"\uBE44\uBC00\uBC88\uD638\uB97C \uC785\uB825\uD574\uC8FC\uC138\uC694\" />\n                </div>\n                <div class=\"valid-box account-pwd-confirm\">\n                    <p id=\"pwd-confirm\" class=\"hints hide\" >\uBE44\uBC00\uBC88\uD638\uB97C \uB2E4\uC2DC \uD655\uC778\uD558\uC138\uC694.</p>\n                </div>\n                <input type=\"submit\" id=\"login-submit\" value=\"\uD655\uC778\"/>\n            </form>\n        </div>\n    ";
+    return "\n        <div id=\"edit-profile-container\" class=\"account-container\">\n            <form id=\"edit-profile-form\" class=\"account-form\">\n                <div class=\"login-block\">\n                    <label>\uC774\uBA54\uC77C</label>\n                    <input type=\"email\" id=\"edit-profile-email\" class=\"login-input\" placeholder=\"\uC774\uBA54\uC77C \uC8FC\uC18C\uB97C \uC785\uB825\uD574\uC8FC\uC138\uC694\" disabled/>\n                </div>\n                <div class=\"login-block\">\n                    <label>\uC774\uB984</label>\n                    <input type=\"text\" id=\"edit-profile-name\" class=\"login-input\" placeholder=\"\uC774\uB984\uC744 \uC785\uB825\uD574\uC8FC\uC138\uC694\" />\n                </div>\n                <div class=\"valid-box account-name\">\n                    <p id=\"name-length\" class=\"hints hide\" >\uC774\uB984\uC740 2~6\uAE00\uC790\uAE4C\uC9C0 \uAC00\uB2A5\uD569\uB2C8\uB2E4.</p>\n                </div>\n                <div class=\"login-block\">\n                    <label>\uBE44\uBC00\uBC88\uD638</label>\n                    <input type=\"password\" id=\"edit-profile-password\" class=\"login-input\" placeholder=\"\uBE44\uBC00\uBC88\uD638\uB97C \uC785\uB825\uD574\uC8FC\uC138\uC694\" />\n                </div>\n                <div class=\"valid-box account-pwd\">\n                    <p id=\"pwd-min-length\" class=\"hints hide\" >\uCD5C\uC18C\uD55C 8\uAE00\uC790 \uC774\uC0C1\uC774\uC5EC\uC57C \uD569\uB2C8\uB2E4.</p>\n                    <p id=\"pwd-lowercase\" class=\"hints hide\" >\uC18C\uBB38\uC790\uB97C \uC801\uC5B4\uB3C4 \uD558\uB098 \uC774\uC0C1 \uD3EC\uD568\uC2DC\uCF1C\uC57C \uD569\uB2C8\uB2E4.</p>\n                    <p id=\"pwd-uppercase\" class=\"hints hide\" >\uB300\uBB38\uC790\uB97C \uC801\uC5B4\uB3C4 \uD558\uB098 \uC774\uC0C1 \uD3EC\uD568\uC2DC\uCF1C\uC57C \uD569\uB2C8\uB2E4.</p>\n                    <p id=\"pwd-special\" class=\"hints hide\" >\uD2B9\uC218\uBB38\uC790(#?!@$%^&*-)\uB97C \uC801\uC5B4\uB3C4 \uD558\uB098 \uC774\uC0C1 \uD3EC\uD568\uC2DC\uCF1C\uC57C \uD569\uB2C8\uB2E4.</p>\n                    <p id=\"pwd-digit\" class=\"hints hide\" >\uC22B\uC790\uB97C \uC801\uC5B4\uB3C4 \uD558\uB098 \uC774\uC0C1 \uD3EC\uD568\uC2DC\uCF1C\uC57C \uD569\uB2C8\uB2E4.</p>\n                </div>\n                <div class=\"login-block\">\n                    <label>\uBE44\uBC00\uBC88\uD638 \uD655\uC778</label>\n                    <input type=\"password\" id=\"edit-profile-password-check\" class=\"login-input\" placeholder=\"\uBE44\uBC00\uBC88\uD638\uB97C \uC785\uB825\uD574\uC8FC\uC138\uC694\" />\n                </div>\n                <div class=\"valid-box account-pwd-confirm\">\n                    <p id=\"pwd-confirm\" class=\"hints hide\" >\uBE44\uBC00\uBC88\uD638\uB97C \uB2E4\uC2DC \uD655\uC778\uD558\uC138\uC694.</p>\n                </div>\n                <input type=\"submit\" id=\"login-submit\" value=\"\uD655\uC778\"/>\n            </form>\n        </div>\n    ";
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (editProfileContainer);
 
@@ -2097,17 +2043,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _changeListWrapper__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./changeListWrapper */ "./src/js/template/changeListWrapper.ts");
-/* harmony import */ var _loginContainer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./loginContainer */ "./src/js/template/loginContainer.ts");
-/* harmony import */ var _modifyProductItem__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modifyProductItem */ "./src/js/template/modifyProductItem.ts");
-/* harmony import */ var _moneyAddContainer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./moneyAddContainer */ "./src/js/template/moneyAddContainer.ts");
-/* harmony import */ var _productItem__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./productItem */ "./src/js/template/productItem.ts");
-/* harmony import */ var _productListContainer__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./productListContainer */ "./src/js/template/productListContainer.ts");
-/* harmony import */ var _productManageContainer__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./productManageContainer */ "./src/js/template/productManageContainer.ts");
-/* harmony import */ var _purchaseProductItem__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./purchaseProductItem */ "./src/js/template/purchaseProductItem.ts");
-/* harmony import */ var _signupContainer__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./signupContainer */ "./src/js/template/signupContainer.ts");
-/* harmony import */ var _editProfileContainer__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./editProfileContainer */ "./src/js/template/editProfileContainer.ts");
-
+/* harmony import */ var _loginContainer__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./loginContainer */ "./src/js/template/loginContainer.ts");
+/* harmony import */ var _modifyProductItem__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modifyProductItem */ "./src/js/template/modifyProductItem.ts");
+/* harmony import */ var _moneyAddContainer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./moneyAddContainer */ "./src/js/template/moneyAddContainer.ts");
+/* harmony import */ var _productItem__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./productItem */ "./src/js/template/productItem.ts");
+/* harmony import */ var _productListContainer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./productListContainer */ "./src/js/template/productListContainer.ts");
+/* harmony import */ var _productManageContainer__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./productManageContainer */ "./src/js/template/productManageContainer.ts");
+/* harmony import */ var _purchaseProductItem__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./purchaseProductItem */ "./src/js/template/purchaseProductItem.ts");
+/* harmony import */ var _signupContainer__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./signupContainer */ "./src/js/template/signupContainer.ts");
+/* harmony import */ var _editProfileContainer__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./editProfileContainer */ "./src/js/template/editProfileContainer.ts");
 
 
 
@@ -2118,16 +2062,15 @@ __webpack_require__.r(__webpack_exports__);
 
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
-    changeListWrapper: _changeListWrapper__WEBPACK_IMPORTED_MODULE_0__["default"],
-    loginContainer: _loginContainer__WEBPACK_IMPORTED_MODULE_1__["default"],
-    modifyProductItem: _modifyProductItem__WEBPACK_IMPORTED_MODULE_2__["default"],
-    moneyAddContainer: _moneyAddContainer__WEBPACK_IMPORTED_MODULE_3__["default"],
-    productItem: _productItem__WEBPACK_IMPORTED_MODULE_4__["default"],
-    productListContainer: _productListContainer__WEBPACK_IMPORTED_MODULE_5__["default"],
-    productManageContainer: _productManageContainer__WEBPACK_IMPORTED_MODULE_6__["default"],
-    purchaseProductItem: _purchaseProductItem__WEBPACK_IMPORTED_MODULE_7__["default"],
-    signupContainer: _signupContainer__WEBPACK_IMPORTED_MODULE_8__["default"],
-    editProfileContainer: _editProfileContainer__WEBPACK_IMPORTED_MODULE_9__["default"]
+    loginContainer: _loginContainer__WEBPACK_IMPORTED_MODULE_0__["default"],
+    modifyProductItem: _modifyProductItem__WEBPACK_IMPORTED_MODULE_1__["default"],
+    moneyAddContainer: _moneyAddContainer__WEBPACK_IMPORTED_MODULE_2__["default"],
+    productItem: _productItem__WEBPACK_IMPORTED_MODULE_3__["default"],
+    productListContainer: _productListContainer__WEBPACK_IMPORTED_MODULE_4__["default"],
+    productManageContainer: _productManageContainer__WEBPACK_IMPORTED_MODULE_5__["default"],
+    purchaseProductItem: _purchaseProductItem__WEBPACK_IMPORTED_MODULE_6__["default"],
+    signupContainer: _signupContainer__WEBPACK_IMPORTED_MODULE_7__["default"],
+    editProfileContainer: _editProfileContainer__WEBPACK_IMPORTED_MODULE_8__["default"]
 });
 
 
@@ -2144,7 +2087,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 var loginContainer = function () {
-    return "\n    <div id=\"login-container\" class=\"account-container\">\n        <form id=\"login-form\" class=\"account-form\">\n            <div class=\"login-block\">\n                <label>\uC774\uBA54\uC77C</label>\n                <input type=\"email\" id=\"login-email\" class=\"login-input\" placeholder=\"woowacourse@gmail.com\" required/>\n            </div>\n            <div class=\"login-block\">\n                <label>\uBE44\uBC00\uBC88\uD638</label>\n                <input type=\"text\" id=\"login-password\" class=\"login-input\" placeholder=\"\uBE44\uBC00\uBC88\uD638\uB97C \uC785\uB825\uD574\uC8FC\uC138\uC694\" required/>\n            </div>\n            <input type=\"submit\" id=\"login-submit\" value=\"\uD655\uC778\"/>\n        </form>\n        <p class=\"login-p\">\uC544\uC9C1 \uD68C\uC6D0\uC774 \uC544\uB2C8\uC2E0\uAC00\uC694? <a href=\"#!/signup\" id=\"singup-link\">\uD68C\uC6D0\uAC00\uC785</a></p>\n    </div>\n    ";
+    return "\n    <div id=\"login-container\" class=\"account-container\">\n        <form id=\"login-form\" class=\"account-form\">\n            <div class=\"login-block\">\n                <label>\uC774\uBA54\uC77C</label>\n                <input type=\"email\" id=\"login-email\" class=\"login-input\" placeholder=\"woowacourse@gmail.com\" required/>\n            </div>\n            <div class=\"login-block\">\n                <label>\uBE44\uBC00\uBC88\uD638</label>\n                <input type=\"password\" id=\"login-password\" class=\"login-input\" placeholder=\"\uBE44\uBC00\uBC88\uD638\uB97C \uC785\uB825\uD574\uC8FC\uC138\uC694\" required/>\n            </div>\n            <input type=\"submit\" id=\"login-submit\" value=\"\uD655\uC778\"/>\n        </form>\n        <p class=\"login-p\">\uC544\uC9C1 \uD68C\uC6D0\uC774 \uC544\uB2C8\uC2E0\uAC00\uC694? <a href=\"#!/signup\" id=\"singup-link\">\uD68C\uC6D0\uAC00\uC785</a></p>\n    </div>\n    ";
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (loginContainer);
 
@@ -2276,7 +2219,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 var signupContainer = function () {
-    return "\n    <div id=\"signup-container\" class=\"account-container\">\n        <form id=\"signup-form\" class=\"account-form\">\n            <div class=\"login-block\">\n                <label>\uC774\uBA54\uC77C</label>\n                <input type=\"email\" id=\"signup-email\" class=\"login-input\" placeholder=\"\uC774\uBA54\uC77C \uC8FC\uC18C\uB97C \uC785\uB825\uD574\uC8FC\uC138\uC694\" required/>\n            </div>\n            <div class=\"valid-box account-email-confirm\">\n                <p id=\"email-confirm\" class=\"hints hide\" >\uC62C\uBC14\uB974\uC9C0 \uC54A\uC740 \uC774\uBA54\uC77C \uC8FC\uC18C\uC785\uB2C8\uB2E4.</p>\n            </div>\n            <div class=\"login-block\">\n                <label>\uC774\uB984</label>\n                <input type=\"text\" id=\"signup-name\" class=\"login-input\" placeholder=\"\uC774\uB984\uC744 \uC785\uB825\uD574\uC8FC\uC138\uC694\" required/>\n            </div>\n            <div class=\"valid-box account-name\">\n                <p id=\"name-nbr\" class=\"hints hide\" >\uC774\uB984\uC740 2~6\uAE00\uC790\uAE4C\uC9C0 \uAC00\uB2A5\uD569\uB2C8\uB2E4.</p>\n            </div>\n            <div class=\"login-block\">\n                <label>\uBE44\uBC00\uBC88\uD638</label>\n                <input type=\"text\" id=\"signup-password\" class=\"login-input\" placeholder=\"\uBE44\uBC00\uBC88\uD638\uB97C \uC785\uB825\uD574\uC8FC\uC138\uC694\" required/>\n            </div>\n            <div class=\"valid-box account-pwd\">\n                <p id=\"pwd-nbr\" class=\"hints hide\" >\uCD5C\uC18C\uD55C 8\uAE00\uC790 \uC774\uC0C1\uC774\uC5EC\uC57C \uD569\uB2C8\uB2E4.</p>\n                <p id=\"pwd-lowercase\" class=\"hints hide\" >\uC18C\uBB38\uC790\uB97C \uC801\uC5B4\uB3C4 \uD558\uB098 \uC774\uC0C1 \uD3EC\uD568\uC2DC\uCF1C\uC57C \uD569\uB2C8\uB2E4.</p>\n                <p id=\"pwd-uppercase\" class=\"hints hide\" >\uB300\uBB38\uC790\uB97C \uC801\uC5B4\uB3C4 \uD558\uB098 \uC774\uC0C1 \uD3EC\uD568\uC2DC\uCF1C\uC57C \uD569\uB2C8\uB2E4.</p>\n                <p id=\"pwd-special\" class=\"hints hide\" >\uD2B9\uC218\uBB38\uC790(#?!@$%^&*-)\uB97C \uC801\uC5B4\uB3C4 \uD558\uB098 \uC774\uC0C1 \uD3EC\uD568\uC2DC\uCF1C\uC57C \uD569\uB2C8\uB2E4.</p>\n                <p id=\"pwd-digit\" class=\"hints hide\" >\uC22B\uC790\uB97C \uC801\uC5B4\uB3C4 \uD558\uB098 \uC774\uC0C1 \uD3EC\uD568\uC2DC\uCF1C\uC57C \uD569\uB2C8\uB2E4.</p>\n            </div>\n            <div class=\"login-block\">\n                <label>\uBE44\uBC00\uBC88\uD638 \uD655\uC778</label>\n                <input type=\"text\" id=\"signup-password-check\" class=\"login-input\" placeholder=\"\uBE44\uBC00\uBC88\uD638\uB97C \uC785\uB825\uD574\uC8FC\uC138\uC694\" required/>\n            </div>\n            <div class=\"valid-box account-pwd-confirm\">\n                <p id=\"pwd-confirm\" class=\"hints hide\" >\uBE44\uBC00\uBC88\uD638\uB97C \uB2E4\uC2DC \uD655\uC778\uD558\uC138\uC694.</p>\n            </div>\n            <input type=\"submit\" id=\"login-submit\" value=\"\uD655\uC778\"/>\n        </form>\n    </div>\n    ";
+    return "\n    <div id=\"signup-container\" class=\"account-container\">\n        <form id=\"signup-form\" class=\"account-form\">\n            <div class=\"login-block\">\n                <label>\uC774\uBA54\uC77C</label>\n                <input type=\"email\" id=\"signup-email\" class=\"login-input\" placeholder=\"\uC774\uBA54\uC77C \uC8FC\uC18C\uB97C \uC785\uB825\uD574\uC8FC\uC138\uC694\" required/>\n            </div>\n            <div class=\"valid-box account-email-confirm\">\n                <p id=\"email-confirm\" class=\"hints hide\" >\uC62C\uBC14\uB974\uC9C0 \uC54A\uC740 \uC774\uBA54\uC77C \uC8FC\uC18C\uC785\uB2C8\uB2E4.</p>\n            </div>\n            <div class=\"login-block\">\n                <label>\uC774\uB984</label>\n                <input type=\"text\" id=\"signup-name\" class=\"login-input\" placeholder=\"\uC774\uB984\uC744 \uC785\uB825\uD574\uC8FC\uC138\uC694\" required/>\n            </div>\n            <div class=\"valid-box account-name\">\n                <p id=\"name-length\" class=\"hints hide\" >\uC774\uB984\uC740 2~6\uAE00\uC790\uAE4C\uC9C0 \uAC00\uB2A5\uD569\uB2C8\uB2E4.</p>\n            </div>\n            <div class=\"login-block\">\n                <label>\uBE44\uBC00\uBC88\uD638</label>\n                <input type=\"password\" id=\"signup-password\" class=\"login-input\" placeholder=\"\uBE44\uBC00\uBC88\uD638\uB97C \uC785\uB825\uD574\uC8FC\uC138\uC694\" required/>\n            </div>\n            <div class=\"valid-box account-pwd\">\n                <p id=\"pwd-min-length\" class=\"hints hide\" >\uCD5C\uC18C\uD55C 8\uAE00\uC790 \uC774\uC0C1\uC774\uC5EC\uC57C \uD569\uB2C8\uB2E4.</p>\n                <p id=\"pwd-lowercase\" class=\"hints hide\" >\uC18C\uBB38\uC790\uB97C \uC801\uC5B4\uB3C4 \uD558\uB098 \uC774\uC0C1 \uD3EC\uD568\uC2DC\uCF1C\uC57C \uD569\uB2C8\uB2E4.</p>\n                <p id=\"pwd-uppercase\" class=\"hints hide\" >\uB300\uBB38\uC790\uB97C \uC801\uC5B4\uB3C4 \uD558\uB098 \uC774\uC0C1 \uD3EC\uD568\uC2DC\uCF1C\uC57C \uD569\uB2C8\uB2E4.</p>\n                <p id=\"pwd-special\" class=\"hints hide\" >\uD2B9\uC218\uBB38\uC790(#?!@$%^&*-)\uB97C \uC801\uC5B4\uB3C4 \uD558\uB098 \uC774\uC0C1 \uD3EC\uD568\uC2DC\uCF1C\uC57C \uD569\uB2C8\uB2E4.</p>\n                <p id=\"pwd-digit\" class=\"hints hide\" >\uC22B\uC790\uB97C \uC801\uC5B4\uB3C4 \uD558\uB098 \uC774\uC0C1 \uD3EC\uD568\uC2DC\uCF1C\uC57C \uD569\uB2C8\uB2E4.</p>\n            </div>\n            <div class=\"login-block\">\n                <label>\uBE44\uBC00\uBC88\uD638 \uD655\uC778</label>\n                <input type=\"password\" id=\"signup-password-check\" class=\"login-input\" placeholder=\"\uBE44\uBC00\uBC88\uD638\uB97C \uC785\uB825\uD574\uC8FC\uC138\uC694\" required/>\n            </div>\n            <div class=\"valid-box account-pwd-confirm\">\n                <p id=\"pwd-confirm\" class=\"hints hide\" >\uBE44\uBC00\uBC88\uD638\uB97C \uB2E4\uC2DC \uD655\uC778\uD558\uC138\uC694.</p>\n            </div>\n            <input type=\"submit\" id=\"login-submit\" value=\"\uD655\uC778\"/>\n        </form>\n    </div>\n    ";
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (signupContainer);
 
@@ -2360,16 +2303,17 @@ var __webpack_exports__ = {};
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _css_index__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./css/index */ "./src/css/index.css");
 /* harmony import */ var _js_router_index__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./js/router/index */ "./src/js/router/index.ts");
+/* harmony import */ var _js_constants__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./js/constants */ "./src/js/constants.ts");
+
 
 
 window.addEventListener('popstate', function () {
     _js_router_index__WEBPACK_IMPORTED_MODULE_1__["default"].back();
 });
+var pathString = function (tabId) { return "#!/".concat(tabId.replace('-button', '')); };
 var App = /** @class */ (function () {
     function App() {
         this.onClickLogin = function (e) {
-            if (!(e.target instanceof HTMLButtonElement))
-                return;
             _js_router_index__WEBPACK_IMPORTED_MODULE_1__["default"].to('#!/login');
         };
         this.onSelectNav = function (e) {
@@ -2388,29 +2332,24 @@ var App = /** @class */ (function () {
         this.onClickTab = function (e) {
             if (!(e.target instanceof HTMLButtonElement))
                 return;
-            var IdSelector = e.target.id;
-            var path = '';
-            switch (IdSelector) {
+            var idSelector = e.target.id;
+            if (!_js_constants__WEBPACK_IMPORTED_MODULE_2__.TAB_IDS.includes(idSelector))
+                return;
+            switch (idSelector) {
                 case 'product-manage-button':
-                    path = '#!/product-manage';
-                    break;
+                    return _js_router_index__WEBPACK_IMPORTED_MODULE_1__["default"].to(pathString(idSelector));
                 case 'change-add-button':
-                    path = '#!/change-add';
-                    break;
+                    return _js_router_index__WEBPACK_IMPORTED_MODULE_1__["default"].to(pathString(idSelector));
                 case 'product-purchase-button':
-                    path = '#!/product-purchase';
-                    break;
-                default:
-                    break;
+                    return _js_router_index__WEBPACK_IMPORTED_MODULE_1__["default"].to(pathString(idSelector));
             }
-            _js_router_index__WEBPACK_IMPORTED_MODULE_1__["default"].to(path);
         };
-        this.$headerNav = document.querySelector('#header-nav');
+        this.$headerTab = document.querySelector('#header-tab');
         this.$accountLoginButton = document.querySelector('#account-login-button');
-        this.$dropdownSelect = document.querySelector('#dropdown-select');
+        this.$dropdownNav = document.querySelector('#dropdown-select');
         this.$accountLoginButton.addEventListener('click', this.onClickLogin);
-        this.$headerNav.addEventListener('click', this.onClickTab);
-        this.$dropdownSelect.addEventListener('change', this.onSelectNav);
+        this.$headerTab.addEventListener('click', this.onClickTab);
+        this.$dropdownNav.addEventListener('change', this.onSelectNav);
         var hash = window.location.hash;
         hash === '' ? _js_router_index__WEBPACK_IMPORTED_MODULE_1__["default"].to('#!/product-purchase') : _js_router_index__WEBPACK_IMPORTED_MODULE_1__["default"].to(hash);
     }

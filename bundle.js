@@ -627,7 +627,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _components_Snackbar__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/Snackbar */ "./src/js/components/Snackbar.ts");
 var __awaiter = (undefined && undefined.__awaiter) || function (thisArg, _arguments, P, generator) {
     function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
     return new (P || (P = Promise))(function (resolve, reject) {
@@ -664,50 +663,39 @@ var __generator = (undefined && undefined.__generator) || function (thisArg, bod
         if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };
     }
 };
-
 var HOME_URL = 'https://vendingmachine-coke-test.herokuapp.com';
 var DEV_URL = 'http://localhost:3000';
 var postUserLogin = function (data) { return __awaiter(void 0, void 0, void 0, function () {
-    var response, res, err_1;
+    var response, res;
     return __generator(this, function (_a) {
         switch (_a.label) {
-            case 0:
-                _a.trys.push([0, 3, , 4]);
-                return [4 /*yield*/, fetch("".concat(HOME_URL, "/login"), {
-                        method: 'POST',
-                        headers: { 'Content-Type': 'application/json' },
-                        body: data
-                    })];
+            case 0: return [4 /*yield*/, fetch("".concat(HOME_URL, "/login"), {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: data
+                })];
             case 1:
                 response = _a.sent();
                 return [4 /*yield*/, response.json()];
             case 2:
                 res = _a.sent();
-                if (!response.ok) {
+                if (!response.ok)
                     throw new Error(res);
-                }
                 return [2 /*return*/, res];
-            case 3:
-                err_1 = _a.sent();
-                (0,_components_Snackbar__WEBPACK_IMPORTED_MODULE_0__["default"])(err_1.message);
-                return [3 /*break*/, 4];
-            case 4: return [2 /*return*/];
         }
     });
 }); };
 var putEditProfile = function (_a) {
     var id = _a.id, data = _a.data;
     return __awaiter(void 0, void 0, void 0, function () {
-        var response, res, err_2;
+        var response, res;
         return __generator(this, function (_b) {
             switch (_b.label) {
-                case 0:
-                    _b.trys.push([0, 3, , 4]);
-                    return [4 /*yield*/, fetch("".concat(HOME_URL, "/users/").concat(id), {
-                            method: 'PUT',
-                            headers: { 'Content-Type': 'application/json' },
-                            body: data
-                        })];
+                case 0: return [4 /*yield*/, fetch("".concat(HOME_URL, "/users/").concat(id), {
+                        method: 'PUT',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: data
+                    })];
                 case 1:
                     response = _b.sent();
                     return [4 /*yield*/, response.json()];
@@ -719,40 +707,27 @@ var putEditProfile = function (_a) {
                         throw new Error(res);
                     }
                     return [2 /*return*/, res];
-                case 3:
-                    err_2 = _b.sent();
-                    (0,_components_Snackbar__WEBPACK_IMPORTED_MODULE_0__["default"])(err_2.message);
-                    return [3 /*break*/, 4];
-                case 4: return [2 /*return*/];
             }
         });
     });
 };
 var postSingup = function (data) { return __awaiter(void 0, void 0, void 0, function () {
-    var response, res, err_3;
+    var response, res;
     return __generator(this, function (_a) {
         switch (_a.label) {
-            case 0:
-                _a.trys.push([0, 3, , 4]);
-                return [4 /*yield*/, fetch("".concat(HOME_URL, "/users"), {
-                        method: 'POST',
-                        headers: { 'Content-Type': 'application/json' },
-                        body: data
-                    })];
+            case 0: return [4 /*yield*/, fetch("".concat(HOME_URL, "/users"), {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: data
+                })];
             case 1:
                 response = _a.sent();
                 return [4 /*yield*/, response.json()];
             case 2:
                 res = _a.sent();
-                if (!response.ok) {
+                if (!response.ok)
                     throw new Error(res);
-                }
                 return [2 /*return*/, res];
-            case 3:
-                err_3 = _a.sent();
-                (0,_components_Snackbar__WEBPACK_IMPORTED_MODULE_0__["default"])(err_3.message);
-                return [3 /*break*/, 4];
-            case 4: return [2 /*return*/];
         }
     });
 }); };
@@ -1346,10 +1321,13 @@ var EditProfile = /** @class */ (function () {
                 try {
                     this.checkAccountValidate(name, password, password2);
                     data = JSON.stringify({ email: email, name: name, password: password });
-                    _api__WEBPACK_IMPORTED_MODULE_0__["default"].putEditProfile({ id: this.user.id, data: data }).then(function (res) {
+                    _api__WEBPACK_IMPORTED_MODULE_0__["default"].putEditProfile({ id: this.user.id, data: data })
+                        .then(function (res) {
                         var email = res.email, name = res.name, id = res.id;
                         localStorage.setItem('user', JSON.stringify({ email: email, name: name, id: id }));
                         _router__WEBPACK_IMPORTED_MODULE_2__["default"].to('#!/product-manage');
+                    })["catch"](function (err) {
+                        (0,_components_Snackbar__WEBPACK_IMPORTED_MODULE_1__["default"])(err.message);
                     });
                 }
                 catch (err) {
@@ -1414,8 +1392,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var _api__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../api */ "./src/js/api.ts");
-/* harmony import */ var _router_index__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../router/index */ "./src/js/router/index.ts");
-/* harmony import */ var _template__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../template */ "./src/js/template/index.ts");
+/* harmony import */ var _components_Snackbar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Snackbar */ "./src/js/components/Snackbar.ts");
+/* harmony import */ var _router_index__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../router/index */ "./src/js/router/index.ts");
+/* harmony import */ var _template__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../template */ "./src/js/template/index.ts");
+
 
 
 
@@ -1428,18 +1408,21 @@ var Login = /** @class */ (function () {
                 email: _this.$loginEmail.value,
                 password: _this.$loginPassword.value
             });
-            _api__WEBPACK_IMPORTED_MODULE_0__["default"].postUserLogin(data).then(function (res) {
+            _api__WEBPACK_IMPORTED_MODULE_0__["default"].postUserLogin(data)
+                .then(function (res) {
                 var accessToken = res.accessToken, user = res.user;
                 localStorage.setItem('accessToken', accessToken);
                 localStorage.setItem('user', JSON.stringify(user));
-                _router_index__WEBPACK_IMPORTED_MODULE_1__["default"].to('#!/product-manage');
+                _router_index__WEBPACK_IMPORTED_MODULE_2__["default"].to('#!/product-manage');
+            })["catch"](function (err) {
+                (0,_components_Snackbar__WEBPACK_IMPORTED_MODULE_1__["default"])(err.message);
             });
         };
         this.$headerTitle = document.querySelector('#header-title');
         this.$contentsContainer = document.querySelector('.contents-container');
     }
     Login.prototype.render = function () {
-        this.$contentsContainer.insertAdjacentHTML('beforeend', _template__WEBPACK_IMPORTED_MODULE_2__["default"].loginContainer());
+        this.$contentsContainer.insertAdjacentHTML('beforeend', _template__WEBPACK_IMPORTED_MODULE_3__["default"].loginContainer());
         this.$headerTitle.textContent = '로그인';
         this.$loginForm = this.$contentsContainer.querySelector('#login-form');
         this.$loginEmail = this.$contentsContainer.querySelector('#login-email');
@@ -1689,9 +1672,9 @@ var ProductPurchase = /** @class */ (function () {
         var products = _model_VendingMachine__WEBPACK_IMPORTED_MODULE_4__["default"].getProducts();
         if (products.length === 0)
             return;
-        this.$productList.appendChild(this.productsElement(products));
+        this.$productList.appendChild(this.getProductsElement(products));
     };
-    ProductPurchase.prototype.productsElement = function (products) {
+    ProductPurchase.prototype.getProductsElement = function (products) {
         var fragment = new DocumentFragment();
         products.forEach(function (product) {
             var li = document.createElement('li');
@@ -1787,11 +1770,15 @@ var Signup = /** @class */ (function () {
                 try {
                     this.checkAccountValidate(name, password, passwordCheck);
                     data = JSON.stringify({ email: email, name: name, password: password });
-                    _api__WEBPACK_IMPORTED_MODULE_0__["default"].postSingup(data).then(function (res) {
+                    _api__WEBPACK_IMPORTED_MODULE_0__["default"].postSingup(data)
+                        .then(function (res) {
+                        console.log('res', res);
                         var accessToken = res.accessToken, user = res.user;
                         localStorage.setItem('accessToken', accessToken);
                         localStorage.setItem('user', JSON.stringify(user));
                         _router_index__WEBPACK_IMPORTED_MODULE_2__["default"].to('#!/product-manage');
+                    })["catch"](function (err) {
+                        (0,_components_Snackbar__WEBPACK_IMPORTED_MODULE_1__["default"])(err.message);
                     });
                 }
                 catch (err) {
